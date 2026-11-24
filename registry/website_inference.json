@@ -408,11 +408,11 @@
       }
     },
     {
-      "input": "showcase-media/CAND_161_38-input.png",
-      "output": "showcase-media/CAND_161_38-ours.png",
+      "input": "showcase-media/CAND_152_30-input.png",
+      "output": "showcase-media/CAND_152_30-ours.png",
       "model": "firedesmoke",
-      "input_sha256": "40ccc5133248c68b7f869f00d21c54f139e8a009323a3ea3ff26f1c617a4b422",
-      "output_sha256": "8b5caf6497a5b02dbb1bb7b00f717f44c5f7c6615318ed86ea66baf413b695da",
+      "input_sha256": "e91ae44f3557f0491c497a66f485fc18440f636471e56938dd575b3402a8dfa0",
+      "output_sha256": "9698d6dcf644dd4a48004ab9ea21a025fd13ec859e471de44451812332aad91a",
       "size": [
         640,
         480
@@ -435,11 +435,11 @@
       }
     },
     {
-      "input": "showcase-media/CAND_151_10-input.png",
-      "output": "showcase-media/CAND_151_10-ours.png",
+      "input": "showcase-media/CAND_154_30-input.png",
+      "output": "showcase-media/CAND_154_30-ours.png",
       "model": "firedesmoke",
-      "input_sha256": "fc8c14ba0897952203095631a85ffb7093b9c19e08c583ce089185898caf2eb8",
-      "output_sha256": "e76858145343f246f618ab6a38e00bd7dfbccd6d1c14265d8038e05c64ab714f",
+      "input_sha256": "1af365b14c81523e66a8bc24fefa1167a50494e98222ea063c4e6e09edb2e1b7",
+      "output_sha256": "d66e4dd9a433bf9149df05602ddd660fd1165ad28f967ef292265ed23d18f71d",
       "size": [
         640,
         480

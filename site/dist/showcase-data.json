@@ -195,28 +195,28 @@
       "note": "FireDesmoke* checkpoint trained only on the SmokeBench training split. This image is from the test split; inference uses 320-pixel windows and horizontal-flip averaging."
     },
     {
-      "id": "CAND_161_38",
+      "id": "CAND_152_30",
       "group": "Burn chamber",
-      "label": "clear",
-      "input": "showcase-media/CAND_161_38-input.png",
-      "output": "showcase-media/CAND_161_38-ours.png",
-      "reference": "showcase-media/CAND_161_38-reference.png",
+      "label": "Clear doorway",
+      "input": "showcase-media/CAND_152_30-input.png",
+      "output": "showcase-media/CAND_152_30-ours.png",
+      "reference": "showcase-media/CAND_152_30-reference.png",
       "methods": {
-        "histoformer": "showcase-media/CAND_161_38-histoformer.png",
-        "moce-ir": "showcase-media/CAND_161_38-moce-ir.png"
+        "histoformer": "showcase-media/CAND_152_30-histoformer.png",
+        "moce-ir": "showcase-media/CAND_152_30-moce-ir.png"
       },
       "note": "Complete FireDesmoke checkpoint. Exposure-matched chamber reference. This predominantly light/clear-smoke setting primarily tests scene preservation."
     },
     {
-      "id": "CAND_151_10",
+      "id": "CAND_154_30",
       "group": "Burn chamber",
-      "label": "light smoke",
-      "input": "showcase-media/CAND_151_10-input.png",
-      "output": "showcase-media/CAND_151_10-ours.png",
-      "reference": "showcase-media/CAND_151_10-reference.png",
+      "label": "Chamber interior",
+      "input": "showcase-media/CAND_154_30-input.png",
+      "output": "showcase-media/CAND_154_30-ours.png",
+      "reference": "showcase-media/CAND_154_30-reference.png",
       "methods": {
-        "histoformer": "showcase-media/CAND_151_10-histoformer.png",
-        "moce-ir": "showcase-media/CAND_151_10-moce-ir.png"
+        "histoformer": "showcase-media/CAND_154_30-histoformer.png",
+        "moce-ir": "showcase-media/CAND_154_30-moce-ir.png"
       },
       "note": "Complete FireDesmoke checkpoint. Exposure-matched chamber reference. This predominantly light/clear-smoke setting primarily tests scene preservation."
     }

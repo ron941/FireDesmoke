@@ -129,7 +129,7 @@
     document.querySelectorAll('[data-gallery-group]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.galleryGroup === name)));
     document.querySelectorAll('[data-level]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.level === 'all')));
     const cases = allCases();
-    const preferred = name === 'Fireground' ? curated.default : name === 'SmokeBench' ? 'SB2' : name === 'RealX3D' ? 'Akikaze' : 'light smoke';
+    const preferred = name === 'Fireground' ? curated.default : name === 'SmokeBench' ? 'SB2' : name === 'RealX3D' ? 'Akikaze' : cases[0].id;
     const initial = cases.find(c => c.id === preferred || c.label === preferred) || cases[0];
     thumbnails(); showCase(initial.id);
   }

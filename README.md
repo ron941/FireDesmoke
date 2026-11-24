@@ -4,7 +4,10 @@
 
 ### Fire Smoke Removal via Real Smoke Transfer and Semantic Rectification
 
-[Paper](https://arxiv.org/abs/2611.30057) · [Project website](https://ron941.github.io/FireDesmoke/) · [Run demo locally](#interactive-demo) · [Model weights](docs/model_assets.md)
+[![Paper on arXiv](docs/assets/badges/paper.svg)](https://arxiv.org/abs/2611.30057)
+[![Project website](docs/assets/badges/project-page.svg)](https://ron941.github.io/FireDesmoke/)
+[![Run demo locally](docs/assets/badges/demo.svg)](#interactive-demo)
+[![Model weights guide](docs/assets/badges/weights.svg)](docs/model_assets.md)
 
 Chih-Chung Hsu, Rong-Lin Jian
 
