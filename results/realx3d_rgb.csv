@@ -1,0 +1,23 @@
+﻿Block,Method,PSNR,SSIM,Scene mean
+,FireDesmoke,18.19,0.712,18.18
+,Input,11.61,0.594,11.61
+"Baseline models (leading rows of 116), by PSNR",GenDeg (NAFNet),17.94,0.715,17.94
+"Baseline models (leading rows of 116), by PSNR",RealRestorer,17.92,0.717,17.90
+"Baseline models (leading rows of 116), by PSNR",WGWS-Net (Setting 3),16.41,0.683,16.38
+"Baseline models (leading rows of 116), by PSNR",HistoFusionNet (Dense-Haze),15.95,0.673,15.90
+"Baseline models (leading rows of 116), by PSNR",Diff-Plugin (dehaze),15.95,0.644,15.92
+"Baseline models (leading rows of 116), by PSNR",DiffDehaze,15.68,0.629,15.65
+"Baseline models (leading rows of 116), by PSNR","HistoFusionNet (NTIRE 2026, ensemble)",15.63,0.717,15.63
+"Baseline models (leading rows of 116), by PSNR",DehazeDCT,15.50,0.713,15.44
+"Baseline models (leading rows of 116), by PSNR",FoundIR-v2,15.40,0.678,15.36
+"Baseline models (leading rows of 116), by PSNR",PGL-Net-T (RUDB),15.40,0.701,15.31
+"Baseline models (leading rows of 116), by PSNR",HistoFusionNet (NH-HAZE),14.61,0.667,14.57
+"Baseline models (leading rows of 116), by PSNR",DehazeSNN-L (RS-Haze),11.98,0.593,12.03
+Trained by us,PGL-Net-T◇ (overlap removed),15.39,0.704,15.29
+Trained by us,PGL-Net-S◇ (overlap removed),15.12,0.707,15.04
+Trained by us,DVANet* (SmokeBench),14.41,0.653,--
+Trained by us,Uformer-B* (SmokeBench),13.53,0.654,13.51
+Trained by us,PGDR* (SmokeBench),12.85,0.535,--
+Trained by us,MB-TaylorFormer-B* (SmokeBench),12.81,0.626,--
+Trained by us,PHATNet◇ (released transfer),11.65,0.594,11.65
+Trained by us,PHATNet◇ (refit transfer),11.34,0.590,11.27

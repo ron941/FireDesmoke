@@ -1,0 +1,84 @@
+{
+  "default": "M1",
+  "selection": "Visual shortlist from a midpoint-per-clip review of all 50 test clips, followed by six fixed temporal samples in five clips. No score ranking. Smoke labels describe visual appearance, not formal image-level transmission strata. Original exported inputs and fixed-checkpoint outputs, with no image enhancement.",
+  "cases": [
+    {
+      "id": "L1",
+      "group": "Fireground",
+      "level": "light",
+      "label": "Light smoke",
+      "note": "A faint veil with most scene content visible.",
+      "source_name": "CAND_042_30.png",
+      "source_frame": 300,
+      "input": "research-media/curated-L1-input.png",
+      "input_sha256": "2d72d6996ab0b14b45824f1cb7c67c187bc1925f153e361c85977ee614ce9805",
+      "output": "research-media/curated-L1-output.png",
+      "output_sha256": "f49a298b6b28767dcb6bf935b535816e427b43202db76693078c19df62974a0f"
+    },
+    {
+      "id": "L2",
+      "group": "Fireground",
+      "level": "light",
+      "label": "Near-clear",
+      "note": "A near-clear example for inspecting content preservation.",
+      "source_name": "CAND_048_30.png",
+      "source_frame": 300,
+      "input": "research-media/curated-L2-input.png",
+      "input_sha256": "cc2fb1e6c25b8b8ace443f5a5f90fed87540a3cc0299f2974ecf2f3981d6d98a",
+      "output": "research-media/curated-L2-output.png",
+      "output_sha256": "b13e1e66be93869995f3752596a63755951011b1164afaaef1375f96c4ee0379"
+    },
+    {
+      "id": "M1",
+      "group": "Fireground",
+      "level": "moderate",
+      "label": "Moderate smoke",
+      "note": "A local smoke beside visible walls and windows.",
+      "source_name": "CAND_060_30.png",
+      "source_frame": 300,
+      "input": "research-media/curated-M1-input.png",
+      "input_sha256": "9094f8894c147bfc6f9f0f60b91c8e0ecb5b4a2adb09aa032f844e38f9778bc6",
+      "output": "research-media/curated-M1-output.png",
+      "output_sha256": "e57879cd95756c198487521037950ab0cefa9b6c953c8f953d65efea571c347f"
+    },
+    {
+      "id": "M2",
+      "group": "Fireground",
+      "level": "moderate",
+      "label": "Moderate smoke",
+      "note": "Smoke spreading across the left side of the building.",
+      "source_name": "CAND_062_24.png",
+      "source_frame": 240,
+      "input": "research-media/curated-M2-input.png",
+      "input_sha256": "8f7dc67bac653de718f0e8df24bf2cf69728c634e231fc7f2af62b10954ccd50",
+      "output": "research-media/curated-M2-output.png",
+      "output_sha256": "2805adfc906cd14cdaf5694919dc59a71c482637cd2b2d2210f1b14f71fdac23"
+    },
+    {
+      "id": "D1",
+      "group": "Fireground",
+      "level": "dense",
+      "label": "Dense smoke",
+      "note": "Dense local smoke alongside clear surroundings.",
+      "source_name": "CAND_020_40.png",
+      "source_frame": 400,
+      "input": "research-media/curated-D1-input.png",
+      "input_sha256": "1d332b09ac8a725994e66ca73163bc5bb95d41649f2a926fff654f9ea470bc7d",
+      "output": "research-media/curated-D1-output.png",
+      "output_sha256": "e5988b5fefc006c097f04a655bb80af54adf0e9d38918c6a3e3f808aeb7f1597"
+    },
+    {
+      "id": "D2",
+      "group": "Fireground",
+      "level": "dense",
+      "label": "Dense smoke",
+      "note": "A difficult dense smoke; some smoke remains.",
+      "source_name": "CAND_058_50.png",
+      "source_frame": 500,
+      "input": "research-media/curated-D2-input.png",
+      "input_sha256": "f4fdac8a8f8f6b1dd5aa9e9f891cfe7061bbe2f448b5b35a0e519344fe9d1260",
+      "output": "research-media/curated-D2-output.png",
+      "output_sha256": "bb731a246bdf404f32f4a8baac66b38b469e59822e37048565de73fba2fb6450"
+    }
+  ]
+}

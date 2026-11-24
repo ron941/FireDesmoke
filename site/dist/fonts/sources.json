@@ -1,0 +1,35 @@
+{
+  "repository": "https://github.com/google/fonts",
+  "commit": "6157dfaa640ca5738b4d1a7070fe389c3036d7fc",
+  "license": "SIL Open Font License 1.1; individual notices alongside fonts",
+  "files": [
+    {
+      "file": "google-sans.woff2",
+      "source": "https://raw.githubusercontent.com/google/fonts/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/googlesans/GoogleSans%5BGRAD%2Copsz%2Cwght%5D.ttf",
+      "bytes": 1584372,
+      "source_ttf_sha256": "d0a87d835a944b8b40d0e82a5651bb59ab97b936a2aeed5946eb57e7b2a3a90a",
+      "sha256": "5c0ad7cada39712fde4443515915a30dd612f88eba7c9a592f16ca7e1aae6841",
+      "processing": "Lossless WOFF2 compression using fontTools; all source glyphs and variable axes retained."
+    },
+    {
+      "file": "google-sans-OFL.txt",
+      "source": "https://raw.githubusercontent.com/google/fonts/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/googlesans/OFL.txt",
+      "sha256": "2b75ef20f13d83a7514aee452c4782c20cdc9ff2dee17600f44d37a06d4fb958",
+      "bytes": 4488
+    },
+    {
+      "file": "noto-sans.woff2",
+      "source": "https://raw.githubusercontent.com/google/fonts/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/notosans/NotoSans%5Bwdth%2Cwght%5D.ttf",
+      "bytes": 890236,
+      "source_ttf_sha256": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d",
+      "sha256": "660c3fbecebea8e4a99f8b056a8a8ffbfe3fbef37e631ee5f8072e8fb711f80a",
+      "processing": "Lossless WOFF2 compression using fontTools; all source glyphs and variable axes retained."
+    },
+    {
+      "file": "noto-sans-OFL.txt",
+      "source": "https://raw.githubusercontent.com/google/fonts/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/notosans/OFL.txt",
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "bytes": 4396
+    }
+  ]
+}

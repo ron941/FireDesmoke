@@ -1,0 +1,21 @@
+{
+  "updated": "2026-11-17",
+  "csv_source": "results/ (author delivery 2026-11-16)",
+  "supplementary_source": "Supplementary material accompanying the reported experiments.",
+  "files": {
+    "main.tex": "baef8dbea29458cdd11e17af69244e9794281e9b8ede08464eccf5b5fc32c7d1",
+    "compact_table03.tex": "fb44a00cf331ead59a1916c2df7f0b7034aafa699cb9bb730126054d51a363b9",
+    "compact_s06_protocol.tex": "1db29bb2b681eefe6e8787e41bc0b652bfca83170987b20672c462c1530df542",
+    "compact_s04_smoke.tex": "d216c8003aa9a3dae3d639ba98cfeed4b26052c71dd22b12e6cadd5d77b1f39d",
+    "compact_table09.tex": "a6b96a7826fdce0f77b4a0d08b31f9ec71dadb1018b7637e47718b44daf56a18",
+    "figs/fig_pipeline.pdf": "5af638331dea61744874d54e6203fa8c302664c27dca1219ebdc2f649e5936fd"
+  },
+  "site_claims": {
+    "index.html": "Architecture and regional improvements: main.tex abstract and Implementation; SmokeBench Y-PSNR: delivered CSV.",
+    "more.html": "Ablation values: compact_table03.tex (Table S5); PHATNet comparison and DINOv3 tokens: compact_s06_protocol.tex (Sec. S9).",
+    "research.js": "Test-recording cosine similarities at blocks 6/12/18/24: compact_s06_protocol.tex tab:dino.",
+    "assets/paper/fig_pipeline.png": "Rendered from latest figs/fig_pipeline.pdf at 3x with PyMuPDF.",
+    "results-page.js": "All four tables preserve method names, annotations and numeric cells from the accompanying CSV files."
+  },
+  "figure_source": "arXiv:2611.30057v1, figs/fig_pipeline.pdf"
+}

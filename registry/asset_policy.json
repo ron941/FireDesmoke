@@ -1,0 +1,22 @@
+{
+  "visibility": "public",
+  "author_display": "Chih-Chung Hsu, Rong-Lin Jian",
+  "named_authors_confirmed": true,
+  "paper_figures": {
+    "scope": "Figures from arXiv:2611.30057 and selected examples displayed with the project.",
+    "manifest": "registry/site_asset_provenance.json"
+  },
+  "weights": {
+    "private_local_use": true,
+    "public_download_url": null,
+    "public_distribution_approved": false
+  },
+  "data_application": {
+    "status": "not open",
+    "form_endpoint": null
+  },
+  "model_delivery": "registry/author_delivery.json",
+  "raw_fire_frames": {
+    "scope": "Selected display examples only. The full test set, references and training fields are distributed separately through the RealFireSmoke data application."
+  }
+}

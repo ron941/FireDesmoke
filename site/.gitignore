@@ -1,0 +1,11 @@
+/private-assets/
+/qa/*.png
+/qa/*.json
+/qa/*.log
+__pycache__/
+
+# This buildless site keeps its source HTML/CSS/JS in dist/.
+!/dist/
+!/dist/**
+
+/review/

@@ -1,0 +1,134 @@
+{
+  "restoration_assets": 197,
+  "continuous_frames": 180,
+  "matched_input_output_sizes": true,
+  "paper_default_inference_all_assets": true,
+  "smokebench13_native_resolution": [
+    1280,
+    720
+  ],
+  "deidentified_fire_stills": true,
+  "approved_timing_and_loop_code_unchanged": true,
+  "models": {
+    "firedesmoke": {
+      "model_id": "firedesmoke",
+      "checkpoint_sha256": "ecc571131eeb16b0641d5c6a5e3d55b2fe8c9c2a4aab0e5c886a55c4bc296ea4",
+      "dinov3_sha256": "d03ba2b461358385c7721019d87da1c5c7a0309cc032d2e7a0ffb9554a55fe2c",
+      "adair_model_sha256": "0c3174ddce0c09fa9cf283f1c436a9e5e3075becfb863c727d3fff90e97a19c3",
+      "window": 384,
+      "stride": 96,
+      "flip": true,
+      "whole": false,
+      "precision": "fp32",
+      "tf32_matmul": false,
+      "tf32_cudnn": true,
+      "model_sha256": "8cbc0d5f72116cd5b7cafb429973a97a15275370dc6c0f038855cb6130962e1d",
+      "inference_sha256": "9dfc899c59f5f64abbf2aab517e1dbfecb03a89d394c4dcd0486633c3fb26d62",
+      "torch": "2.7.1+cu126"
+    },
+    "firedesmoke-smokebench": {
+      "model_id": "firedesmoke-smokebench",
+      "checkpoint_sha256": "10491bafd1087d60c4ac17e5ddeeacd11a93caf8c7dc5161d9d321dd8343177c",
+      "dinov3_sha256": "d03ba2b461358385c7721019d87da1c5c7a0309cc032d2e7a0ffb9554a55fe2c",
+      "adair_model_sha256": "0c3174ddce0c09fa9cf283f1c436a9e5e3075becfb863c727d3fff90e97a19c3",
+      "window": 320,
+      "stride": 80,
+      "flip": true,
+      "whole": false,
+      "precision": "fp32",
+      "tf32_matmul": false,
+      "tf32_cudnn": true,
+      "model_sha256": "8cbc0d5f72116cd5b7cafb429973a97a15275370dc6c0f038855cb6130962e1d",
+      "inference_sha256": "9dfc899c59f5f64abbf2aab517e1dbfecb03a89d394c4dcd0486633c3fb26d62",
+      "torch": "2.7.1+cu126"
+    }
+  },
+  "loop_exports": [
+    {
+      "resolution": "1080p",
+      "frames": 1986,
+      "duration": 66.2,
+      "hold_frame_indices": [
+        0,
+        44,
+        1940,
+        1941,
+        1985
+      ],
+      "mean_pixel_difference_0_255": [
+        0.0,
+        0.051247427983539096,
+        0.3351337448559671,
+        0.3340406378600823,
+        0.33127572016460904
+      ]
+    },
+    {
+      "resolution": "720p",
+      "frames": 1986,
+      "duration": 66.2,
+      "hold_frame_indices": [
+        0,
+        44,
+        1940,
+        1941,
+        1985
+      ],
+      "mean_pixel_difference_0_255": [
+        0.0,
+        0.08478009259259259,
+        0.5668402777777778,
+        0.565795396090535,
+        0.5599279835390947
+      ]
+    }
+  ],
+  "exports": {
+    "FireDesmoke_loop_1080p.mp4": {
+      "sha256": "5860544a2b432c95b0266580d912245be1268a2c83b8e0719963f3a9f2360b13",
+      "bytes": 15727199
+    },
+    "FireDesmoke_loop_720p.mp4": {
+      "sha256": "fc68338ff9ee7f485ac9ccc77dcc4d615de15afb322829c06c8bb86ffbf2316d",
+      "bytes": 8402784
+    },
+    "poster.jpg": {
+      "sha256": "49b31b0badb1ae3c23bb7fdc18c3ff318f649cabb7737dffb7caf264d09454ae",
+      "bytes": 284417
+    }
+  },
+  "typescript_no_emit": "passed",
+  "smokebench13_pil_cv2_rgb_max_difference": 0,
+  "visual_review": {
+    "contact_sheet_frames": [
+      0,
+      360,
+      700,
+      900,
+      1100,
+      1230,
+      1350,
+      1490,
+      1610,
+      1840,
+      1941,
+      1985
+    ],
+    "result": "Pass: existing aligned restoration assets retained, SmokeBench corner badge removed, unchanged scene order and timing, matching opening/closing mosaic."
+  },
+  "authoring_sync": {
+    "files_updated": 208,
+    "intervening_edits_detected": false,
+    "regeneration_check_only": "197 input/output hashes and matching dimensions passed",
+    "regeneration_entrypoint_sha256": "9f350c2cae3771cb135710371386134b1b366c7bb1d02730a5801ae1192ad85d"
+  },
+  "presentation_revision": {
+    "date": "2026-11-17",
+    "change": "Removed only the top-right FireDesmoke* badge on SmokeBench film scenes. Model variant remains documented in website provenance.",
+    "inference_assets_changed": false,
+    "source_files_changed": [
+      "ShowcaseV4.tsx"
+    ],
+    "regeneration_check_only": "197 input/output hashes and matching dimensions passed"
+  }
+}

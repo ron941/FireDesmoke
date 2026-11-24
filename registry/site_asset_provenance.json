@@ -1,0 +1,142 @@
+{
+  "scope": "Provenance of manuscript-derived figures and crops. Gallery assets and demo examples have separate source manifests.",
+  "public_distribution_approved": false,
+  "source_archive_sha256": "11631eac86f24dd48d879e64fc87828bad0248ee8fc26f908df42c7cf381cd49",
+  "source_figures": [
+    "figs/fig_teaser.pdf",
+    "figs/fig_pipeline.pdf"
+  ],
+  "processing": "Manuscript crops retained unchanged; the method diagram received terminology-only relabeling.",
+  "files": [
+    {
+      "path": "site/dist/assets/paper/dense-input.png",
+      "sha256": "fa369372123fc98fe39e111862ecde2f13dac50607b0d211b13d987e9ad9c0e7",
+      "original_asset": "dense-input.png",
+      "size": [
+        236,
+        236
+      ],
+      "source_figure": "figs/fig_teaser.pdf",
+      "pdf_xref": 38,
+      "pdf_top_left_bbox_pt": [
+        0,
+        114.75,
+        76.75,
+        191.5
+      ],
+      "processing": "Lossless PDF image-object extraction; unchanged pixels."
+    },
+    {
+      "path": "site/dist/assets/paper/dense-output.png",
+      "sha256": "b620dbfdffca223359640b5facb8d46447a7136ba2e5229a174f22aed135a305",
+      "original_asset": "dense-output.png",
+      "size": [
+        236,
+        236
+      ],
+      "source_figure": "figs/fig_teaser.pdf",
+      "pdf_xref": 25,
+      "pdf_top_left_bbox_pt": [
+        79.75,
+        114.75,
+        156.5,
+        191.5
+      ],
+      "processing": "Lossless PDF image-object extraction; unchanged pixels."
+    },
+    {
+      "path": "site/dist/assets/paper/dense-reference.png",
+      "sha256": "cf830691b95d8955e2a953fea5a9fe174e44f8c35ee1b3ac4484c46c04833923",
+      "original_asset": "dense-reference.png",
+      "size": [
+        236,
+        236
+      ],
+      "source_figure": "figs/fig_teaser.pdf",
+      "pdf_xref": 44,
+      "pdf_top_left_bbox_pt": [
+        159.5,
+        114.75,
+        236.25,
+        191.5
+      ],
+      "processing": "Lossless PDF image-object extraction; unchanged pixels."
+    },
+    {
+      "path": "site/dist/assets/paper/clear-input.png",
+      "sha256": "4beb1072f89c43510094a8f7fa81be224338b6f4ca79b11981c112ff9d020cd1",
+      "original_asset": "clear-input.png",
+      "size": [
+        236,
+        236
+      ],
+      "source_figure": "figs/fig_teaser.pdf",
+      "pdf_xref": 11,
+      "pdf_top_left_bbox_pt": [
+        0,
+        22,
+        76.75,
+        98.75
+      ],
+      "processing": "Lossless PDF image-object extraction; unchanged pixels."
+    },
+    {
+      "path": "site/dist/assets/paper/clear-output.png",
+      "sha256": "bb1d2b17a3f2760ddd83a18bf11281ed315b346911be88e6305134b48f06b2fd",
+      "original_asset": "clear-output.png",
+      "size": [
+        236,
+        236
+      ],
+      "source_figure": "figs/fig_teaser.pdf",
+      "pdf_xref": 19,
+      "pdf_top_left_bbox_pt": [
+        79.75,
+        22,
+        156.5,
+        98.75
+      ],
+      "processing": "Lossless PDF image-object extraction; unchanged pixels."
+    },
+    {
+      "path": "site/dist/assets/paper/clear-reference.png",
+      "sha256": "ee3a118d415df50127b63945c89acdad10726b989e2af1ef7048fb1276b0b7e5",
+      "original_asset": "clear-reference.png",
+      "size": [
+        236,
+        236
+      ],
+      "source_figure": "figs/fig_teaser.pdf",
+      "pdf_xref": 34,
+      "pdf_top_left_bbox_pt": [
+        159.5,
+        22,
+        236.25,
+        98.75
+      ],
+      "processing": "Lossless PDF image-object extraction; unchanged pixels."
+    },
+    {
+      "path": "site/dist/assets/paper/fig_pipeline.png",
+      "sha256": "b5f6050fa092fb58909590f9a1a0370091fa43f1e697729ee8c3f8d4538cc1a2",
+      "original_asset": "fig_pipeline.png",
+      "size": [
+        1800,
+        851
+      ],
+      "source_figure": "figs/fig_pipeline.pdf",
+      "processing": "Terminology-only relabeling of the existing architecture figure; see site/figures/update_pipeline_labels.py. Architecture, numerical values and embedded example images unchanged."
+    },
+    {
+      "path": "site/dist/assets/paper/teaser.png",
+      "sha256": "29ffb5851db48a4a77c3c6e38be7c67cf72da82bb663c7d6078aee9bda018265",
+      "original_asset": "fig_teaser.png",
+      "size": [
+        1800,
+        1482
+      ],
+      "source_figure": "figs/fig_teaser.pdf",
+      "processing": "Existing PNG rendering of the complete manuscript figure; copied without pixel changes."
+    }
+  ]
+}

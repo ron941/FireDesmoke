@@ -1,0 +1,116 @@
+{
+  "checked_on": "2026-10-30",
+  "scope": "Website-template sources, attribution and design references.",
+  "sources": [
+    {
+      "name": "VGGT project website",
+      "repository": "https://github.com/vgg-t/vgg-t.github.io",
+      "commit": "99b36695b67381a2759369df12616bd70cf7d8c4",
+      "inspected_files": [
+        "README.md",
+        "index.html",
+        "static/css/index.css",
+        "static/css/bulma.min.css",
+        "static/js/comparison.js"
+      ],
+      "license": "CC-BY-SA-4.0 for the website template; separately licensed dependencies",
+      "license_evidence": "https://github.com/vgg-t/vgg-t.github.io/blob/99b36695b67381a2759369df12616bd70cf7d8c4/README.md",
+      "use": "Complete upstream website CSS retained after attribution comment, together with the Bulma hero, container, columns, section/content wrappers and footer. FireDesmoke now customizes the project identity, paper subtitle and resource buttons. The independent demo UI is FireDesmoke-specific; no VGGT model/demo code is copied.",
+      "source_locations": {
+        "header": "index.html:58-157",
+        "teaser": "index.html:164-201",
+        "abstract_and_method": "index.html:204-249",
+        "attribution_footer": "index.html:480-493"
+      },
+      "not_copied": [
+        "research text",
+        "scientific media",
+        "analytics",
+        "external scripts",
+        "3D viewers"
+      ]
+    },
+    {
+      "name": "Nerfies project website",
+      "repository": "https://github.com/nerfies/nerfies.github.io",
+      "commit": "657409a62d59a93163872c0e4921cf651b987810",
+      "inspected_files": [
+        "README.md",
+        "index.html",
+        "static/css/index.css",
+        "static/css/bulma.min.css",
+        "static/js/index.js"
+      ],
+      "license": "CC-BY-SA-4.0 for the website template; separately licensed dependencies",
+      "license_evidence": "https://github.com/nerfies/nerfies.github.io/blob/657409a62d59a93163872c0e4921cf651b987810/README.md",
+      "use": "Original template credited by VGGT; shared header, typography and section structure checked and attributed.",
+      "not_copied": [
+        "research text",
+        "scientific media",
+        "interpolation scripts"
+      ]
+    },
+    {
+      "name": "PixelDiT project website",
+      "repository": "https://github.com/PixelDiT/PixelDiT.github.io",
+      "commit": "0920f901008ce0075b7a816fe644ca4c61207db7",
+      "inspected_files": [
+        "README.md",
+        "index.html",
+        "assets/css/index.css",
+        "assets/css/bulma.min.css",
+        "assets/js/index.js"
+      ],
+      "license": "No project-wide license found in the inspected repository tree, root README or homepage; bundled dependencies have separate notices.",
+      "license_evidence": "https://github.com/PixelDiT/PixelDiT.github.io/tree/0920f901008ce0075b7a816fe644ca4c61207db7",
+      "use": "Visual reference for the resource row and visual-first result presentation.",
+      "copied_code_or_assets": false
+    },
+    {
+      "name": "VGGT model repository",
+      "repository": "https://github.com/facebookresearch/vggt",
+      "commit": "a288dd0f14786c93483e45524328726ab7b1b4ce",
+      "inspected_files": [
+        "README.md",
+        "LICENSE.txt"
+      ],
+      "license": "Custom VGGT License, v1 dated July 29, 2025; distinct from the VGGT website license.",
+      "license_evidence": "https://github.com/facebookresearch/vggt/blob/a288dd0f14786c93483e45524328726ab7b1b4ce/LICENSE.txt",
+      "use": "README layout reference for centered paper identity, resource links and a short inference path.",
+      "copied_code_or_assets": false
+    },
+    {
+      "name": "Depth Pro model repository",
+      "repository": "https://github.com/apple/ml-depth-pro",
+      "commit": "9e65e4dbe9568d23c546fcec53302b10445e109e",
+      "inspected_files": [
+        "README.md",
+        "LICENSE",
+        "data/depth-pro-teaser.jpg"
+      ],
+      "license": "Custom Apple sample-code license; dependencies have separate notices.",
+      "license_evidence": "https://github.com/apple/ml-depth-pro/blob/9e65e4dbe9568d23c546fcec53302b10445e109e/LICENSE",
+      "use": "README layout reference for an early result teaser, concise setup and explicit reproduction limitations.",
+      "copied_code_or_assets": false
+    },
+    {
+      "name": "FlashReFocus visual reference",
+      "url": "https://ming053l.github.io/FlashReFocus/",
+      "checked_on": "2026-10-30",
+      "use": "Resource row appearance: dark grey fully rounded pills, 15px main labels, 12px muted secondary labels, 17px icons and 8px gaps. Scientific text, images, research claims and other site code are not reused."
+    }
+  ],
+  "bundled_dependency": {
+    "name": "Bulma",
+    "version": "0.9.1",
+    "license": "MIT",
+    "source": "https://github.com/vgg-t/vgg-t.github.io/blob/99b36695b67381a2759369df12616bd70cf7d8c4/static/css/bulma.min.css",
+    "official_license": "https://github.com/jgthms/bulma/blob/0.9.1/LICENSE",
+    "local_file": "dist/vendor/bulma.min.css",
+    "local_license": "dist/vendor/BULMA-LICENSE.txt",
+    "sha256": "58b28659220961ead137cb5b346b5759562750ce703094d70fc786e0db467033",
+    "modified": false
+  },
+  "adaptation_notice": "LICENSE-TEMPLATE.md",
+  "scientific_assets": "../registry/site_asset_provenance.json"
+}

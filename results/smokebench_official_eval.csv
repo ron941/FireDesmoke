@@ -1,0 +1,32 @@
+﻿Block,Method,Y-PSNR,Y-SSIM,LPIPS
+,Input,20.34,0.808,0.254
+"Trained on the SmokeBench training split: * trained by us, † authors' released outputs",FireDesmoke*,30.47,0.890,0.137
+"Trained on the SmokeBench training split: * trained by us, † authors' released outputs",PGDR* (SmokeBench),29.97,0.907,0.103
+"Trained on the SmokeBench training split: * trained by us, † authors' released outputs",DVANet* (SmokeBench),29.61,0.888,0.144
+"Trained on the SmokeBench training split: * trained by us, † authors' released outputs",Uformer-B* (SmokeBench),26.66,0.852,0.192
+"Trained on the SmokeBench training split: * trained by us, † authors' released outputs",MB-TaylorFormer†,26.63,0.857,0.188
+"Trained on the SmokeBench training split: * trained by us, † authors' released outputs",MB-TaylorFormer-B* (SmokeBench),26.56,0.861,0.186
+"Trained on the SmokeBench training split: * trained by us, † authors' released outputs",Uformer†,26.13,0.852,0.195
+"Trained on the SmokeBench training split: * trained by us, † authors' released outputs",FFA-Net†,26.06,0.852,0.200
+"Trained on the SmokeBench training split: * trained by us, † authors' released outputs",MambaIR†,25.11,0.851,0.194
+"Trained on the SmokeBench training split: * trained by us, † authors' released outputs",Restormer†,25.01,0.843,0.204
+"Trained on the SmokeBench training split: * trained by us, † authors' released outputs",DehazeFormer†,23.62,0.838,0.221
+"Trained on the SmokeBench training split: * trained by us, † authors' released outputs",X-Restormer†,23.12,0.831,0.219
+"Trained on the SmokeBench training split: * trained by us, † authors' released outputs",MPRNet†,22.78,0.826,0.235
+"Zero-shot, baseline models (leading rows of 116), by PSNR",RealRestorer,22.16,0.820,0.212
+"Zero-shot, baseline models (leading rows of 116), by PSNR",DehazeDCT,21.97,0.802,0.330
+"Zero-shot, baseline models (leading rows of 116), by PSNR",Two-stage KL,21.08,0.816,0.248
+"Zero-shot, baseline models (leading rows of 116), by PSNR",VLU-Net (haze),20.93,0.814,0.250
+"Zero-shot, baseline models (leading rows of 116), by PSNR",AirNet (all),20.93,0.811,0.255
+"Zero-shot, baseline models (leading rows of 116), by PSNR",DehazeSB,20.92,0.787,0.276
+"Zero-shot, baseline models (leading rows of 116), by PSNR",MixDehazeNet-L (Haze4K),20.88,0.815,0.248
+"Zero-shot, baseline models (leading rows of 116), by PSNR",MB-TaylorFormer-B (OTS),20.84,0.812,0.252
+"Zero-shot, baseline models (leading rows of 116), by PSNR",MDST-Dehaze (example),20.81,0.773,0.269
+"Zero-shot, baseline models (leading rows of 116), by PSNR",Diff-Dehazer,20.80,0.789,0.277
+"Zero-shot, baseline models (leading rows of 116), by PSNR",HistoFusionNet (NH-HAZE),19.84,0.797,0.223
+"Zero-shot, baseline models (leading rows of 116), by PSNR",DiffDehaze,19.52,0.710,0.331
+"Zero-shot, baseline models (leading rows of 116), by PSNR",DehazeSNN-L (RS-Haze),16.50,0.729,0.354
+"Zero-shot, ◇ trained or adapted by us on other data",PGL-Net-S◇ (overlap removed),17.70,0.808,0.249
+"Zero-shot, ◇ trained or adapted by us on other data",PGL-Net-T◇ (overlap removed),19.21,0.808,0.248
+"Zero-shot, ◇ trained or adapted by us on other data",PHATNet◇ (released transfer),20.37,0.808,0.255
+"Zero-shot, ◇ trained or adapted by us on other data",PHATNet◇ (refit transfer),15.89,0.714,0.287

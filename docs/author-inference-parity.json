@@ -1,0 +1,56 @@
+[
+  {
+    "model": "firedesmoke",
+    "input": "demo/examples/fireground-drifting.png",
+    "size": [
+      480,
+      640,
+      3
+    ],
+    "max_uint8_difference": 0,
+    "seconds": 18.064933706074953,
+    "provenance": {
+      "model_id": "firedesmoke",
+      "checkpoint_sha256": "ecc571131eeb16b0641d5c6a5e3d55b2fe8c9c2a4aab0e5c886a55c4bc296ea4",
+      "dinov3_sha256": "d03ba2b461358385c7721019d87da1c5c7a0309cc032d2e7a0ffb9554a55fe2c",
+      "adair_model_sha256": "0c3174ddce0c09fa9cf283f1c436a9e5e3075becfb863c727d3fff90e97a19c3",
+      "window": 384,
+      "stride": 96,
+      "flip": true,
+      "whole": false,
+      "precision": "fp32",
+      "tf32_matmul": false,
+      "tf32_cudnn": true,
+      "model_sha256": "8cbc0d5f72116cd5b7cafb429973a97a15275370dc6c0f038855cb6130962e1d",
+      "inference_sha256": "9dfc899c59f5f64abbf2aab517e1dbfecb03a89d394c4dcd0486633c3fb26d62",
+      "torch": "2.7.1+cu126"
+    }
+  },
+  {
+    "model": "firedesmoke-smokebench",
+    "input": "demo/examples/fireground-drifting.png",
+    "size": [
+      480,
+      640,
+      3
+    ],
+    "max_uint8_difference": 0,
+    "seconds": 17.74019609298557,
+    "provenance": {
+      "model_id": "firedesmoke-smokebench",
+      "checkpoint_sha256": "10491bafd1087d60c4ac17e5ddeeacd11a93caf8c7dc5161d9d321dd8343177c",
+      "dinov3_sha256": "d03ba2b461358385c7721019d87da1c5c7a0309cc032d2e7a0ffb9554a55fe2c",
+      "adair_model_sha256": "0c3174ddce0c09fa9cf283f1c436a9e5e3075becfb863c727d3fff90e97a19c3",
+      "window": 320,
+      "stride": 80,
+      "flip": true,
+      "whole": false,
+      "precision": "fp32",
+      "tf32_matmul": false,
+      "tf32_cudnn": true,
+      "model_sha256": "8cbc0d5f72116cd5b7cafb429973a97a15275370dc6c0f038855cb6130962e1d",
+      "inference_sha256": "9dfc899c59f5f64abbf2aab517e1dbfecb03a89d394c4dcd0486633c3fb26d62",
+      "torch": "2.7.1+cu126"
+    }
+  }
+]

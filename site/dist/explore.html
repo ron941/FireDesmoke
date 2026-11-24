@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FireDesmoke · Method comparison</title><link rel="icon" href="mark.svg"><link rel="stylesheet" href="research.css"><link rel="stylesheet" href="design-system.css"><link rel="stylesheet" href="showcase.css"><script src="showcase.js" defer></script></head>
+<body data-page="explore"><main class="showcase"><a href="index.html#scenes" class="back-link">← Project page</a><header><h1>Compare restoration methods</h1><p>Same image. Same scale. Different restorers.</p></header>
+<p id="loading" role="status">Loading comparisons…</p>
+<section id="explorer" hidden aria-label="Method comparison" aria-busy="true">
+<nav id="groups" aria-label="Dataset"></nav>
+<div class="controls"><label for="compare-method">Compare with</label><select id="compare-method"></select></div>
+<div class="method-grid">
+<figure><figcaption class="visual-label" data-visual-role="input">Input</figcaption><img id="input-image" alt="Smoky input"></figure>
+<figure><figcaption class="visual-label" data-visual-role="output">FireDesmoke</figcaption><img id="output-image" alt="FireDesmoke restoration"></figure>
+<figure><figcaption id="method-label" class="visual-label" data-visual-role="input">Comparison method</figcaption><img id="method-image" alt="Other method restoration"></figure>
+</div>
+<div id="cases" class="case-strip" role="group" aria-label="Scene"></div>
+<details class="comparison-notes"><summary>Reference &amp; evaluation context</summary><p id="case-note"></p><figure id="reference" hidden><img id="ref-image" alt="Corresponding evaluation reference"><figcaption>Reference · dataset-specific alignment and exposure</figcaption></figure><p>Selected examples illustrate individual outcomes. Full-frame views do not replace the manuscript’s masked evaluation or aggregate ranking. Images are displayed without enhancement.</p></details>
+</section>
+<footer><a href="results.html">Quantitative tables ↗</a><a href="more.html">Controlled experiments ↗</a></footer></main></body></html>

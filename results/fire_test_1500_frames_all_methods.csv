@@ -1,0 +1,129 @@
+﻿Block,Method,Dense PSNR,Dense SSIM,Medium PSNR,Clear PSNR,Overall PSNR,Overall SSIM,Object PSNR
+,FireDesmoke,18.89,0.426,20.70,30.93,26.53,0.887,28.23
+,Input,15.16,0.385,18.07,30.52,25.03,0.881,26.61
+"Baseline models (116), by overall PSNR",AutoDIR,15.29,0.392,18.18,30.52,25.12,0.881,26.65
+"Baseline models (116), by overall PSNR",Histoformer,15.16,0.385,18.07,30.49,25.02,0.880,26.44
+"Baseline models (116), by overall PSNR",DiffUIR,15.18,0.385,18.10,30.55,25.01,0.881,26.47
+"Baseline models (116), by overall PSNR",UtilityIR,15.14,0.386,18.04,30.44,24.99,0.881,26.53
+"Baseline models (116), by overall PSNR",OneRestore,15.16,0.386,18.08,30.35,24.98,0.880,26.55
+"Baseline models (116), by overall PSNR",FoundIR,15.32,0.389,18.18,30.33,24.96,0.880,26.59
+"Baseline models (116), by overall PSNR",Two-stage KL,15.30,0.384,18.22,30.41,24.96,0.880,26.57
+"Baseline models (116), by overall PSNR",WeatherDiff64,15.35,0.408,18.31,30.13,24.89,0.879,26.13
+"Baseline models (116), by overall PSNR",Physical-neural desmoking,15.52,0.383,18.52,29.61,24.84,0.879,26.12
+"Baseline models (116), by overall PSNR",DA-CLIP,15.24,0.408,18.47,29.92,24.83,0.880,26.10
+"Baseline models (116), by overall PSNR",LoRA-IR,15.75,0.447,18.52,29.51,24.79,0.882,26.24
+"Baseline models (116), by overall PSNR",DehazeSNN-L (RESIDE-OTS),15.37,0.384,18.31,30.15,24.65,0.880,25.61
+"Baseline models (116), by overall PSNR",DehazeSB,15.22,0.359,18.11,29.59,24.62,0.870,25.85
+"Baseline models (116), by overall PSNR",RAM (PromptIR),15.23,0.383,18.10,29.99,24.60,0.879,25.77
+"Baseline models (116), by overall PSNR",GenDeg (NAFNet),15.34,0.385,18.18,29.60,24.55,0.872,25.82
+"Baseline models (116), by overall PSNR",LoHi-Net (LSVD),15.05,0.392,17.98,29.16,24.52,0.868,25.74
+"Baseline models (116), by overall PSNR",ClearAIR (5-task),15.18,0.385,18.05,29.77,24.48,0.879,25.41
+"Baseline models (116), by overall PSNR",HG-Mamba (synthetic),15.42,0.379,18.34,29.62,24.46,0.879,24.58
+"Baseline models (116), by overall PSNR",CPLIR,15.40,0.393,18.32,29.22,24.40,0.867,25.56
+"Baseline models (116), by overall PSNR",RAM (SwinIR),14.99,0.385,17.86,29.37,24.27,0.880,25.74
+"Baseline models (116), by overall PSNR",GridFormer (Haze4K),15.68,0.367,18.69,29.07,24.25,0.880,24.36
+"Baseline models (116), by overall PSNR",MixDehazeNet-L (outdoor),15.29,0.382,18.20,29.41,24.20,0.877,25.11
+"Baseline models (116), by overall PSNR",AirNet (all),15.46,0.383,18.32,29.33,24.19,0.872,25.36
+"Baseline models (116), by overall PSNR",MB-TaylorFormerV2-L (OTS),15.25,0.381,18.14,29.23,24.13,0.876,24.93
+"Baseline models (116), by overall PSNR",AdaIR,15.30,0.383,18.20,29.24,24.11,0.877,24.88
+"Baseline models (116), by overall PSNR",VLU-Net (5-task),15.32,0.384,18.25,29.29,24.10,0.878,24.68
+"Baseline models (116), by overall PSNR",DEA-Net (Haze4K),15.72,0.373,18.71,28.96,24.10,0.880,24.80
+"Baseline models (116), by overall PSNR",MB-TaylorFormerV2-B (OTS),15.28,0.382,18.15,29.10,24.04,0.876,24.70
+"Baseline models (116), by overall PSNR",PromptIR,15.17,0.382,18.06,29.10,24.01,0.877,24.67
+"Baseline models (116), by overall PSNR",StarIR (OTS),15.36,0.382,18.27,29.01,24.00,0.875,24.67
+"Baseline models (116), by overall PSNR",Diff-Dehazer,15.14,0.375,17.87,28.70,23.95,0.871,24.98
+"Baseline models (116), by overall PSNR",DATPRL-IR,15.30,0.384,18.21,28.89,23.89,0.876,24.42
+"Baseline models (116), by overall PSNR",BaryIR (5-task),15.25,0.382,18.16,28.81,23.88,0.876,24.59
+"Baseline models (116), by overall PSNR",HAIR,15.30,0.382,18.17,28.73,23.86,0.876,24.46
+"Baseline models (116), by overall PSNR",RAM++,15.38,0.381,18.32,28.73,23.85,0.875,24.18
+"Baseline models (116), by overall PSNR",StarIR (5-task),15.21,0.382,18.13,28.70,23.78,0.874,23.90
+"Baseline models (116), by overall PSNR",MIRAGE (small),15.18,0.383,18.07,28.65,23.73,0.874,24.34
+"Baseline models (116), by overall PSNR",DEA-Net (OTS),15.28,0.380,18.20,28.46,23.71,0.875,24.07
+"Baseline models (116), by overall PSNR",HOGformer,15.24,0.382,18.13,28.51,23.68,0.873,24.16
+"Baseline models (116), by overall PSNR",MixDehazeNet-L (Haze4K),15.41,0.375,18.40,28.39,23.67,0.876,23.69
+"Baseline models (116), by overall PSNR",NDR-Restore,15.25,0.381,18.16,28.51,23.66,0.875,24.29
+"Baseline models (116), by overall PSNR",DehazeSNN-L (RESIDE-6K),15.49,0.386,18.34,28.27,23.64,0.879,23.86
+"Baseline models (116), by overall PSNR",MB-TaylorFormer-B (OTS),15.34,0.380,18.22,28.09,23.52,0.872,23.98
+"Baseline models (116), by overall PSNR",FogRemoval (NH-HAZE),16.30,0.336,18.71,25.91,23.50,0.822,24.34
+"Baseline models (116), by overall PSNR",VLU-Net (haze),15.29,0.381,18.26,28.08,23.43,0.875,23.47
+"Baseline models (116), by overall PSNR",RealRestorer,20.86,0.580,22.15,25.21,23.41,0.814,24.53
+"Baseline models (116), by overall PSNR",DehazeDCT,17.09,0.439,19.87,26.57,23.37,0.832,22.73
+"Baseline models (116), by overall PSNR",R2R,15.44,0.380,18.37,27.77,23.36,0.871,23.42
+"Baseline models (116), by overall PSNR",MoCE-IR,15.19,0.381,18.08,27.87,23.25,0.870,23.37
+"Baseline models (116), by overall PSNR",SLAIR (Setting II),15.19,0.379,18.03,27.31,23.22,0.865,23.39
+"Baseline models (116), by overall PSNR",BioIR,15.16,0.381,18.08,27.83,23.21,0.871,23.54
+"Baseline models (116), by overall PSNR",PTTD (AECRNet),16.41,0.358,19.19,26.17,23.03,0.851,22.98
+"Baseline models (116), by overall PSNR",InstructIR (7-task),15.17,0.380,18.05,27.23,22.95,0.863,23.07
+"Baseline models (116), by overall PSNR",DFPIR (5-task),15.26,0.381,18.16,27.25,22.95,0.868,22.93
+"Baseline models (116), by overall PSNR",CURE,15.01,0.373,17.82,27.49,22.95,0.866,22.98
+"Baseline models (116), by overall PSNR",DCPT,15.22,0.380,18.14,27.23,22.94,0.868,22.90
+"Baseline models (116), by overall PSNR",WGWS-Net (Setting 3),14.24,0.378,16.77,27.38,22.92,0.852,22.76
+"Baseline models (116), by overall PSNR",Perceive-IR (5-task),15.24,0.380,18.13,26.98,22.80,0.866,22.83
+"Baseline models (116), by overall PSNR",FoundIR-v2,15.39,0.394,18.37,26.10,22.80,0.801,24.28
+"Baseline models (116), by overall PSNR",DehazeFormer-B (RESIDE-6K),15.26,0.379,18.09,26.28,22.34,0.864,22.57
+"Baseline models (116), by overall PSNR",HistoFusionNet (NH-HAZE),17.36,0.402,19.81,24.30,22.11,0.806,22.39
+"Baseline models (116), by overall PSNR",PGL-Net-S (RUDB),14.75,0.384,17.47,25.71,22.09,0.858,21.94
+"Baseline models (116), by overall PSNR",DA-Dehazing,15.78,0.387,18.83,24.73,22.04,0.833,21.18
+"Baseline models (116), by overall PSNR",SSID,14.79,0.373,17.31,25.27,21.96,0.835,21.02
+"Baseline models (116), by overall PSNR",PDDA (Pre),15.96,0.372,18.76,24.83,21.93,0.857,21.84
+"Baseline models (116), by overall PSNR",HazeFlow,16.68,0.347,18.72,23.77,21.67,0.848,19.80
+"Baseline models (116), by overall PSNR",CoA,15.68,0.361,18.53,24.02,21.61,0.852,20.25
+"Baseline models (116), by overall PSNR",PixRestore-XL,15.24,0.407,17.98,24.25,21.47,0.681,21.49
+"Baseline models (116), by overall PSNR",IPC-Dehaze,13.99,0.371,16.38,24.76,21.39,0.852,22.25
+"Baseline models (116), by overall PSNR",HistoFusionNet (NH-HAZE2),16.36,0.391,19.34,23.24,21.12,0.804,21.21
+"Baseline models (116), by overall PSNR",WGWS-Net (Setting 2),15.00,0.365,17.72,23.95,21.08,0.833,20.36
+"Baseline models (116), by overall PSNR",CORUN+,14.96,0.329,17.57,23.03,20.73,0.778,20.89
+"Baseline models (116), by overall PSNR",MDST-Dehaze (example),14.97,0.275,17.94,22.64,20.67,0.777,19.35
+"Baseline models (116), by overall PSNR",PGL-Net-T (RUDB),14.39,0.368,16.95,23.55,20.66,0.822,20.28
+"Baseline models (116), by overall PSNR",LoHi-Net (VASST),15.57,0.381,16.85,22.06,20.44,0.852,19.47
+"Baseline models (116), by overall PSNR",L-SAHGNet,15.42,0.383,17.97,22.42,20.34,0.747,19.56
+"Baseline models (116), by overall PSNR",RIDCP,15.23,0.322,17.68,22.50,20.33,0.789,20.31
+"Baseline models (116), by overall PSNR","HistoFusionNet (NTIRE 2026, ensemble)",15.24,0.332,18.03,22.33,20.25,0.806,19.05
+"Baseline models (116), by overall PSNR",RestoreVAR,15.18,0.369,17.88,22.37,20.08,0.645,21.38
+"Baseline models (116), by overall PSNR",Diff-Plugin (dehaze),15.69,0.383,18.40,21.80,20.02,0.616,21.15
+"Baseline models (116), by overall PSNR",DehazeSNN-L (RESIDE-ITS),15.81,0.359,17.75,21.84,19.95,0.843,19.75
+"Baseline models (116), by overall PSNR",PDDA (BL),14.06,0.305,16.81,21.91,19.86,0.803,19.70
+"Baseline models (116), by overall PSNR",Proximal Dehaze-Net (RESIDE),15.40,0.359,17.66,21.42,19.64,0.819,18.74
+"Baseline models (116), by overall PSNR",MDST-Dehaze (outdoor),14.37,0.369,17.12,21.91,19.58,0.800,18.78
+"Baseline models (116), by overall PSNR",DehazeSNN-L (RS-Haze),17.44,0.457,18.95,20.10,19.48,0.786,20.61
+"Baseline models (116), by overall PSNR",RAR,16.09,0.519,18.01,20.80,19.41,0.573,18.90
+"Baseline models (116), by overall PSNR",HG-Mamba (DesmokeData),15.50,0.381,16.23,20.77,19.32,0.841,18.30
+"Baseline models (116), by overall PSNR",D4,14.83,0.353,17.20,20.98,19.21,0.803,18.00
+"Baseline models (116), by overall PSNR",PHATNet (I-HAZE),16.02,0.361,17.28,20.14,18.75,0.810,18.07
+"Baseline models (116), by overall PSNR",Proximal Dehaze-Net (s1),15.34,0.335,16.39,19.98,18.70,0.842,17.71
+"Baseline models (116), by overall PSNR",ConvIR-B (NH-HAZE),15.80,0.359,16.98,19.89,18.69,0.785,17.55
+"Baseline models (116), by overall PSNR",DiffDehaze,16.97,0.358,19.23,19.59,18.60,0.513,18.53
+"Baseline models (116), by overall PSNR",JarvisIR,13.98,0.393,16.53,19.95,18.42,0.739,17.90
+"Baseline models (116), by overall PSNR",HNDiff,14.47,0.288,16.16,19.82,18.38,0.786,17.41
+"Baseline models (116), by overall PSNR",PromptFix,15.63,0.378,18.29,19.02,17.70,0.407,17.20
+"Baseline models (116), by overall PSNR",StarIR (NH-HAZE),14.21,0.267,16.04,19.24,17.62,0.759,17.11
+"Baseline models (116), by overall PSNR",BiLaLoRA,12.02,0.352,14.73,19.33,17.58,0.801,18.02
+"Baseline models (116), by overall PSNR",PHATNet (O-HAZE),15.54,0.363,16.25,18.33,17.31,0.780,16.27
+"Baseline models (116), by overall PSNR",PHATNet (NH-HAZE23),15.32,0.363,16.03,18.36,17.29,0.787,16.38
+"Baseline models (116), by overall PSNR",DeSmokeNet (surgical),14.94,0.366,17.15,18.20,17.17,0.714,17.34
+"Baseline models (116), by overall PSNR",MDST-Dehaze (NHR),13.02,0.363,15.64,18.44,17.10,0.715,17.58
+"Baseline models (116), by overall PSNR",DHSGAN,13.78,0.215,16.22,17.69,17.05,0.696,19.01
+"Baseline models (116), by overall PSNR",FocalNet (base),15.07,0.343,15.86,17.85,16.88,0.761,15.82
+"Baseline models (116), by overall PSNR",HistoFusionNet (Dense-Haze),13.23,0.259,15.98,17.71,16.79,0.671,17.31
+"Baseline models (116), by overall PSNR",PHATNet (Dense-Haze),14.87,0.340,15.60,17.60,16.62,0.761,15.79
+"Baseline models (116), by overall PSNR",Embedded-DCP desmoking,14.10,0.361,15.93,17.00,16.24,0.617,17.65
+"Baseline models (116), by overall PSNR",AirNet (haze),13.75,0.193,15.25,17.63,16.19,0.513,15.07
+"Baseline models (116), by overall PSNR",PHATNet (NH-HAZE21),14.78,0.354,15.05,16.96,16.15,0.751,15.05
+"Baseline models (116), by overall PSNR",BILD (FFA),14.54,0.326,15.36,16.77,15.99,0.756,16.57
+"Baseline models (116), by overall PSNR",NightHaze,13.80,0.341,16.16,16.46,15.51,0.664,15.89
+"Baseline models (116), by overall PSNR",MB-TaylorFormer-B (Dense-Haze),14.03,0.310,15.13,15.76,15.33,0.620,15.37
+"Baseline models (116), by overall PSNR",D4+,13.50,0.289,15.01,15.99,15.31,0.662,14.09
+"Baseline models (116), by overall PSNR",CoDehaze,15.48,0.393,16.25,16.12,15.26,0.382,14.14
+"Baseline models (116), by overall PSNR",LAformer (Dense-Haze),11.48,0.174,13.60,15.70,15.00,0.618,13.47
+"Baseline models (116), by overall PSNR",TGL-Net,13.14,0.304,14.44,13.44,13.26,0.508,13.59
+"Baseline models (116), by overall PSNR",PSD (MSBDN),10.27,0.326,12.08,13.94,13.25,0.621,14.96
+Trained by us on the SmokeBench training split (zero-shot here),Uformer-B*,16.78,0.457,18.50,21.79,20.34,0.856,24.19
+Trained by us on the SmokeBench training split (zero-shot here),MB-TaylorFormer-B*,16.67,0.449,18.20,22.33,20.85,0.843,21.54
+Trained by us on the SmokeBench training split (zero-shot here),PGDR*,16.66,0.422,17.39,20.43,19.34,0.810,17.88
+Trained by us on the SmokeBench training split (zero-shot here),DVANet*,18.36,0.520,19.95,25.86,23.47,0.866,23.19
+Trained by us on the SmokeBench training split (zero-shot here),FireDesmoke*,18.37,0.508,19.91,24.88,22.86,0.863,23.25
+Trained by us on public data (zero-shot here),PGL-Net-S◇ (overlap removed),15.21,0.360,17.78,25.66,22.20,0.844,21.60
+Trained by us on public data (zero-shot here),PGL-Net-T◇ (overlap removed),14.44,0.374,17.03,24.52,21.25,0.829,20.16
+Adapted by us with haze transferred from the training recordings,PHATNet◇ (released transfer),15.17,0.387,18.07,30.41,24.99,0.880,26.54
+Adapted by us with haze transferred from the training recordings,PHATNet◇ (refit transfer),13.97,0.341,14.88,18.52,17.06,0.723,17.08
+Not among the baseline models,"FoundIR-v2, no caption",15.15,0.393,18.08,25.79,22.57,0.800,23.84

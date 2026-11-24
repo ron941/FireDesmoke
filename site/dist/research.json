@@ -1,0 +1,263 @@
+{
+  "hero": [
+    {
+      "id": "CAND_058_50",
+      "label": "Dense smoke",
+      "input": "research-media/CAND_058_50-input.png",
+      "output": "research-media/CAND_058_50-ours.png",
+      "group": "Fireground",
+      "methods": {
+        "hazeflow": "research-media/CAND_058_50-hazeflow.png",
+        "gendeg": "research-media/CAND_058_50-gendeg.png"
+      },
+      "note": "Curated full-frame example from a held-out burn. Scores use the paper’s fixed bands and masks, not the full displayed image."
+    },
+    {
+      "id": "CAND_020_40",
+      "label": "Smoke beside clear content",
+      "input": "research-media/CAND_020_40-input.png",
+      "output": "research-media/CAND_020_40-ours.png",
+      "group": "Fireground",
+      "methods": {
+        "hazeflow": "research-media/CAND_020_40-hazeflow.png",
+        "gendeg": "research-media/CAND_020_40-gendeg.png"
+      },
+      "note": "Curated full-frame example from a held-out burn. Scores use the paper’s fixed bands and masks, not the full displayed image."
+    }
+  ],
+  "fields": [
+    {
+      "id": "CAND_268",
+      "label": "Measured field 1",
+      "frame": 340,
+      "crop_xywh": [
+        64,
+        20,
+        280,
+        280
+      ],
+      "source": "research-media/f0-diffuse-source.png",
+      "T": "research-media/f0-diffuse-transmission.png",
+      "A": "research-media/f0-diffuse-airlight.png",
+      "procedural_T": "research-media/f0-diffuse-procedural-T.png",
+      "gain": [
+        1.122294545173645,
+        1.126795768737793,
+        1.1826783418655396
+      ],
+      "histogram": [
+        7318,
+        2205,
+        1690,
+        1723,
+        1713,
+        1230,
+        1044,
+        1063,
+        1046,
+        1186,
+        1361,
+        1854,
+        2113,
+        2442,
+        2763,
+        3674,
+        5120,
+        14508,
+        13173,
+        11174
+      ],
+      "variants": [
+        {
+          "target": "research-media/f0-diffuse-b0-target.png",
+          "measured": "research-media/f0-diffuse-b0-measured.png",
+          "procedural": "research-media/f0-diffuse-b0-procedural.png",
+          "layout": "research-media/f0-diffuse-b0-layout.png",
+          "airlight": "research-media/f0-diffuse-b0-airlight.png"
+        },
+        {
+          "target": "research-media/f0-diffuse-b1-target.png",
+          "measured": "research-media/f0-diffuse-b1-measured.png",
+          "procedural": "research-media/f0-diffuse-b1-procedural.png",
+          "layout": "research-media/f0-diffuse-b1-layout.png",
+          "airlight": "research-media/f0-diffuse-b1-airlight.png"
+        },
+        {
+          "target": "research-media/f0-diffuse-b2-target.png",
+          "measured": "research-media/f0-diffuse-b2-measured.png",
+          "procedural": "research-media/f0-diffuse-b2-procedural.png",
+          "layout": "research-media/f0-diffuse-b2-layout.png",
+          "airlight": "research-media/f0-diffuse-b2-airlight.png"
+        }
+      ]
+    },
+    {
+      "id": "CAND_268",
+      "label": "Measured field 2",
+      "frame": 220,
+      "crop_xywh": [
+        64,
+        20,
+        280,
+        280
+      ],
+      "source": "research-media/f1-diffuse-source.png",
+      "T": "research-media/f1-diffuse-transmission.png",
+      "A": "research-media/f1-diffuse-airlight.png",
+      "procedural_T": "research-media/f1-diffuse-procedural-T.png",
+      "gain": [
+        1.0039756298065186,
+        0.9976572394371033,
+        1.032010555267334
+      ],
+      "histogram": [
+        3469,
+        1528,
+        1447,
+        1326,
+        959,
+        841,
+        829,
+        903,
+        1036,
+        1212,
+        1350,
+        1639,
+        1810,
+        2730,
+        3408,
+        4013,
+        6014,
+        8794,
+        17377,
+        17715
+      ],
+      "variants": [
+        {
+          "target": "research-media/f1-diffuse-b0-target.png",
+          "measured": "research-media/f1-diffuse-b0-measured.png",
+          "procedural": "research-media/f1-diffuse-b0-procedural.png",
+          "layout": "research-media/f1-diffuse-b0-layout.png",
+          "airlight": "research-media/f1-diffuse-b0-airlight.png"
+        },
+        {
+          "target": "research-media/f1-diffuse-b1-target.png",
+          "measured": "research-media/f1-diffuse-b1-measured.png",
+          "procedural": "research-media/f1-diffuse-b1-procedural.png",
+          "layout": "research-media/f1-diffuse-b1-layout.png",
+          "airlight": "research-media/f1-diffuse-b1-airlight.png"
+        },
+        {
+          "target": "research-media/f1-diffuse-b2-target.png",
+          "measured": "research-media/f1-diffuse-b2-measured.png",
+          "procedural": "research-media/f1-diffuse-b2-procedural.png",
+          "layout": "research-media/f1-diffuse-b2-layout.png",
+          "airlight": "research-media/f1-diffuse-b2-airlight.png"
+        }
+      ]
+    },
+    {
+      "id": "CAND_280",
+      "label": "Measured field 3",
+      "frame": 295,
+      "crop_xywh": [
+        180,
+        100,
+        280,
+        280
+      ],
+      "source": "research-media/f2-source.png",
+      "T": "research-media/f2-transmission.png",
+      "A": "research-media/f2-airlight.png",
+      "procedural_T": "research-media/f2-procedural-T.png",
+      "gain": [
+        0.9003238677978516,
+        0.8794774413108826,
+        0.7984789609909058
+      ],
+      "histogram": [
+        1756,
+        657,
+        564,
+        518,
+        580,
+        519,
+        463,
+        398,
+        445,
+        421,
+        451,
+        531,
+        632,
+        932,
+        1034,
+        915,
+        960,
+        1253,
+        3073,
+        62298
+      ],
+      "variants": [
+        {
+          "target": "research-media/f2-b0-target.png",
+          "measured": "research-media/f2-b0-measured.png",
+          "procedural": "research-media/f2-b0-procedural.png",
+          "layout": "research-media/f2-b0-layout.png",
+          "airlight": "research-media/f2-b0-airlight.png"
+        },
+        {
+          "target": "research-media/f2-b1-target.png",
+          "measured": "research-media/f2-b1-measured.png",
+          "procedural": "research-media/f2-b1-procedural.png",
+          "layout": "research-media/f2-b1-layout.png",
+          "airlight": "research-media/f2-b1-airlight.png"
+        },
+        {
+          "target": "research-media/f2-b2-target.png",
+          "measured": "research-media/f2-b2-measured.png",
+          "procedural": "research-media/f2-b2-procedural.png",
+          "layout": "research-media/f2-b2-layout.png",
+          "airlight": "research-media/f2-b2-airlight.png"
+        }
+      ]
+    }
+  ],
+  "backgrounds": [
+    "research-media/background-0.png",
+    "research-media/background-1.png",
+    "research-media/background-2.png"
+  ],
+  "haze": [
+    {
+      "label": "O-HAZE",
+      "input": "research-media/O-HAZE__43-input.png",
+      "output": "research-media/O-HAZE__43-output.png",
+      "reference": "research-media/O-HAZE__43-reference.png"
+    },
+    {
+      "label": "I-HAZE",
+      "input": "research-media/I-HAZE__33-input.png",
+      "output": "research-media/I-HAZE__33-output.png",
+      "reference": "research-media/I-HAZE__33-reference.png"
+    },
+    {
+      "label": "Dense-Haze",
+      "input": "research-media/DenseHaze__53-input.png",
+      "output": "research-media/DenseHaze__53-output.png",
+      "reference": "research-media/DenseHaze__53-reference.png"
+    },
+    {
+      "label": "NH-HAZE",
+      "input": "research-media/NH-HAZE__53-input.png",
+      "output": "research-media/NH-HAZE__53-output.png",
+      "reference": "research-media/NH-HAZE__53-reference.png"
+    },
+    {
+      "label": "RESIDE-6K",
+      "input": "research-media/RESIDE-6K__1413_6.png-input.png",
+      "output": "research-media/RESIDE-6K__1413_6.png-output.png",
+      "reference": "research-media/RESIDE-6K__1413_6.png-reference.png"
+    }
+  ],
+  "render_note": "Building background: RGB extracted from a manuscript figure, used only as an illustrative target. The original background image and its exposure metadata are not available. Explanatory fixed-window renders, not sampled training batches. Illustrative procedural-field construction; seed 0, matching discrete T histogram, mean smoky-pixel airlight and exposure. These images explain the controlled comparison; they are not exports of the newly supplied model’s training batches. Fixed 280×280 source windows, not the full training acceptance sampler. Linear-RGB synthesis; sRGB/clamp/8-bit quantization; input JPEG quality 92 decoded into PNG, clean target gJ without JPEG. Source photo uses nearest annotated-person boxes for blur; field arrays are unchanged."
+}

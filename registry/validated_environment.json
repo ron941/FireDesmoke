@@ -1,0 +1,15 @@
+{
+  "python": "3.13.5",
+  "platform": "Linux",
+  "torch": "2.7.1+cu126",
+  "cuda_build": "12.6",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "dependency_lock": "requirements/validated-linux.txt",
+  "local_package": "firedesmoke-release==0.1.0",
+  "pip_check": "passed",
+  "notes": [
+    "Local checks of the 2026-11-16 author model and inference use this environment; author reported torch 2.6.0 CUDA 12.4 RTX 4060 Ti.",
+    "Pinned AdaIR and DINOv3 source and authorized encoder identities are in models.json.",
+    "Full-dataset score reproduction is not claimed; reported tables come from author CSVs."
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "schema_version": 2,
+  "default_model": "firedesmoke",
+  "models": {
+    "firedesmoke": {
+      "filename": "firedesmoke_full.pt",
+      "sha256": "ecc571131eeb16b0641d5c6a5e3d55b2fe8c9c2a4aab0e5c886a55c4bc296ea4",
+      "size_bytes": 123690183,
+      "architecture": "AdaIR + DINOv3 ViT-L/16",
+      "download_url": null,
+      "inference": {
+        "window": 384,
+        "stride": 96,
+        "flip": true,
+        "whole": false,
+        "precision": "fp32",
+        "padding": "reflect to multiples of 16; crop to original size",
+        "output": "clamp [0,1], (x*255+0.5).byte(), RGB PNG"
+      },
+      "training": {
+        "description": "full model"
+      },
+      "label": "FireDesmoke"
+    },
+    "firedesmoke-smokebench": {
+      "filename": "firedesmoke_smokebench.pt",
+      "sha256": "10491bafd1087d60c4ac17e5ddeeacd11a93caf8c7dc5161d9d321dd8343177c",
+      "size_bytes": 123694793,
+      "architecture": "AdaIR + DINOv3 ViT-L/16",
+      "download_url": null,
+      "inference": {
+        "window": 320,
+        "stride": 80,
+        "flip": true,
+        "whole": false,
+        "precision": "fp32",
+        "padding": "reflect to multiples of 16; crop to original size",
+        "output": "clamp [0,1], (x*255+0.5).byte(), RGB PNG"
+      },
+      "training": {
+        "description": "SmokeBench training split only"
+      },
+      "label": "FireDesmoke*"
+    }
+  },
+  "dependencies": {
+    "adair_repo": {
+      "url": "https://github.com/c-yn/AdaIR",
+      "commit": "ccb8b98e49614e07badd0641e5163fa7635c2f02",
+      "model_sha256": "0c3174ddce0c09fa9cf283f1c436a9e5e3075becfb863c727d3fff90e97a19c3"
+    },
+    "dinov3_repo": {
+      "url": "https://github.com/facebookresearch/dinov3",
+      "commit": "6876159a11b4df116f30f667f8c9888617df0751"
+    },
+    "dinov3_weights": {
+      "filename": "dinov3_vitl16_pretrain_lvd1689m.pth",
+      "sha256_prefix": "7246d841",
+      "source": "Official authorized LVD-1689M ViT-L/16 checkpoint",
+      "verified_alternatives": [
+        {
+          "sha256": "d03ba2b461358385c7721019d87da1c5c7a0309cc032d2e7a0ffb9554a55fe2c",
+          "source_sha256": "dcb2e45127cccbf1601e5f42fef165eea275c8e5213197e8dcf3f48822718179",
+          "source_repository": "facebook/dinov3-vitl16-pretrain-lvd1689m",
+          "source_revision": "ea8dc2863c51be0a264bab82070e3e8836b02d51",
+          "format": "Meta state_dict converted from official Hugging Face safetensors",
+          "verification": "415 source tensors preserved; strict loading; intermediate feature parity at 224, 320, 384 and 288x400."
+        }
+      ]
+    }
+  }
+}

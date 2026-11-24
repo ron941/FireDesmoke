@@ -1,0 +1,615 @@
+{
+  "selection": "Homepage fire examples visually selected from a systematic source-order contact sheet for visible smoke reduction and clear-content preservation; no score ranking. Other gallery examples use middle source-ordered frames per scene/stratum. Not a representative performance sample.",
+  "checkpoint": "FireDesmoke complete model; FireDesmoke* (SmokeBench-only) for SmokeBench. Author delivery 2026-11-16; default overlapping windows and horizontal-flip averaging.",
+  "cases": [
+    {
+      "id": "CAND_058_50",
+      "label": "Dense smoke",
+      "input": "research-media/CAND_058_50-input.png",
+      "output": "research-media/CAND_058_50-ours.png",
+      "group": "Fireground",
+      "methods": {
+        "hazeflow": "research-media/CAND_058_50-hazeflow.png",
+        "gendeg": "research-media/CAND_058_50-gendeg.png"
+      },
+      "note": "Curated full-frame example from a held-out burn. Scores use the paper’s fixed bands and masks, not the full displayed image."
+    },
+    {
+      "id": "CAND_020_40",
+      "label": "Smoke beside clear content",
+      "input": "research-media/CAND_020_40-input.png",
+      "output": "research-media/CAND_020_40-ours.png",
+      "group": "Fireground",
+      "methods": {
+        "hazeflow": "research-media/CAND_020_40-hazeflow.png",
+        "gendeg": "research-media/CAND_020_40-gendeg.png"
+      },
+      "note": "Curated full-frame example from a held-out burn. Scores use the paper’s fixed bands and masks, not the full displayed image."
+    },
+    {
+      "id": "RealX3D__Akikaze__0013",
+      "group": "RealX3D",
+      "label": "Akikaze",
+      "input": "showcase-media/RealX3D__Akikaze__0013-input.png",
+      "output": "showcase-media/RealX3D__Akikaze__0013-ours.png",
+      "reference": "showcase-media/RealX3D__Akikaze__0013-reference.png",
+      "methods": {
+        "gendeg": "showcase-media/RealX3D__Akikaze__0013-gendeg.png",
+        "hazeflow": "showcase-media/RealX3D__Akikaze__0013-hazeflow.png",
+        "moce-ir": "showcase-media/RealX3D__Akikaze__0013-moce-ir.png"
+      },
+      "note": "Complete FireDesmoke checkpoint; no RealX3D adaptation. Aggregate image-average PSNR: 18.19 dB; SSIM: 0.712. GenDeg has higher SSIM (0.715), but lower PSNR (17.94 dB)."
+    },
+    {
+      "id": "RealX3D__Futaba__0012",
+      "group": "RealX3D",
+      "label": "Futaba",
+      "input": "showcase-media/RealX3D__Futaba__0012-input.png",
+      "output": "showcase-media/RealX3D__Futaba__0012-ours.png",
+      "reference": "showcase-media/RealX3D__Futaba__0012-reference.png",
+      "methods": {
+        "gendeg": "showcase-media/RealX3D__Futaba__0012-gendeg.png",
+        "hazeflow": "showcase-media/RealX3D__Futaba__0012-hazeflow.png",
+        "moce-ir": "showcase-media/RealX3D__Futaba__0012-moce-ir.png"
+      },
+      "note": "Complete FireDesmoke checkpoint; no RealX3D adaptation. Aggregate image-average PSNR: 18.19 dB; SSIM: 0.712. GenDeg has higher SSIM (0.715), but lower PSNR (17.94 dB)."
+    },
+    {
+      "id": "RealX3D__Hinoki__0012",
+      "group": "RealX3D",
+      "label": "Hinoki",
+      "input": "showcase-media/RealX3D__Hinoki__0012-input.png",
+      "output": "showcase-media/RealX3D__Hinoki__0012-ours.png",
+      "reference": "showcase-media/RealX3D__Hinoki__0012-reference.png",
+      "methods": {
+        "gendeg": "showcase-media/RealX3D__Hinoki__0012-gendeg.png",
+        "hazeflow": "showcase-media/RealX3D__Hinoki__0012-hazeflow.png",
+        "moce-ir": "showcase-media/RealX3D__Hinoki__0012-moce-ir.png"
+      },
+      "note": "Complete FireDesmoke checkpoint; no RealX3D adaptation. Aggregate image-average PSNR: 18.19 dB; SSIM: 0.712. GenDeg has higher SSIM (0.715), but lower PSNR (17.94 dB)."
+    },
+    {
+      "id": "RealX3D__Koharu__0013",
+      "group": "RealX3D",
+      "label": "Koharu",
+      "input": "showcase-media/RealX3D__Koharu__0013-input.png",
+      "output": "showcase-media/RealX3D__Koharu__0013-ours.png",
+      "reference": "showcase-media/RealX3D__Koharu__0013-reference.png",
+      "methods": {
+        "gendeg": "showcase-media/RealX3D__Koharu__0013-gendeg.png",
+        "hazeflow": "showcase-media/RealX3D__Koharu__0013-hazeflow.png",
+        "moce-ir": "showcase-media/RealX3D__Koharu__0013-moce-ir.png"
+      },
+      "note": "Complete FireDesmoke checkpoint; no RealX3D adaptation. Aggregate image-average PSNR: 18.19 dB; SSIM: 0.712. GenDeg has higher SSIM (0.715), but lower PSNR (17.94 dB)."
+    },
+    {
+      "id": "RealX3D__Midori__0014",
+      "group": "RealX3D",
+      "label": "Midori",
+      "input": "showcase-media/RealX3D__Midori__0014-input.png",
+      "output": "showcase-media/RealX3D__Midori__0014-ours.png",
+      "reference": "showcase-media/RealX3D__Midori__0014-reference.png",
+      "methods": {
+        "gendeg": "showcase-media/RealX3D__Midori__0014-gendeg.png",
+        "hazeflow": "showcase-media/RealX3D__Midori__0014-hazeflow.png",
+        "moce-ir": "showcase-media/RealX3D__Midori__0014-moce-ir.png"
+      },
+      "note": "Complete FireDesmoke checkpoint; no RealX3D adaptation. Aggregate image-average PSNR: 18.19 dB; SSIM: 0.712. GenDeg has higher SSIM (0.715), but lower PSNR (17.94 dB)."
+    },
+    {
+      "id": "RealX3D__Natsume__0013",
+      "group": "RealX3D",
+      "label": "Natsume",
+      "input": "showcase-media/RealX3D__Natsume__0013-input.png",
+      "output": "showcase-media/RealX3D__Natsume__0013-ours.png",
+      "reference": "showcase-media/RealX3D__Natsume__0013-reference.png",
+      "methods": {
+        "gendeg": "showcase-media/RealX3D__Natsume__0013-gendeg.png",
+        "hazeflow": "showcase-media/RealX3D__Natsume__0013-hazeflow.png",
+        "moce-ir": "showcase-media/RealX3D__Natsume__0013-moce-ir.png"
+      },
+      "note": "Complete FireDesmoke checkpoint; no RealX3D adaptation. Aggregate image-average PSNR: 18.19 dB; SSIM: 0.712. GenDeg has higher SSIM (0.715), but lower PSNR (17.94 dB)."
+    },
+    {
+      "id": "RealX3D__Shirohana__0014",
+      "group": "RealX3D",
+      "label": "Shirohana",
+      "input": "showcase-media/RealX3D__Shirohana__0014-input.png",
+      "output": "showcase-media/RealX3D__Shirohana__0014-ours.png",
+      "reference": "showcase-media/RealX3D__Shirohana__0014-reference.png",
+      "methods": {
+        "gendeg": "showcase-media/RealX3D__Shirohana__0014-gendeg.png",
+        "hazeflow": "showcase-media/RealX3D__Shirohana__0014-hazeflow.png",
+        "moce-ir": "showcase-media/RealX3D__Shirohana__0014-moce-ir.png"
+      },
+      "note": "Complete FireDesmoke checkpoint; no RealX3D adaptation. Aggregate image-average PSNR: 18.19 dB; SSIM: 0.712. GenDeg has higher SSIM (0.715), but lower PSNR (17.94 dB)."
+    },
+    {
+      "id": "RealX3D__Tsubaki__0012",
+      "group": "RealX3D",
+      "label": "Tsubaki",
+      "input": "showcase-media/RealX3D__Tsubaki__0012-input.png",
+      "output": "showcase-media/RealX3D__Tsubaki__0012-ours.png",
+      "reference": "showcase-media/RealX3D__Tsubaki__0012-reference.png",
+      "methods": {
+        "gendeg": "showcase-media/RealX3D__Tsubaki__0012-gendeg.png",
+        "hazeflow": "showcase-media/RealX3D__Tsubaki__0012-hazeflow.png",
+        "moce-ir": "showcase-media/RealX3D__Tsubaki__0012-moce-ir.png"
+      },
+      "note": "Complete FireDesmoke checkpoint; no RealX3D adaptation. Aggregate image-average PSNR: 18.19 dB; SSIM: 0.712. GenDeg has higher SSIM (0.715), but lower PSNR (17.94 dB)."
+    },
+    {
+      "id": "SmokeBench__13",
+      "group": "SmokeBench",
+      "label": "SB1",
+      "input": "showcase-media/SmokeBench__13-input.png",
+      "output": "showcase-media/SmokeBench__13-ours.png",
+      "reference": "showcase-media/SmokeBench__13-reference.png",
+      "methods": {
+        "gendeg": "showcase-media/SmokeBench__13-gendeg.png",
+        "hazeflow": "showcase-media/SmokeBench__13-hazeflow.png",
+        "moce-ir": "showcase-media/SmokeBench__13-moce-ir.png"
+      },
+      "note": "FireDesmoke* checkpoint trained only on the SmokeBench training split. This image is from the test split; inference uses 320-pixel windows and horizontal-flip averaging."
+    },
+    {
+      "id": "SmokeBench__38",
+      "group": "SmokeBench",
+      "label": "SB2",
+      "input": "showcase-media/SmokeBench__38-input.png",
+      "output": "showcase-media/SmokeBench__38-ours.png",
+      "reference": "showcase-media/SmokeBench__38-reference.png",
+      "methods": {
+        "gendeg": "showcase-media/SmokeBench__38-gendeg.png",
+        "hazeflow": "showcase-media/SmokeBench__38-hazeflow.png",
+        "moce-ir": "showcase-media/SmokeBench__38-moce-ir.png"
+      },
+      "note": "FireDesmoke* checkpoint trained only on the SmokeBench training split. This image is from the test split; inference uses 320-pixel windows and horizontal-flip averaging."
+    },
+    {
+      "id": "SmokeBench__63",
+      "group": "SmokeBench",
+      "label": "SB3",
+      "input": "showcase-media/SmokeBench__63-input.png",
+      "output": "showcase-media/SmokeBench__63-ours.png",
+      "reference": "showcase-media/SmokeBench__63-reference.png",
+      "methods": {
+        "gendeg": "showcase-media/SmokeBench__63-gendeg.png",
+        "hazeflow": "showcase-media/SmokeBench__63-hazeflow.png",
+        "moce-ir": "showcase-media/SmokeBench__63-moce-ir.png"
+      },
+      "note": "FireDesmoke* checkpoint trained only on the SmokeBench training split. This image is from the test split; inference uses 320-pixel windows and horizontal-flip averaging."
+    },
+    {
+      "id": "SmokeBench__88",
+      "group": "SmokeBench",
+      "label": "SB4",
+      "input": "showcase-media/SmokeBench__88-input.png",
+      "output": "showcase-media/SmokeBench__88-ours.png",
+      "reference": "showcase-media/SmokeBench__88-reference.png",
+      "methods": {
+        "gendeg": "showcase-media/SmokeBench__88-gendeg.png",
+        "hazeflow": "showcase-media/SmokeBench__88-hazeflow.png",
+        "moce-ir": "showcase-media/SmokeBench__88-moce-ir.png"
+      },
+      "note": "FireDesmoke* checkpoint trained only on the SmokeBench training split. This image is from the test split; inference uses 320-pixel windows and horizontal-flip averaging."
+    },
+    {
+      "id": "CAND_161_38",
+      "group": "Burn chamber",
+      "label": "clear",
+      "input": "showcase-media/CAND_161_38-input.png",
+      "output": "showcase-media/CAND_161_38-ours.png",
+      "reference": "showcase-media/CAND_161_38-reference.png",
+      "methods": {
+        "histoformer": "showcase-media/CAND_161_38-histoformer.png",
+        "moce-ir": "showcase-media/CAND_161_38-moce-ir.png"
+      },
+      "note": "Complete FireDesmoke checkpoint. Exposure-matched chamber reference. This predominantly light/clear-smoke setting primarily tests scene preservation."
+    },
+    {
+      "id": "CAND_151_10",
+      "group": "Burn chamber",
+      "label": "light smoke",
+      "input": "showcase-media/CAND_151_10-input.png",
+      "output": "showcase-media/CAND_151_10-ours.png",
+      "reference": "showcase-media/CAND_151_10-reference.png",
+      "methods": {
+        "histoformer": "showcase-media/CAND_151_10-histoformer.png",
+        "moce-ir": "showcase-media/CAND_151_10-moce-ir.png"
+      },
+      "note": "Complete FireDesmoke checkpoint. Exposure-matched chamber reference. This predominantly light/clear-smoke setting primarily tests scene preservation."
+    }
+  ],
+  "sequences": [
+    {
+      "label": "CAND_020 · sampled held-out fire",
+      "frames": [
+        {
+          "source_frame": 0,
+          "input": "research-media/seq-CAND_020-0-input.png",
+          "output": "research-media/seq-CAND_020-0-ours.png"
+        },
+        {
+          "source_frame": 20,
+          "input": "research-media/seq-CAND_020-1-input.png",
+          "output": "research-media/seq-CAND_020-1-ours.png"
+        },
+        {
+          "source_frame": 40,
+          "input": "research-media/seq-CAND_020-2-input.png",
+          "output": "research-media/seq-CAND_020-2-ours.png"
+        },
+        {
+          "source_frame": 60,
+          "input": "research-media/seq-CAND_020-3-input.png",
+          "output": "research-media/seq-CAND_020-3-ours.png"
+        },
+        {
+          "source_frame": 80,
+          "input": "research-media/seq-CAND_020-4-input.png",
+          "output": "research-media/seq-CAND_020-4-ours.png"
+        },
+        {
+          "source_frame": 100,
+          "input": "research-media/seq-CAND_020-5-input.png",
+          "output": "research-media/seq-CAND_020-5-ours.png"
+        },
+        {
+          "source_frame": 120,
+          "input": "research-media/seq-CAND_020-6-input.png",
+          "output": "research-media/seq-CAND_020-6-ours.png"
+        },
+        {
+          "source_frame": 140,
+          "input": "research-media/seq-CAND_020-7-input.png",
+          "output": "research-media/seq-CAND_020-7-ours.png"
+        },
+        {
+          "source_frame": 160,
+          "input": "research-media/seq-CAND_020-8-input.png",
+          "output": "research-media/seq-CAND_020-8-ours.png"
+        },
+        {
+          "source_frame": 180,
+          "input": "research-media/seq-CAND_020-9-input.png",
+          "output": "research-media/seq-CAND_020-9-ours.png"
+        },
+        {
+          "source_frame": 200,
+          "input": "research-media/seq-CAND_020-10-input.png",
+          "output": "research-media/seq-CAND_020-10-ours.png"
+        },
+        {
+          "source_frame": 220,
+          "input": "research-media/seq-CAND_020-11-input.png",
+          "output": "research-media/seq-CAND_020-11-ours.png"
+        },
+        {
+          "source_frame": 240,
+          "input": "research-media/seq-CAND_020-12-input.png",
+          "output": "research-media/seq-CAND_020-12-ours.png"
+        },
+        {
+          "source_frame": 260,
+          "input": "research-media/seq-CAND_020-13-input.png",
+          "output": "research-media/seq-CAND_020-13-ours.png"
+        },
+        {
+          "source_frame": 280,
+          "input": "research-media/seq-CAND_020-14-input.png",
+          "output": "research-media/seq-CAND_020-14-ours.png"
+        },
+        {
+          "source_frame": 300,
+          "input": "research-media/seq-CAND_020-15-input.png",
+          "output": "research-media/seq-CAND_020-15-ours.png"
+        },
+        {
+          "source_frame": 320,
+          "input": "research-media/seq-CAND_020-16-input.png",
+          "output": "research-media/seq-CAND_020-16-ours.png"
+        },
+        {
+          "source_frame": 340,
+          "input": "research-media/seq-CAND_020-17-input.png",
+          "output": "research-media/seq-CAND_020-17-ours.png"
+        },
+        {
+          "source_frame": 360,
+          "input": "research-media/seq-CAND_020-18-input.png",
+          "output": "research-media/seq-CAND_020-18-ours.png"
+        },
+        {
+          "source_frame": 380,
+          "input": "research-media/seq-CAND_020-19-input.png",
+          "output": "research-media/seq-CAND_020-19-ours.png"
+        },
+        {
+          "source_frame": 400,
+          "input": "research-media/seq-CAND_020-20-input.png",
+          "output": "research-media/seq-CAND_020-20-ours.png"
+        },
+        {
+          "source_frame": 420,
+          "input": "research-media/seq-CAND_020-21-input.png",
+          "output": "research-media/seq-CAND_020-21-ours.png"
+        },
+        {
+          "source_frame": 440,
+          "input": "research-media/seq-CAND_020-22-input.png",
+          "output": "research-media/seq-CAND_020-22-ours.png"
+        },
+        {
+          "source_frame": 460,
+          "input": "research-media/seq-CAND_020-23-input.png",
+          "output": "research-media/seq-CAND_020-23-ours.png"
+        },
+        {
+          "source_frame": 480,
+          "input": "research-media/seq-CAND_020-24-input.png",
+          "output": "research-media/seq-CAND_020-24-ours.png"
+        },
+        {
+          "source_frame": 500,
+          "input": "research-media/seq-CAND_020-25-input.png",
+          "output": "research-media/seq-CAND_020-25-ours.png"
+        },
+        {
+          "source_frame": 520,
+          "input": "research-media/seq-CAND_020-26-input.png",
+          "output": "research-media/seq-CAND_020-26-ours.png"
+        },
+        {
+          "source_frame": 540,
+          "input": "research-media/seq-CAND_020-27-input.png",
+          "output": "research-media/seq-CAND_020-27-ours.png"
+        },
+        {
+          "source_frame": 560,
+          "input": "research-media/seq-CAND_020-28-input.png",
+          "output": "research-media/seq-CAND_020-28-ours.png"
+        },
+        {
+          "source_frame": 580,
+          "input": "research-media/seq-CAND_020-29-input.png",
+          "output": "research-media/seq-CAND_020-29-ours.png"
+        }
+      ]
+    },
+    {
+      "label": "CAND_058 · sampled held-out fire",
+      "frames": [
+        {
+          "source_frame": 0,
+          "input": "research-media/seq-CAND_058-0-input.png",
+          "output": "research-media/seq-CAND_058-0-ours.png"
+        },
+        {
+          "source_frame": 20,
+          "input": "research-media/seq-CAND_058-1-input.png",
+          "output": "research-media/seq-CAND_058-1-ours.png"
+        },
+        {
+          "source_frame": 40,
+          "input": "research-media/seq-CAND_058-2-input.png",
+          "output": "research-media/seq-CAND_058-2-ours.png"
+        },
+        {
+          "source_frame": 60,
+          "input": "research-media/seq-CAND_058-3-input.png",
+          "output": "research-media/seq-CAND_058-3-ours.png"
+        },
+        {
+          "source_frame": 80,
+          "input": "research-media/seq-CAND_058-4-input.png",
+          "output": "research-media/seq-CAND_058-4-ours.png"
+        },
+        {
+          "source_frame": 100,
+          "input": "research-media/seq-CAND_058-5-input.png",
+          "output": "research-media/seq-CAND_058-5-ours.png"
+        },
+        {
+          "source_frame": 120,
+          "input": "research-media/seq-CAND_058-6-input.png",
+          "output": "research-media/seq-CAND_058-6-ours.png"
+        },
+        {
+          "source_frame": 140,
+          "input": "research-media/seq-CAND_058-7-input.png",
+          "output": "research-media/seq-CAND_058-7-ours.png"
+        },
+        {
+          "source_frame": 160,
+          "input": "research-media/seq-CAND_058-8-input.png",
+          "output": "research-media/seq-CAND_058-8-ours.png"
+        },
+        {
+          "source_frame": 180,
+          "input": "research-media/seq-CAND_058-9-input.png",
+          "output": "research-media/seq-CAND_058-9-ours.png"
+        },
+        {
+          "source_frame": 200,
+          "input": "research-media/seq-CAND_058-10-input.png",
+          "output": "research-media/seq-CAND_058-10-ours.png"
+        },
+        {
+          "source_frame": 220,
+          "input": "research-media/seq-CAND_058-11-input.png",
+          "output": "research-media/seq-CAND_058-11-ours.png"
+        },
+        {
+          "source_frame": 240,
+          "input": "research-media/seq-CAND_058-12-input.png",
+          "output": "research-media/seq-CAND_058-12-ours.png"
+        },
+        {
+          "source_frame": 260,
+          "input": "research-media/seq-CAND_058-13-input.png",
+          "output": "research-media/seq-CAND_058-13-ours.png"
+        },
+        {
+          "source_frame": 280,
+          "input": "research-media/seq-CAND_058-14-input.png",
+          "output": "research-media/seq-CAND_058-14-ours.png"
+        },
+        {
+          "source_frame": 300,
+          "input": "research-media/seq-CAND_058-15-input.png",
+          "output": "research-media/seq-CAND_058-15-ours.png"
+        },
+        {
+          "source_frame": 320,
+          "input": "research-media/seq-CAND_058-16-input.png",
+          "output": "research-media/seq-CAND_058-16-ours.png"
+        },
+        {
+          "source_frame": 340,
+          "input": "research-media/seq-CAND_058-17-input.png",
+          "output": "research-media/seq-CAND_058-17-ours.png"
+        },
+        {
+          "source_frame": 360,
+          "input": "research-media/seq-CAND_058-18-input.png",
+          "output": "research-media/seq-CAND_058-18-ours.png"
+        },
+        {
+          "source_frame": 380,
+          "input": "research-media/seq-CAND_058-19-input.png",
+          "output": "research-media/seq-CAND_058-19-ours.png"
+        },
+        {
+          "source_frame": 400,
+          "input": "research-media/seq-CAND_058-20-input.png",
+          "output": "research-media/seq-CAND_058-20-ours.png"
+        },
+        {
+          "source_frame": 420,
+          "input": "research-media/seq-CAND_058-21-input.png",
+          "output": "research-media/seq-CAND_058-21-ours.png"
+        },
+        {
+          "source_frame": 440,
+          "input": "research-media/seq-CAND_058-22-input.png",
+          "output": "research-media/seq-CAND_058-22-ours.png"
+        },
+        {
+          "source_frame": 460,
+          "input": "research-media/seq-CAND_058-23-input.png",
+          "output": "research-media/seq-CAND_058-23-ours.png"
+        },
+        {
+          "source_frame": 480,
+          "input": "research-media/seq-CAND_058-24-input.png",
+          "output": "research-media/seq-CAND_058-24-ours.png"
+        },
+        {
+          "source_frame": 500,
+          "input": "research-media/seq-CAND_058-25-input.png",
+          "output": "research-media/seq-CAND_058-25-ours.png"
+        },
+        {
+          "source_frame": 520,
+          "input": "research-media/seq-CAND_058-26-input.png",
+          "output": "research-media/seq-CAND_058-26-ours.png"
+        },
+        {
+          "source_frame": 540,
+          "input": "research-media/seq-CAND_058-27-input.png",
+          "output": "research-media/seq-CAND_058-27-ours.png"
+        },
+        {
+          "source_frame": 560,
+          "input": "research-media/seq-CAND_058-28-input.png",
+          "output": "research-media/seq-CAND_058-28-ours.png"
+        },
+        {
+          "source_frame": 580,
+          "input": "research-media/seq-CAND_058-29-input.png",
+          "output": "research-media/seq-CAND_058-29-ours.png"
+        }
+      ]
+    }
+  ],
+  "transfer": {
+    "backgrounds": [
+      "showcase-media/clean-0.png",
+      "showcase-media/clean-1.png",
+      "showcase-media/clean-2.png"
+    ],
+    "fields": [
+      {
+        "label": "CAND_264 · frame 295",
+        "source_burn": "run_01",
+        "source_role": "training",
+        "transmission": "showcase-media/field-0-T.png",
+        "airlight": "showcase-media/field-0-A.png",
+        "gain": [
+          1.0224441289901733,
+          1.0059903860092163,
+          0.9902740120887756
+        ],
+        "outputs": [
+          "showcase-media/field-0-scene-0.png",
+          "showcase-media/field-0-scene-1.png",
+          "showcase-media/field-0-scene-2.png"
+        ],
+        "crop": [
+          180,
+          100,
+          460,
+          380
+        ]
+      },
+      {
+        "label": "CAND_272 · frame 295",
+        "source_burn": "run_01",
+        "source_role": "training",
+        "transmission": "showcase-media/field-1-T.png",
+        "airlight": "showcase-media/field-1-A.png",
+        "gain": [
+          0.9974962472915649,
+          1.0044389963150024,
+          1.0053373575210571
+        ],
+        "outputs": [
+          "showcase-media/field-1-scene-0.png",
+          "showcase-media/field-1-scene-1.png",
+          "showcase-media/field-1-scene-2.png"
+        ],
+        "crop": [
+          180,
+          100,
+          460,
+          380
+        ]
+      },
+      {
+        "label": "CAND_280 · frame 295",
+        "source_burn": "run_01",
+        "source_role": "training",
+        "transmission": "showcase-media/field-2-T.png",
+        "airlight": "showcase-media/field-2-A.png",
+        "gain": [
+          0.9003238677978516,
+          0.8794774413108826,
+          0.7984789609909058
+        ],
+        "outputs": [
+          "showcase-media/field-2-scene-0.png",
+          "showcase-media/field-2-scene-1.png",
+          "showcase-media/field-2-scene-2.png"
+        ],
+        "crop": [
+          180,
+          100,
+          460,
+          380
+        ]
+      }
+    ],
+    "note": "Illustration of measured-field transfer, not an evaluation or an actual sampled training batch. Fields come from source-training clips (run_01/run_02), selected at source-order quartiles and middle frame. No JPEG augmentation is applied in this explanatory rendering. Same stored T, A and g per field across backgrounds; linear-RGB I=g[TJ+(1−T)A], then clamp and sRGB encoding. T/A bilinear upsampling; fixed 280px crop. Airlight visualization alone is clamped for display; rendering uses original A."
+  }
+}

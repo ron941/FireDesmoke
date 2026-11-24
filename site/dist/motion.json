@@ -1,0 +1,1196 @@
+{
+  "sequences": [
+    {
+      "id": "CAND_059",
+      "label": "Sequence 1",
+      "initial": 3,
+      "note": "Watch the small window and wall through the smoke.",
+      "frames": [
+        {
+          "source_frame": 40,
+          "input": "fire-peer-media/CAND_059_4-input.webp",
+          "output": "fire-peer-media/CAND_059_4-ours.webp",
+          "peers": {
+            "gendeg": "fire-peer-media/CAND_059_4-gendeg.webp",
+            "hazeflow": "fire-peer-media/CAND_059_4-hazeflow.webp",
+            "mb-taylorformer-v2": "fire-peer-media/CAND_059_4-mb-taylorformer-v2.webp"
+          }
+        },
+        {
+          "source_frame": 60,
+          "input": "fire-peer-media/CAND_059_6-input.webp",
+          "output": "fire-peer-media/CAND_059_6-ours.webp",
+          "peers": {
+            "gendeg": "fire-peer-media/CAND_059_6-gendeg.webp",
+            "hazeflow": "fire-peer-media/CAND_059_6-hazeflow.webp",
+            "mb-taylorformer-v2": "fire-peer-media/CAND_059_6-mb-taylorformer-v2.webp"
+          }
+        },
+        {
+          "source_frame": 80,
+          "input": "fire-peer-media/CAND_059_8-input.webp",
+          "output": "fire-peer-media/CAND_059_8-ours.webp",
+          "peers": {
+            "gendeg": "fire-peer-media/CAND_059_8-gendeg.webp",
+            "hazeflow": "fire-peer-media/CAND_059_8-hazeflow.webp",
+            "mb-taylorformer-v2": "fire-peer-media/CAND_059_8-mb-taylorformer-v2.webp"
+          }
+        },
+        {
+          "source_frame": 100,
+          "input": "fire-peer-media/CAND_059_10-input.webp",
+          "output": "fire-peer-media/CAND_059_10-ours.webp",
+          "peers": {
+            "gendeg": "fire-peer-media/CAND_059_10-gendeg.webp",
+            "hazeflow": "fire-peer-media/CAND_059_10-hazeflow.webp",
+            "mb-taylorformer-v2": "fire-peer-media/CAND_059_10-mb-taylorformer-v2.webp"
+          }
+        },
+        {
+          "source_frame": 120,
+          "input": "fire-peer-media/CAND_059_12-input.webp",
+          "output": "fire-peer-media/CAND_059_12-ours.webp",
+          "peers": {
+            "gendeg": "fire-peer-media/CAND_059_12-gendeg.webp",
+            "hazeflow": "fire-peer-media/CAND_059_12-hazeflow.webp",
+            "mb-taylorformer-v2": "fire-peer-media/CAND_059_12-mb-taylorformer-v2.webp"
+          }
+        },
+        {
+          "source_frame": 140,
+          "input": "fire-peer-media/CAND_059_14-input.webp",
+          "output": "fire-peer-media/CAND_059_14-ours.webp",
+          "peers": {
+            "gendeg": "fire-peer-media/CAND_059_14-gendeg.webp",
+            "hazeflow": "fire-peer-media/CAND_059_14-hazeflow.webp",
+            "mb-taylorformer-v2": "fire-peer-media/CAND_059_14-mb-taylorformer-v2.webp"
+          }
+        },
+        {
+          "source_frame": 160,
+          "input": "fire-peer-media/CAND_059_16-input.webp",
+          "output": "fire-peer-media/CAND_059_16-ours.webp",
+          "peers": {
+            "gendeg": "fire-peer-media/CAND_059_16-gendeg.webp",
+            "hazeflow": "fire-peer-media/CAND_059_16-hazeflow.webp",
+            "mb-taylorformer-v2": "fire-peer-media/CAND_059_16-mb-taylorformer-v2.webp"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CAND_020",
+      "label": "Sequence 2",
+      "initial": 6,
+      "note": "Compare the smoke-covered facade and the clear right-hand window.",
+      "frames": [
+        {
+          "source_frame": 280,
+          "input": "fire-peer-media/CAND_020_28-input.webp",
+          "output": "fire-peer-media/CAND_020_28-ours.webp",
+          "peers": {
+            "gendeg": "fire-peer-media/CAND_020_28-gendeg.webp",
+            "hazeflow": "fire-peer-media/CAND_020_28-hazeflow.webp",
+            "mb-taylorformer-v2": "fire-peer-media/CAND_020_28-mb-taylorformer-v2.webp"
+          }
+        },
+        {
+          "source_frame": 300,
+          "input": "fire-peer-media/CAND_020_30-input.webp",
+          "output": "fire-peer-media/CAND_020_30-ours.webp",
+          "peers": {
+            "gendeg": "fire-peer-media/CAND_020_30-gendeg.webp",
+            "hazeflow": "fire-peer-media/CAND_020_30-hazeflow.webp",
+            "mb-taylorformer-v2": "fire-peer-media/CAND_020_30-mb-taylorformer-v2.webp"
+          }
+        },
+        {
+          "source_frame": 320,
+          "input": "fire-peer-media/CAND_020_32-input.webp",
+          "output": "fire-peer-media/CAND_020_32-ours.webp",
+          "peers": {
+            "gendeg": "fire-peer-media/CAND_020_32-gendeg.webp",
+            "hazeflow": "fire-peer-media/CAND_020_32-hazeflow.webp",
+            "mb-taylorformer-v2": "fire-peer-media/CAND_020_32-mb-taylorformer-v2.webp"
+          }
+        },
+        {
+          "source_frame": 340,
+          "input": "fire-peer-media/CAND_020_34-input.webp",
+          "output": "fire-peer-media/CAND_020_34-ours.webp",
+          "peers": {
+            "gendeg": "fire-peer-media/CAND_020_34-gendeg.webp",
+            "hazeflow": "fire-peer-media/CAND_020_34-hazeflow.webp",
+            "mb-taylorformer-v2": "fire-peer-media/CAND_020_34-mb-taylorformer-v2.webp"
+          }
+        },
+        {
+          "source_frame": 360,
+          "input": "fire-peer-media/CAND_020_36-input.webp",
+          "output": "fire-peer-media/CAND_020_36-ours.webp",
+          "peers": {
+            "gendeg": "fire-peer-media/CAND_020_36-gendeg.webp",
+            "hazeflow": "fire-peer-media/CAND_020_36-hazeflow.webp",
+            "mb-taylorformer-v2": "fire-peer-media/CAND_020_36-mb-taylorformer-v2.webp"
+          }
+        },
+        {
+          "source_frame": 380,
+          "input": "fire-peer-media/CAND_020_38-input.webp",
+          "output": "fire-peer-media/CAND_020_38-ours.webp",
+          "peers": {
+            "gendeg": "fire-peer-media/CAND_020_38-gendeg.webp",
+            "hazeflow": "fire-peer-media/CAND_020_38-hazeflow.webp",
+            "mb-taylorformer-v2": "fire-peer-media/CAND_020_38-mb-taylorformer-v2.webp"
+          }
+        },
+        {
+          "source_frame": 400,
+          "input": "fire-peer-media/CAND_020_40-input.webp",
+          "output": "fire-peer-media/CAND_020_40-ours.webp",
+          "peers": {
+            "gendeg": "fire-peer-media/CAND_020_40-gendeg.webp",
+            "hazeflow": "fire-peer-media/CAND_020_40-hazeflow.webp",
+            "mb-taylorformer-v2": "fire-peer-media/CAND_020_40-mb-taylorformer-v2.webp"
+          }
+        },
+        {
+          "source_frame": 420,
+          "input": "fire-peer-media/CAND_020_42-input.webp",
+          "output": "fire-peer-media/CAND_020_42-ours.webp",
+          "peers": {
+            "gendeg": "fire-peer-media/CAND_020_42-gendeg.webp",
+            "hazeflow": "fire-peer-media/CAND_020_42-hazeflow.webp",
+            "mb-taylorformer-v2": "fire-peer-media/CAND_020_42-mb-taylorformer-v2.webp"
+          }
+        },
+        {
+          "source_frame": 440,
+          "input": "fire-peer-media/CAND_020_44-input.webp",
+          "output": "fire-peer-media/CAND_020_44-ours.webp",
+          "peers": {
+            "gendeg": "fire-peer-media/CAND_020_44-gendeg.webp",
+            "hazeflow": "fire-peer-media/CAND_020_44-hazeflow.webp",
+            "mb-taylorformer-v2": "fire-peer-media/CAND_020_44-mb-taylorformer-v2.webp"
+          }
+        },
+        {
+          "source_frame": 460,
+          "input": "fire-peer-media/CAND_020_46-input.webp",
+          "output": "fire-peer-media/CAND_020_46-ours.webp",
+          "peers": {
+            "gendeg": "fire-peer-media/CAND_020_46-gendeg.webp",
+            "hazeflow": "fire-peer-media/CAND_020_46-hazeflow.webp",
+            "mb-taylorformer-v2": "fire-peer-media/CAND_020_46-mb-taylorformer-v2.webp"
+          }
+        },
+        {
+          "source_frame": 480,
+          "input": "fire-peer-media/CAND_020_48-input.webp",
+          "output": "fire-peer-media/CAND_020_48-ours.webp",
+          "peers": {
+            "gendeg": "fire-peer-media/CAND_020_48-gendeg.webp",
+            "hazeflow": "fire-peer-media/CAND_020_48-hazeflow.webp",
+            "mb-taylorformer-v2": "fire-peer-media/CAND_020_48-mb-taylorformer-v2.webp"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CAND_058",
+      "label": "Sequence 3",
+      "initial": 5,
+      "note": "Compare the dense smoke and the surrounding facade at the same instant.",
+      "frames": [
+        {
+          "source_frame": 400,
+          "input": "fire-peer-media/CAND_058_40-input.webp",
+          "output": "fire-peer-media/CAND_058_40-ours.webp",
+          "peers": {
+            "gendeg": "fire-peer-media/CAND_058_40-gendeg.webp",
+            "hazeflow": "fire-peer-media/CAND_058_40-hazeflow.webp",
+            "mb-taylorformer-v2": "fire-peer-media/CAND_058_40-mb-taylorformer-v2.webp"
+          }
+        },
+        {
+          "source_frame": 420,
+          "input": "fire-peer-media/CAND_058_42-input.webp",
+          "output": "fire-peer-media/CAND_058_42-ours.webp",
+          "peers": {
+            "gendeg": "fire-peer-media/CAND_058_42-gendeg.webp",
+            "hazeflow": "fire-peer-media/CAND_058_42-hazeflow.webp",
+            "mb-taylorformer-v2": "fire-peer-media/CAND_058_42-mb-taylorformer-v2.webp"
+          }
+        },
+        {
+          "source_frame": 440,
+          "input": "fire-peer-media/CAND_058_44-input.webp",
+          "output": "fire-peer-media/CAND_058_44-ours.webp",
+          "peers": {
+            "gendeg": "fire-peer-media/CAND_058_44-gendeg.webp",
+            "hazeflow": "fire-peer-media/CAND_058_44-hazeflow.webp",
+            "mb-taylorformer-v2": "fire-peer-media/CAND_058_44-mb-taylorformer-v2.webp"
+          }
+        },
+        {
+          "source_frame": 460,
+          "input": "fire-peer-media/CAND_058_46-input.webp",
+          "output": "fire-peer-media/CAND_058_46-ours.webp",
+          "peers": {
+            "gendeg": "fire-peer-media/CAND_058_46-gendeg.webp",
+            "hazeflow": "fire-peer-media/CAND_058_46-hazeflow.webp",
+            "mb-taylorformer-v2": "fire-peer-media/CAND_058_46-mb-taylorformer-v2.webp"
+          }
+        },
+        {
+          "source_frame": 480,
+          "input": "fire-peer-media/CAND_058_48-input.webp",
+          "output": "fire-peer-media/CAND_058_48-ours.webp",
+          "peers": {
+            "gendeg": "fire-peer-media/CAND_058_48-gendeg.webp",
+            "hazeflow": "fire-peer-media/CAND_058_48-hazeflow.webp",
+            "mb-taylorformer-v2": "fire-peer-media/CAND_058_48-mb-taylorformer-v2.webp"
+          }
+        },
+        {
+          "source_frame": 500,
+          "input": "fire-peer-media/CAND_058_50-input.webp",
+          "output": "fire-peer-media/CAND_058_50-ours.webp",
+          "peers": {
+            "gendeg": "fire-peer-media/CAND_058_50-gendeg.webp",
+            "hazeflow": "fire-peer-media/CAND_058_50-hazeflow.webp",
+            "mb-taylorformer-v2": "fire-peer-media/CAND_058_50-mb-taylorformer-v2.webp"
+          }
+        },
+        {
+          "source_frame": 520,
+          "input": "fire-peer-media/CAND_058_52-input.webp",
+          "output": "fire-peer-media/CAND_058_52-ours.webp",
+          "peers": {
+            "gendeg": "fire-peer-media/CAND_058_52-gendeg.webp",
+            "hazeflow": "fire-peer-media/CAND_058_52-hazeflow.webp",
+            "mb-taylorformer-v2": "fire-peer-media/CAND_058_52-mb-taylorformer-v2.webp"
+          }
+        },
+        {
+          "source_frame": 540,
+          "input": "fire-peer-media/CAND_058_54-input.webp",
+          "output": "fire-peer-media/CAND_058_54-ours.webp",
+          "peers": {
+            "gendeg": "fire-peer-media/CAND_058_54-gendeg.webp",
+            "hazeflow": "fire-peer-media/CAND_058_54-hazeflow.webp",
+            "mb-taylorformer-v2": "fire-peer-media/CAND_058_54-mb-taylorformer-v2.webp"
+          }
+        },
+        {
+          "source_frame": 560,
+          "input": "fire-peer-media/CAND_058_56-input.webp",
+          "output": "fire-peer-media/CAND_058_56-ours.webp",
+          "peers": {
+            "gendeg": "fire-peer-media/CAND_058_56-gendeg.webp",
+            "hazeflow": "fire-peer-media/CAND_058_56-hazeflow.webp",
+            "mb-taylorformer-v2": "fire-peer-media/CAND_058_56-mb-taylorformer-v2.webp"
+          }
+        },
+        {
+          "source_frame": 580,
+          "input": "fire-peer-media/CAND_058_58-input.webp",
+          "output": "fire-peer-media/CAND_058_58-ours.webp",
+          "peers": {
+            "gendeg": "fire-peer-media/CAND_058_58-gendeg.webp",
+            "hazeflow": "fire-peer-media/CAND_058_58-hazeflow.webp",
+            "mb-taylorformer-v2": "fire-peer-media/CAND_058_58-mb-taylorformer-v2.webp"
+          }
+        }
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "label": "Measured field 1",
+      "id": "CAND_268",
+      "initial": 6,
+      "crop_xywh": [
+        64,
+        20,
+        280,
+        280
+      ],
+      "frames": [
+        {
+          "source_frame": 300,
+          "source": "motion-media/field-0-300-source.webp",
+          "T": "motion-media/field-0-300-T.webp",
+          "gain": [
+            1.1262459754943848,
+            1.130757451057434,
+            1.188287377357483
+          ],
+          "backgrounds": {
+            "1": {
+              "target": "motion-media/field-0-300-b1-target.webp",
+              "measured": "motion-media/field-0-300-b1-measured.webp",
+              "procedural": "motion-media/field-0-300-b1-procedural.webp"
+            },
+            "2": {
+              "target": "motion-media/field-0-300-b2-target.webp",
+              "measured": "motion-media/field-0-300-b2-measured.webp",
+              "procedural": "motion-media/field-0-300-b2-procedural.webp"
+            }
+          }
+        },
+        {
+          "source_frame": 310,
+          "source": "motion-media/field-0-310-source.webp",
+          "T": "motion-media/field-0-310-T.webp",
+          "gain": [
+            1.1249600648880005,
+            1.1299530267715454,
+            1.1855183839797974
+          ],
+          "backgrounds": {
+            "1": {
+              "target": "motion-media/field-0-310-b1-target.webp",
+              "measured": "motion-media/field-0-310-b1-measured.webp",
+              "procedural": "motion-media/field-0-310-b1-procedural.webp"
+            },
+            "2": {
+              "target": "motion-media/field-0-310-b2-target.webp",
+              "measured": "motion-media/field-0-310-b2-measured.webp",
+              "procedural": "motion-media/field-0-310-b2-procedural.webp"
+            }
+          }
+        },
+        {
+          "source_frame": 320,
+          "source": "motion-media/field-0-320-source.webp",
+          "T": "motion-media/field-0-320-T.webp",
+          "gain": [
+            1.1231275796890259,
+            1.128433108329773,
+            1.18336021900177
+          ],
+          "backgrounds": {
+            "1": {
+              "target": "motion-media/field-0-320-b1-target.webp",
+              "measured": "motion-media/field-0-320-b1-measured.webp",
+              "procedural": "motion-media/field-0-320-b1-procedural.webp"
+            },
+            "2": {
+              "target": "motion-media/field-0-320-b2-target.webp",
+              "measured": "motion-media/field-0-320-b2-measured.webp",
+              "procedural": "motion-media/field-0-320-b2-procedural.webp"
+            }
+          }
+        },
+        {
+          "source_frame": 330,
+          "source": "motion-media/field-0-330-source.webp",
+          "T": "motion-media/field-0-330-T.webp",
+          "gain": [
+            1.1224206686019897,
+            1.127139925956726,
+            1.1830404996871948
+          ],
+          "backgrounds": {
+            "1": {
+              "target": "motion-media/field-0-330-b1-target.webp",
+              "measured": "motion-media/field-0-330-b1-measured.webp",
+              "procedural": "motion-media/field-0-330-b1-procedural.webp"
+            },
+            "2": {
+              "target": "motion-media/field-0-330-b2-target.webp",
+              "measured": "motion-media/field-0-330-b2-measured.webp",
+              "procedural": "motion-media/field-0-330-b2-procedural.webp"
+            }
+          }
+        },
+        {
+          "source_frame": 340,
+          "source": "motion-media/field-0-340-source.webp",
+          "T": "motion-media/field-0-340-T.webp",
+          "gain": [
+            1.122294545173645,
+            1.126795768737793,
+            1.1826783418655396
+          ],
+          "backgrounds": {
+            "1": {
+              "target": "motion-media/field-0-340-b1-target.webp",
+              "measured": "motion-media/field-0-340-b1-measured.webp",
+              "procedural": "motion-media/field-0-340-b1-procedural.webp"
+            },
+            "2": {
+              "target": "motion-media/field-0-340-b2-target.webp",
+              "measured": "motion-media/field-0-340-b2-measured.webp",
+              "procedural": "motion-media/field-0-340-b2-procedural.webp"
+            }
+          }
+        },
+        {
+          "source_frame": 350,
+          "source": "motion-media/field-0-350-source.webp",
+          "T": "motion-media/field-0-350-T.webp",
+          "gain": [
+            1.1216670274734497,
+            1.1265549659729004,
+            1.1820005178451538
+          ],
+          "backgrounds": {
+            "1": {
+              "target": "motion-media/field-0-350-b1-target.webp",
+              "measured": "motion-media/field-0-350-b1-measured.webp",
+              "procedural": "motion-media/field-0-350-b1-procedural.webp"
+            },
+            "2": {
+              "target": "motion-media/field-0-350-b2-target.webp",
+              "measured": "motion-media/field-0-350-b2-measured.webp",
+              "procedural": "motion-media/field-0-350-b2-procedural.webp"
+            }
+          }
+        },
+        {
+          "source_frame": 360,
+          "source": "motion-media/field-0-360-source.webp",
+          "T": "motion-media/field-0-360-T.webp",
+          "gain": [
+            1.1209454536437988,
+            1.1257354021072388,
+            1.1826543807983398
+          ],
+          "backgrounds": {
+            "1": {
+              "target": "motion-media/field-0-360-b1-target.webp",
+              "measured": "motion-media/field-0-360-b1-measured.webp",
+              "procedural": "motion-media/field-0-360-b1-procedural.webp"
+            },
+            "2": {
+              "target": "motion-media/field-0-360-b2-target.webp",
+              "measured": "motion-media/field-0-360-b2-measured.webp",
+              "procedural": "motion-media/field-0-360-b2-procedural.webp"
+            }
+          }
+        },
+        {
+          "source_frame": 370,
+          "source": "motion-media/field-0-370-source.webp",
+          "T": "motion-media/field-0-370-T.webp",
+          "gain": [
+            1.1201456785202026,
+            1.1237584352493286,
+            1.1788805723190308
+          ],
+          "backgrounds": {
+            "1": {
+              "target": "motion-media/field-0-370-b1-target.webp",
+              "measured": "motion-media/field-0-370-b1-measured.webp",
+              "procedural": "motion-media/field-0-370-b1-procedural.webp"
+            },
+            "2": {
+              "target": "motion-media/field-0-370-b2-target.webp",
+              "measured": "motion-media/field-0-370-b2-measured.webp",
+              "procedural": "motion-media/field-0-370-b2-procedural.webp"
+            }
+          }
+        },
+        {
+          "source_frame": 380,
+          "source": "motion-media/field-0-380-source.webp",
+          "T": "motion-media/field-0-380-T.webp",
+          "gain": [
+            1.116918921470642,
+            1.1214691400527954,
+            1.1758525371551514
+          ],
+          "backgrounds": {
+            "1": {
+              "target": "motion-media/field-0-380-b1-target.webp",
+              "measured": "motion-media/field-0-380-b1-measured.webp",
+              "procedural": "motion-media/field-0-380-b1-procedural.webp"
+            },
+            "2": {
+              "target": "motion-media/field-0-380-b2-target.webp",
+              "measured": "motion-media/field-0-380-b2-measured.webp",
+              "procedural": "motion-media/field-0-380-b2-procedural.webp"
+            }
+          }
+        },
+        {
+          "source_frame": 390,
+          "source": "motion-media/field-0-390-source.webp",
+          "T": "motion-media/field-0-390-T.webp",
+          "gain": [
+            1.1135447025299072,
+            1.1173886060714722,
+            1.1691173315048218
+          ],
+          "backgrounds": {
+            "1": {
+              "target": "motion-media/field-0-390-b1-target.webp",
+              "measured": "motion-media/field-0-390-b1-measured.webp",
+              "procedural": "motion-media/field-0-390-b1-procedural.webp"
+            },
+            "2": {
+              "target": "motion-media/field-0-390-b2-target.webp",
+              "measured": "motion-media/field-0-390-b2-measured.webp",
+              "procedural": "motion-media/field-0-390-b2-procedural.webp"
+            }
+          }
+        },
+        {
+          "source_frame": 400,
+          "source": "motion-media/field-0-400-source.webp",
+          "T": "motion-media/field-0-400-T.webp",
+          "gain": [
+            1.1077393293380737,
+            1.1120654344558716,
+            1.1658825874328613
+          ],
+          "backgrounds": {
+            "1": {
+              "target": "motion-media/field-0-400-b1-target.webp",
+              "measured": "motion-media/field-0-400-b1-measured.webp",
+              "procedural": "motion-media/field-0-400-b1-procedural.webp"
+            },
+            "2": {
+              "target": "motion-media/field-0-400-b2-target.webp",
+              "measured": "motion-media/field-0-400-b2-measured.webp",
+              "procedural": "motion-media/field-0-400-b2-procedural.webp"
+            }
+          }
+        },
+        {
+          "source_frame": 410,
+          "source": "motion-media/field-0-410-source.webp",
+          "T": "motion-media/field-0-410-T.webp",
+          "gain": [
+            1.1098694801330566,
+            1.1140722036361694,
+            1.1671160459518433
+          ],
+          "backgrounds": {
+            "1": {
+              "target": "motion-media/field-0-410-b1-target.webp",
+              "measured": "motion-media/field-0-410-b1-measured.webp",
+              "procedural": "motion-media/field-0-410-b1-procedural.webp"
+            },
+            "2": {
+              "target": "motion-media/field-0-410-b2-target.webp",
+              "measured": "motion-media/field-0-410-b2-measured.webp",
+              "procedural": "motion-media/field-0-410-b2-procedural.webp"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "label": "Measured field 2",
+      "id": "CAND_268",
+      "initial": 5,
+      "crop_xywh": [
+        64,
+        20,
+        280,
+        280
+      ],
+      "frames": [
+        {
+          "source_frame": 150,
+          "source": "motion-media/field-1-150-source.webp",
+          "T": "motion-media/field-1-150-T.webp",
+          "gain": [
+            0.996235728263855,
+            1.0061568021774292,
+            1.0819103717803955
+          ],
+          "backgrounds": {
+            "1": {
+              "target": "motion-media/field-1-150-b1-target.webp",
+              "measured": "motion-media/field-1-150-b1-measured.webp",
+              "procedural": "motion-media/field-1-150-b1-procedural.webp"
+            },
+            "2": {
+              "target": "motion-media/field-1-150-b2-target.webp",
+              "measured": "motion-media/field-1-150-b2-measured.webp",
+              "procedural": "motion-media/field-1-150-b2-procedural.webp"
+            }
+          }
+        },
+        {
+          "source_frame": 160,
+          "source": "motion-media/field-1-160-source.webp",
+          "T": "motion-media/field-1-160-T.webp",
+          "gain": [
+            0.9949714541435242,
+            1.005321741104126,
+            1.0789304971694946
+          ],
+          "backgrounds": {
+            "1": {
+              "target": "motion-media/field-1-160-b1-target.webp",
+              "measured": "motion-media/field-1-160-b1-measured.webp",
+              "procedural": "motion-media/field-1-160-b1-procedural.webp"
+            },
+            "2": {
+              "target": "motion-media/field-1-160-b2-target.webp",
+              "measured": "motion-media/field-1-160-b2-measured.webp",
+              "procedural": "motion-media/field-1-160-b2-procedural.webp"
+            }
+          }
+        },
+        {
+          "source_frame": 170,
+          "source": "motion-media/field-1-170-source.webp",
+          "T": "motion-media/field-1-170-T.webp",
+          "gain": [
+            0.9942507743835449,
+            1.0039827823638916,
+            1.0787179470062256
+          ],
+          "backgrounds": {
+            "1": {
+              "target": "motion-media/field-1-170-b1-target.webp",
+              "measured": "motion-media/field-1-170-b1-measured.webp",
+              "procedural": "motion-media/field-1-170-b1-procedural.webp"
+            },
+            "2": {
+              "target": "motion-media/field-1-170-b2-target.webp",
+              "measured": "motion-media/field-1-170-b2-measured.webp",
+              "procedural": "motion-media/field-1-170-b2-procedural.webp"
+            }
+          }
+        },
+        {
+          "source_frame": 180,
+          "source": "motion-media/field-1-180-source.webp",
+          "T": "motion-media/field-1-180-T.webp",
+          "gain": [
+            0.9930269718170166,
+            1.0037156343460083,
+            1.078848123550415
+          ],
+          "backgrounds": {
+            "1": {
+              "target": "motion-media/field-1-180-b1-target.webp",
+              "measured": "motion-media/field-1-180-b1-measured.webp",
+              "procedural": "motion-media/field-1-180-b1-procedural.webp"
+            },
+            "2": {
+              "target": "motion-media/field-1-180-b2-target.webp",
+              "measured": "motion-media/field-1-180-b2-measured.webp",
+              "procedural": "motion-media/field-1-180-b2-procedural.webp"
+            }
+          }
+        },
+        {
+          "source_frame": 190,
+          "source": "motion-media/field-1-190-source.webp",
+          "T": "motion-media/field-1-190-T.webp",
+          "gain": [
+            0.9971001148223877,
+            1.0021865367889404,
+            1.0711655616760254
+          ],
+          "backgrounds": {
+            "1": {
+              "target": "motion-media/field-1-190-b1-target.webp",
+              "measured": "motion-media/field-1-190-b1-measured.webp",
+              "procedural": "motion-media/field-1-190-b1-procedural.webp"
+            },
+            "2": {
+              "target": "motion-media/field-1-190-b2-target.webp",
+              "measured": "motion-media/field-1-190-b2-measured.webp",
+              "procedural": "motion-media/field-1-190-b2-procedural.webp"
+            }
+          }
+        },
+        {
+          "source_frame": 200,
+          "source": "motion-media/field-1-200-source.webp",
+          "T": "motion-media/field-1-200-T.webp",
+          "gain": [
+            0.9971335530281067,
+            1.0012791156768799,
+            1.0363823175430298
+          ],
+          "backgrounds": {
+            "1": {
+              "target": "motion-media/field-1-200-b1-target.webp",
+              "measured": "motion-media/field-1-200-b1-measured.webp",
+              "procedural": "motion-media/field-1-200-b1-procedural.webp"
+            },
+            "2": {
+              "target": "motion-media/field-1-200-b2-target.webp",
+              "measured": "motion-media/field-1-200-b2-measured.webp",
+              "procedural": "motion-media/field-1-200-b2-procedural.webp"
+            }
+          }
+        },
+        {
+          "source_frame": 210,
+          "source": "motion-media/field-1-210-source.webp",
+          "T": "motion-media/field-1-210-T.webp",
+          "gain": [
+            1.0006788969039917,
+            1.0003308057785034,
+            1.0282347202301025
+          ],
+          "backgrounds": {
+            "1": {
+              "target": "motion-media/field-1-210-b1-target.webp",
+              "measured": "motion-media/field-1-210-b1-measured.webp",
+              "procedural": "motion-media/field-1-210-b1-procedural.webp"
+            },
+            "2": {
+              "target": "motion-media/field-1-210-b2-target.webp",
+              "measured": "motion-media/field-1-210-b2-measured.webp",
+              "procedural": "motion-media/field-1-210-b2-procedural.webp"
+            }
+          }
+        },
+        {
+          "source_frame": 220,
+          "source": "motion-media/field-1-220-source.webp",
+          "T": "motion-media/field-1-220-T.webp",
+          "gain": [
+            1.0039756298065186,
+            0.9976572394371033,
+            1.032010555267334
+          ],
+          "backgrounds": {
+            "1": {
+              "target": "motion-media/field-1-220-b1-target.webp",
+              "measured": "motion-media/field-1-220-b1-measured.webp",
+              "procedural": "motion-media/field-1-220-b1-procedural.webp"
+            },
+            "2": {
+              "target": "motion-media/field-1-220-b2-target.webp",
+              "measured": "motion-media/field-1-220-b2-measured.webp",
+              "procedural": "motion-media/field-1-220-b2-procedural.webp"
+            }
+          }
+        },
+        {
+          "source_frame": 230,
+          "source": "motion-media/field-1-230-source.webp",
+          "T": "motion-media/field-1-230-T.webp",
+          "gain": [
+            1.0067832469940186,
+            1.008734107017517,
+            1.0633867979049683
+          ],
+          "backgrounds": {
+            "1": {
+              "target": "motion-media/field-1-230-b1-target.webp",
+              "measured": "motion-media/field-1-230-b1-measured.webp",
+              "procedural": "motion-media/field-1-230-b1-procedural.webp"
+            },
+            "2": {
+              "target": "motion-media/field-1-230-b2-target.webp",
+              "measured": "motion-media/field-1-230-b2-measured.webp",
+              "procedural": "motion-media/field-1-230-b2-procedural.webp"
+            }
+          }
+        },
+        {
+          "source_frame": 240,
+          "source": "motion-media/field-1-240-source.webp",
+          "T": "motion-media/field-1-240-T.webp",
+          "gain": [
+            1.1184124946594238,
+            1.1277717351913452,
+            1.196923851966858
+          ],
+          "backgrounds": {
+            "1": {
+              "target": "motion-media/field-1-240-b1-target.webp",
+              "measured": "motion-media/field-1-240-b1-measured.webp",
+              "procedural": "motion-media/field-1-240-b1-procedural.webp"
+            },
+            "2": {
+              "target": "motion-media/field-1-240-b2-target.webp",
+              "measured": "motion-media/field-1-240-b2-measured.webp",
+              "procedural": "motion-media/field-1-240-b2-procedural.webp"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "label": "Measured field 3",
+      "id": "CAND_280",
+      "initial": 7,
+      "crop_xywh": [
+        180,
+        100,
+        280,
+        280
+      ],
+      "frames": [
+        {
+          "source_frame": 225,
+          "source": "motion-media/field-2-225-source.webp",
+          "T": "motion-media/field-2-225-T.webp",
+          "gain": [
+            0.8918838500976562,
+            0.8727538585662842,
+            0.7895755171775818
+          ],
+          "backgrounds": {
+            "1": {
+              "target": "motion-media/field-2-225-b1-target.webp",
+              "measured": "motion-media/field-2-225-b1-measured.webp",
+              "procedural": "motion-media/field-2-225-b1-procedural.webp"
+            },
+            "2": {
+              "target": "motion-media/field-2-225-b2-target.webp",
+              "measured": "motion-media/field-2-225-b2-measured.webp",
+              "procedural": "motion-media/field-2-225-b2-procedural.webp"
+            }
+          }
+        },
+        {
+          "source_frame": 235,
+          "source": "motion-media/field-2-235-source.webp",
+          "T": "motion-media/field-2-235-T.webp",
+          "gain": [
+            0.8914828896522522,
+            0.8712878227233887,
+            0.7885146141052246
+          ],
+          "backgrounds": {
+            "1": {
+              "target": "motion-media/field-2-235-b1-target.webp",
+              "measured": "motion-media/field-2-235-b1-measured.webp",
+              "procedural": "motion-media/field-2-235-b1-procedural.webp"
+            },
+            "2": {
+              "target": "motion-media/field-2-235-b2-target.webp",
+              "measured": "motion-media/field-2-235-b2-measured.webp",
+              "procedural": "motion-media/field-2-235-b2-procedural.webp"
+            }
+          }
+        },
+        {
+          "source_frame": 245,
+          "source": "motion-media/field-2-245-source.webp",
+          "T": "motion-media/field-2-245-T.webp",
+          "gain": [
+            0.891963005065918,
+            0.871192455291748,
+            0.7876630425453186
+          ],
+          "backgrounds": {
+            "1": {
+              "target": "motion-media/field-2-245-b1-target.webp",
+              "measured": "motion-media/field-2-245-b1-measured.webp",
+              "procedural": "motion-media/field-2-245-b1-procedural.webp"
+            },
+            "2": {
+              "target": "motion-media/field-2-245-b2-target.webp",
+              "measured": "motion-media/field-2-245-b2-measured.webp",
+              "procedural": "motion-media/field-2-245-b2-procedural.webp"
+            }
+          }
+        },
+        {
+          "source_frame": 255,
+          "source": "motion-media/field-2-255-source.webp",
+          "T": "motion-media/field-2-255-T.webp",
+          "gain": [
+            0.8919404745101929,
+            0.8716257810592651,
+            0.789370059967041
+          ],
+          "backgrounds": {
+            "1": {
+              "target": "motion-media/field-2-255-b1-target.webp",
+              "measured": "motion-media/field-2-255-b1-measured.webp",
+              "procedural": "motion-media/field-2-255-b1-procedural.webp"
+            },
+            "2": {
+              "target": "motion-media/field-2-255-b2-target.webp",
+              "measured": "motion-media/field-2-255-b2-measured.webp",
+              "procedural": "motion-media/field-2-255-b2-procedural.webp"
+            }
+          }
+        },
+        {
+          "source_frame": 265,
+          "source": "motion-media/field-2-265-source.webp",
+          "T": "motion-media/field-2-265-T.webp",
+          "gain": [
+            0.8930965065956116,
+            0.8722293972969055,
+            0.7895306348800659
+          ],
+          "backgrounds": {
+            "1": {
+              "target": "motion-media/field-2-265-b1-target.webp",
+              "measured": "motion-media/field-2-265-b1-measured.webp",
+              "procedural": "motion-media/field-2-265-b1-procedural.webp"
+            },
+            "2": {
+              "target": "motion-media/field-2-265-b2-target.webp",
+              "measured": "motion-media/field-2-265-b2-measured.webp",
+              "procedural": "motion-media/field-2-265-b2-procedural.webp"
+            }
+          }
+        },
+        {
+          "source_frame": 275,
+          "source": "motion-media/field-2-275-source.webp",
+          "T": "motion-media/field-2-275-T.webp",
+          "gain": [
+            0.8934592604637146,
+            0.8736590147018433,
+            0.7917153835296631
+          ],
+          "backgrounds": {
+            "1": {
+              "target": "motion-media/field-2-275-b1-target.webp",
+              "measured": "motion-media/field-2-275-b1-measured.webp",
+              "procedural": "motion-media/field-2-275-b1-procedural.webp"
+            },
+            "2": {
+              "target": "motion-media/field-2-275-b2-target.webp",
+              "measured": "motion-media/field-2-275-b2-measured.webp",
+              "procedural": "motion-media/field-2-275-b2-procedural.webp"
+            }
+          }
+        },
+        {
+          "source_frame": 285,
+          "source": "motion-media/field-2-285-source.webp",
+          "T": "motion-media/field-2-285-T.webp",
+          "gain": [
+            0.8963356018066406,
+            0.8768409490585327,
+            0.7946857810020447
+          ],
+          "backgrounds": {
+            "1": {
+              "target": "motion-media/field-2-285-b1-target.webp",
+              "measured": "motion-media/field-2-285-b1-measured.webp",
+              "procedural": "motion-media/field-2-285-b1-procedural.webp"
+            },
+            "2": {
+              "target": "motion-media/field-2-285-b2-target.webp",
+              "measured": "motion-media/field-2-285-b2-measured.webp",
+              "procedural": "motion-media/field-2-285-b2-procedural.webp"
+            }
+          }
+        },
+        {
+          "source_frame": 295,
+          "source": "motion-media/field-2-295-source.webp",
+          "T": "motion-media/field-2-295-T.webp",
+          "gain": [
+            0.9003238677978516,
+            0.8794774413108826,
+            0.7984789609909058
+          ],
+          "backgrounds": {
+            "1": {
+              "target": "motion-media/field-2-295-b1-target.webp",
+              "measured": "motion-media/field-2-295-b1-measured.webp",
+              "procedural": "motion-media/field-2-295-b1-procedural.webp"
+            },
+            "2": {
+              "target": "motion-media/field-2-295-b2-target.webp",
+              "measured": "motion-media/field-2-295-b2-measured.webp",
+              "procedural": "motion-media/field-2-295-b2-procedural.webp"
+            }
+          }
+        },
+        {
+          "source_frame": 305,
+          "source": "motion-media/field-2-305-source.webp",
+          "T": "motion-media/field-2-305-T.webp",
+          "gain": [
+            0.9031680822372437,
+            0.8820083737373352,
+            0.80013507604599
+          ],
+          "backgrounds": {
+            "1": {
+              "target": "motion-media/field-2-305-b1-target.webp",
+              "measured": "motion-media/field-2-305-b1-measured.webp",
+              "procedural": "motion-media/field-2-305-b1-procedural.webp"
+            },
+            "2": {
+              "target": "motion-media/field-2-305-b2-target.webp",
+              "measured": "motion-media/field-2-305-b2-measured.webp",
+              "procedural": "motion-media/field-2-305-b2-procedural.webp"
+            }
+          }
+        },
+        {
+          "source_frame": 315,
+          "source": "motion-media/field-2-315-source.webp",
+          "T": "motion-media/field-2-315-T.webp",
+          "gain": [
+            0.9051171541213989,
+            0.884383499622345,
+            0.8020825386047363
+          ],
+          "backgrounds": {
+            "1": {
+              "target": "motion-media/field-2-315-b1-target.webp",
+              "measured": "motion-media/field-2-315-b1-measured.webp",
+              "procedural": "motion-media/field-2-315-b1-procedural.webp"
+            },
+            "2": {
+              "target": "motion-media/field-2-315-b2-target.webp",
+              "measured": "motion-media/field-2-315-b2-measured.webp",
+              "procedural": "motion-media/field-2-315-b2-procedural.webp"
+            }
+          }
+        },
+        {
+          "source_frame": 325,
+          "source": "motion-media/field-2-325-source.webp",
+          "T": "motion-media/field-2-325-T.webp",
+          "gain": [
+            0.9046647548675537,
+            0.8835875988006592,
+            0.8023487329483032
+          ],
+          "backgrounds": {
+            "1": {
+              "target": "motion-media/field-2-325-b1-target.webp",
+              "measured": "motion-media/field-2-325-b1-measured.webp",
+              "procedural": "motion-media/field-2-325-b1-procedural.webp"
+            },
+            "2": {
+              "target": "motion-media/field-2-325-b2-target.webp",
+              "measured": "motion-media/field-2-325-b2-measured.webp",
+              "procedural": "motion-media/field-2-325-b2-procedural.webp"
+            }
+          }
+        },
+        {
+          "source_frame": 335,
+          "source": "motion-media/field-2-335-source.webp",
+          "T": "motion-media/field-2-335-T.webp",
+          "gain": [
+            0.9047554135322571,
+            0.8828142285346985,
+            0.801755964756012
+          ],
+          "backgrounds": {
+            "1": {
+              "target": "motion-media/field-2-335-b1-target.webp",
+              "measured": "motion-media/field-2-335-b1-measured.webp",
+              "procedural": "motion-media/field-2-335-b1-procedural.webp"
+            },
+            "2": {
+              "target": "motion-media/field-2-335-b2-target.webp",
+              "measured": "motion-media/field-2-335-b2-measured.webp",
+              "procedural": "motion-media/field-2-335-b2-procedural.webp"
+            }
+          }
+        },
+        {
+          "source_frame": 345,
+          "source": "motion-media/field-2-345-source.webp",
+          "T": "motion-media/field-2-345-T.webp",
+          "gain": [
+            0.9031436443328857,
+            0.8819101452827454,
+            0.7994610667228699
+          ],
+          "backgrounds": {
+            "1": {
+              "target": "motion-media/field-2-345-b1-target.webp",
+              "measured": "motion-media/field-2-345-b1-measured.webp",
+              "procedural": "motion-media/field-2-345-b1-procedural.webp"
+            },
+            "2": {
+              "target": "motion-media/field-2-345-b2-target.webp",
+              "measured": "motion-media/field-2-345-b2-measured.webp",
+              "procedural": "motion-media/field-2-345-b2-procedural.webp"
+            }
+          }
+        },
+        {
+          "source_frame": 355,
+          "source": "motion-media/field-2-355-source.webp",
+          "T": "motion-media/field-2-355-T.webp",
+          "gain": [
+            0.9041471481323242,
+            0.8817781805992126,
+            0.7998658418655396
+          ],
+          "backgrounds": {
+            "1": {
+              "target": "motion-media/field-2-355-b1-target.webp",
+              "measured": "motion-media/field-2-355-b1-measured.webp",
+              "procedural": "motion-media/field-2-355-b1-procedural.webp"
+            },
+            "2": {
+              "target": "motion-media/field-2-355-b2-target.webp",
+              "measured": "motion-media/field-2-355-b2-measured.webp",
+              "procedural": "motion-media/field-2-355-b2-procedural.webp"
+            }
+          }
+        },
+        {
+          "source_frame": 365,
+          "source": "motion-media/field-2-365-source.webp",
+          "T": "motion-media/field-2-365-T.webp",
+          "gain": [
+            0.9020446538925171,
+            0.881678581237793,
+            0.7981836199760437
+          ],
+          "backgrounds": {
+            "1": {
+              "target": "motion-media/field-2-365-b1-target.webp",
+              "measured": "motion-media/field-2-365-b1-measured.webp",
+              "procedural": "motion-media/field-2-365-b1-procedural.webp"
+            },
+            "2": {
+              "target": "motion-media/field-2-365-b2-target.webp",
+              "measured": "motion-media/field-2-365-b2-measured.webp",
+              "procedural": "motion-media/field-2-365-b2-procedural.webp"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "backgrounds": [
+    {
+      "id": "1",
+      "label": "Building facade",
+      "image": "research-media/background-1.png"
+    },
+    {
+      "id": "2",
+      "label": "Stone corridor",
+      "image": "research-media/background-2.png"
+    }
+  ],
+  "playback_note": "Sampled independent-frame model outputs; browsing playback is not source-video timing or inference speed.",
+  "transfer_note": "Sampled measured training-burn fields and matched procedural controls. Same formula, exact T histogram, original exposure, linear RGB and JPEG-92 handling as the static explanatory renders. Frame arrays are not interpolated. All WebP assets are lossless, checked against the RGB arrays. Background source provenance remains as in research.json.",
+  "peer_methods": [
+    {
+      "id": "gendeg",
+      "label": "GenDeg (NAFNet)",
+      "context": "GenDS-trained restoration checkpoint."
+    },
+    {
+      "id": "hazeflow",
+      "label": "HazeFlow",
+      "context": "Non-uniform dehazing; a close dense-smoke PSNR competitor in the paper."
+    },
+    {
+      "id": "mb-taylorformer-v2",
+      "label": "MB-TaylorFormerV2-B (OTS)",
+      "context": "Released OTS dehazing checkpoint."
+    }
+  ],
+  "selection_note": "Curated excerpts selected by visual inspection to illustrate restoration strengths. All methods use identical source frames and crop coordinates, with unmodified fixed-checkpoint outputs. These excerpts are illustrative, not an aggregate ranking.",
+  "transfer_selection_note": "Walking-camera/operator occlusions excluded from field 1 (270\u2013290) and field 2 (250\u2013290). Remaining chronological samples retain the original synchronized source, T, gain, target and rendered assets. Static privacy masks are retained."
+}

@@ -1,0 +1,2770 @@
+{
+  "source": {
+    "delivery": "2026-11-16",
+    "status": "Author-reported manuscript results; not a local re-evaluation.",
+    "tables": {
+      "fire": {
+        "table": "S2",
+        "csv": "fire_test_1500_frames_all_methods.csv",
+        "sha256": "159a5e7d798b8cd825e53169557519a7b31c8665e00d655e467f98614cecd34d",
+        "metrics": [
+          "Dense PSNR",
+          "Dense SSIM",
+          "Medium PSNR",
+          "Clear PSNR",
+          "Overall PSNR",
+          "Overall SSIM",
+          "Object PSNR"
+        ]
+      },
+      "smokebench": {
+        "table": "S7",
+        "csv": "smokebench_official_eval.csv",
+        "sha256": "e9c37f95d31c826be42fda7480bf061759bda5e6b2b115a39ed42b86050434f5",
+        "metrics": [
+          "Y-PSNR",
+          "Y-SSIM",
+          "LPIPS"
+        ]
+      },
+      "realx3d": {
+        "table": "S8",
+        "csv": "realx3d_rgb.csv",
+        "sha256": "f4b34f4a2a64d5c0341bcd5218b25a5a5dbf3d8373f6146b3e37559aea9ed38c",
+        "metrics": [
+          "PSNR",
+          "SSIM",
+          "Scene mean"
+        ]
+      },
+      "haze": {
+        "table": "S9",
+        "csv": "public_dehazing_rgb_psnr.csv",
+        "sha256": "7694ee2f53bc279c6972b525a9fdc95936a926bbecc923b9ae72760759a29d62",
+        "metrics": [
+          "O-HAZE",
+          "I-HAZE",
+          "NH-HAZE",
+          "Dense-Haze",
+          "RESIDE-6K",
+          "Mean"
+        ]
+      }
+    }
+  },
+  "datasets": {
+    "fire": [
+      {
+        "method": "FireDesmoke",
+        "values": [
+          "18.89",
+          "0.426",
+          "20.70",
+          "30.93",
+          "26.53",
+          "0.887",
+          "28.23"
+        ],
+        "group": "FireDesmoke"
+      },
+      {
+        "method": "Input",
+        "values": [
+          "15.16",
+          "0.385",
+          "18.07",
+          "30.52",
+          "25.03",
+          "0.881",
+          "26.61"
+        ],
+        "group": "Reference input"
+      },
+      {
+        "method": "AutoDIR",
+        "values": [
+          "15.29",
+          "0.392",
+          "18.18",
+          "30.52",
+          "25.12",
+          "0.881",
+          "26.65"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "Histoformer",
+        "values": [
+          "15.16",
+          "0.385",
+          "18.07",
+          "30.49",
+          "25.02",
+          "0.880",
+          "26.44"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "DiffUIR",
+        "values": [
+          "15.18",
+          "0.385",
+          "18.10",
+          "30.55",
+          "25.01",
+          "0.881",
+          "26.47"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "UtilityIR",
+        "values": [
+          "15.14",
+          "0.386",
+          "18.04",
+          "30.44",
+          "24.99",
+          "0.881",
+          "26.53"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "OneRestore",
+        "values": [
+          "15.16",
+          "0.386",
+          "18.08",
+          "30.35",
+          "24.98",
+          "0.880",
+          "26.55"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "FoundIR",
+        "values": [
+          "15.32",
+          "0.389",
+          "18.18",
+          "30.33",
+          "24.96",
+          "0.880",
+          "26.59"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "Two-stage KL",
+        "values": [
+          "15.30",
+          "0.384",
+          "18.22",
+          "30.41",
+          "24.96",
+          "0.880",
+          "26.57"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "WeatherDiff64",
+        "values": [
+          "15.35",
+          "0.408",
+          "18.31",
+          "30.13",
+          "24.89",
+          "0.879",
+          "26.13"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "Physical-neural desmoking",
+        "values": [
+          "15.52",
+          "0.383",
+          "18.52",
+          "29.61",
+          "24.84",
+          "0.879",
+          "26.12"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "DA-CLIP",
+        "values": [
+          "15.24",
+          "0.408",
+          "18.47",
+          "29.92",
+          "24.83",
+          "0.880",
+          "26.10"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "LoRA-IR",
+        "values": [
+          "15.75",
+          "0.447",
+          "18.52",
+          "29.51",
+          "24.79",
+          "0.882",
+          "26.24"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "DehazeSNN-L (RESIDE-OTS)",
+        "values": [
+          "15.37",
+          "0.384",
+          "18.31",
+          "30.15",
+          "24.65",
+          "0.880",
+          "25.61"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "DehazeSB",
+        "values": [
+          "15.22",
+          "0.359",
+          "18.11",
+          "29.59",
+          "24.62",
+          "0.870",
+          "25.85"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "RAM (PromptIR)",
+        "values": [
+          "15.23",
+          "0.383",
+          "18.10",
+          "29.99",
+          "24.60",
+          "0.879",
+          "25.77"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "GenDeg (NAFNet)",
+        "values": [
+          "15.34",
+          "0.385",
+          "18.18",
+          "29.60",
+          "24.55",
+          "0.872",
+          "25.82"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "LoHi-Net (LSVD)",
+        "values": [
+          "15.05",
+          "0.392",
+          "17.98",
+          "29.16",
+          "24.52",
+          "0.868",
+          "25.74"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "ClearAIR (5-task)",
+        "values": [
+          "15.18",
+          "0.385",
+          "18.05",
+          "29.77",
+          "24.48",
+          "0.879",
+          "25.41"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "HG-Mamba (synthetic)",
+        "values": [
+          "15.42",
+          "0.379",
+          "18.34",
+          "29.62",
+          "24.46",
+          "0.879",
+          "24.58"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "CPLIR",
+        "values": [
+          "15.40",
+          "0.393",
+          "18.32",
+          "29.22",
+          "24.40",
+          "0.867",
+          "25.56"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "RAM (SwinIR)",
+        "values": [
+          "14.99",
+          "0.385",
+          "17.86",
+          "29.37",
+          "24.27",
+          "0.880",
+          "25.74"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "GridFormer (Haze4K)",
+        "values": [
+          "15.68",
+          "0.367",
+          "18.69",
+          "29.07",
+          "24.25",
+          "0.880",
+          "24.36"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "MixDehazeNet-L (outdoor)",
+        "values": [
+          "15.29",
+          "0.382",
+          "18.20",
+          "29.41",
+          "24.20",
+          "0.877",
+          "25.11"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "AirNet (all)",
+        "values": [
+          "15.46",
+          "0.383",
+          "18.32",
+          "29.33",
+          "24.19",
+          "0.872",
+          "25.36"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "MB-TaylorFormerV2-L (OTS)",
+        "values": [
+          "15.25",
+          "0.381",
+          "18.14",
+          "29.23",
+          "24.13",
+          "0.876",
+          "24.93"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "AdaIR",
+        "values": [
+          "15.30",
+          "0.383",
+          "18.20",
+          "29.24",
+          "24.11",
+          "0.877",
+          "24.88"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "VLU-Net (5-task)",
+        "values": [
+          "15.32",
+          "0.384",
+          "18.25",
+          "29.29",
+          "24.10",
+          "0.878",
+          "24.68"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "DEA-Net (Haze4K)",
+        "values": [
+          "15.72",
+          "0.373",
+          "18.71",
+          "28.96",
+          "24.10",
+          "0.880",
+          "24.80"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "MB-TaylorFormerV2-B (OTS)",
+        "values": [
+          "15.28",
+          "0.382",
+          "18.15",
+          "29.10",
+          "24.04",
+          "0.876",
+          "24.70"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "PromptIR",
+        "values": [
+          "15.17",
+          "0.382",
+          "18.06",
+          "29.10",
+          "24.01",
+          "0.877",
+          "24.67"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "StarIR (OTS)",
+        "values": [
+          "15.36",
+          "0.382",
+          "18.27",
+          "29.01",
+          "24.00",
+          "0.875",
+          "24.67"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "Diff-Dehazer",
+        "values": [
+          "15.14",
+          "0.375",
+          "17.87",
+          "28.70",
+          "23.95",
+          "0.871",
+          "24.98"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "DATPRL-IR",
+        "values": [
+          "15.30",
+          "0.384",
+          "18.21",
+          "28.89",
+          "23.89",
+          "0.876",
+          "24.42"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "BaryIR (5-task)",
+        "values": [
+          "15.25",
+          "0.382",
+          "18.16",
+          "28.81",
+          "23.88",
+          "0.876",
+          "24.59"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "HAIR",
+        "values": [
+          "15.30",
+          "0.382",
+          "18.17",
+          "28.73",
+          "23.86",
+          "0.876",
+          "24.46"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "RAM++",
+        "values": [
+          "15.38",
+          "0.381",
+          "18.32",
+          "28.73",
+          "23.85",
+          "0.875",
+          "24.18"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "StarIR (5-task)",
+        "values": [
+          "15.21",
+          "0.382",
+          "18.13",
+          "28.70",
+          "23.78",
+          "0.874",
+          "23.90"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "MIRAGE (small)",
+        "values": [
+          "15.18",
+          "0.383",
+          "18.07",
+          "28.65",
+          "23.73",
+          "0.874",
+          "24.34"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "DEA-Net (OTS)",
+        "values": [
+          "15.28",
+          "0.380",
+          "18.20",
+          "28.46",
+          "23.71",
+          "0.875",
+          "24.07"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "HOGformer",
+        "values": [
+          "15.24",
+          "0.382",
+          "18.13",
+          "28.51",
+          "23.68",
+          "0.873",
+          "24.16"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "MixDehazeNet-L (Haze4K)",
+        "values": [
+          "15.41",
+          "0.375",
+          "18.40",
+          "28.39",
+          "23.67",
+          "0.876",
+          "23.69"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "NDR-Restore",
+        "values": [
+          "15.25",
+          "0.381",
+          "18.16",
+          "28.51",
+          "23.66",
+          "0.875",
+          "24.29"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "DehazeSNN-L (RESIDE-6K)",
+        "values": [
+          "15.49",
+          "0.386",
+          "18.34",
+          "28.27",
+          "23.64",
+          "0.879",
+          "23.86"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "MB-TaylorFormer-B (OTS)",
+        "values": [
+          "15.34",
+          "0.380",
+          "18.22",
+          "28.09",
+          "23.52",
+          "0.872",
+          "23.98"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "FogRemoval (NH-HAZE)",
+        "values": [
+          "16.30",
+          "0.336",
+          "18.71",
+          "25.91",
+          "23.50",
+          "0.822",
+          "24.34"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "VLU-Net (haze)",
+        "values": [
+          "15.29",
+          "0.381",
+          "18.26",
+          "28.08",
+          "23.43",
+          "0.875",
+          "23.47"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "RealRestorer",
+        "values": [
+          "20.86",
+          "0.580",
+          "22.15",
+          "25.21",
+          "23.41",
+          "0.814",
+          "24.53"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "DehazeDCT",
+        "values": [
+          "17.09",
+          "0.439",
+          "19.87",
+          "26.57",
+          "23.37",
+          "0.832",
+          "22.73"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "R2R",
+        "values": [
+          "15.44",
+          "0.380",
+          "18.37",
+          "27.77",
+          "23.36",
+          "0.871",
+          "23.42"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "MoCE-IR",
+        "values": [
+          "15.19",
+          "0.381",
+          "18.08",
+          "27.87",
+          "23.25",
+          "0.870",
+          "23.37"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "SLAIR (Setting II)",
+        "values": [
+          "15.19",
+          "0.379",
+          "18.03",
+          "27.31",
+          "23.22",
+          "0.865",
+          "23.39"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "BioIR",
+        "values": [
+          "15.16",
+          "0.381",
+          "18.08",
+          "27.83",
+          "23.21",
+          "0.871",
+          "23.54"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "PTTD (AECRNet)",
+        "values": [
+          "16.41",
+          "0.358",
+          "19.19",
+          "26.17",
+          "23.03",
+          "0.851",
+          "22.98"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "InstructIR (7-task)",
+        "values": [
+          "15.17",
+          "0.380",
+          "18.05",
+          "27.23",
+          "22.95",
+          "0.863",
+          "23.07"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "DFPIR (5-task)",
+        "values": [
+          "15.26",
+          "0.381",
+          "18.16",
+          "27.25",
+          "22.95",
+          "0.868",
+          "22.93"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "CURE",
+        "values": [
+          "15.01",
+          "0.373",
+          "17.82",
+          "27.49",
+          "22.95",
+          "0.866",
+          "22.98"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "DCPT",
+        "values": [
+          "15.22",
+          "0.380",
+          "18.14",
+          "27.23",
+          "22.94",
+          "0.868",
+          "22.90"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "WGWS-Net (Setting 3)",
+        "values": [
+          "14.24",
+          "0.378",
+          "16.77",
+          "27.38",
+          "22.92",
+          "0.852",
+          "22.76"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "Perceive-IR (5-task)",
+        "values": [
+          "15.24",
+          "0.380",
+          "18.13",
+          "26.98",
+          "22.80",
+          "0.866",
+          "22.83"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "FoundIR-v2",
+        "values": [
+          "15.39",
+          "0.394",
+          "18.37",
+          "26.10",
+          "22.80",
+          "0.801",
+          "24.28"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "DehazeFormer-B (RESIDE-6K)",
+        "values": [
+          "15.26",
+          "0.379",
+          "18.09",
+          "26.28",
+          "22.34",
+          "0.864",
+          "22.57"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "HistoFusionNet (NH-HAZE)",
+        "values": [
+          "17.36",
+          "0.402",
+          "19.81",
+          "24.30",
+          "22.11",
+          "0.806",
+          "22.39"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "PGL-Net-S (RUDB)",
+        "values": [
+          "14.75",
+          "0.384",
+          "17.47",
+          "25.71",
+          "22.09",
+          "0.858",
+          "21.94"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "DA-Dehazing",
+        "values": [
+          "15.78",
+          "0.387",
+          "18.83",
+          "24.73",
+          "22.04",
+          "0.833",
+          "21.18"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "SSID",
+        "values": [
+          "14.79",
+          "0.373",
+          "17.31",
+          "25.27",
+          "21.96",
+          "0.835",
+          "21.02"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "PDDA (Pre)",
+        "values": [
+          "15.96",
+          "0.372",
+          "18.76",
+          "24.83",
+          "21.93",
+          "0.857",
+          "21.84"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "HazeFlow",
+        "values": [
+          "16.68",
+          "0.347",
+          "18.72",
+          "23.77",
+          "21.67",
+          "0.848",
+          "19.80"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "CoA",
+        "values": [
+          "15.68",
+          "0.361",
+          "18.53",
+          "24.02",
+          "21.61",
+          "0.852",
+          "20.25"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "PixRestore-XL",
+        "values": [
+          "15.24",
+          "0.407",
+          "17.98",
+          "24.25",
+          "21.47",
+          "0.681",
+          "21.49"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "IPC-Dehaze",
+        "values": [
+          "13.99",
+          "0.371",
+          "16.38",
+          "24.76",
+          "21.39",
+          "0.852",
+          "22.25"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "HistoFusionNet (NH-HAZE2)",
+        "values": [
+          "16.36",
+          "0.391",
+          "19.34",
+          "23.24",
+          "21.12",
+          "0.804",
+          "21.21"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "WGWS-Net (Setting 2)",
+        "values": [
+          "15.00",
+          "0.365",
+          "17.72",
+          "23.95",
+          "21.08",
+          "0.833",
+          "20.36"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "CORUN+",
+        "values": [
+          "14.96",
+          "0.329",
+          "17.57",
+          "23.03",
+          "20.73",
+          "0.778",
+          "20.89"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "MDST-Dehaze (example)",
+        "values": [
+          "14.97",
+          "0.275",
+          "17.94",
+          "22.64",
+          "20.67",
+          "0.777",
+          "19.35"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "PGL-Net-T (RUDB)",
+        "values": [
+          "14.39",
+          "0.368",
+          "16.95",
+          "23.55",
+          "20.66",
+          "0.822",
+          "20.28"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "LoHi-Net (VASST)",
+        "values": [
+          "15.57",
+          "0.381",
+          "16.85",
+          "22.06",
+          "20.44",
+          "0.852",
+          "19.47"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "L-SAHGNet",
+        "values": [
+          "15.42",
+          "0.383",
+          "17.97",
+          "22.42",
+          "20.34",
+          "0.747",
+          "19.56"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "RIDCP",
+        "values": [
+          "15.23",
+          "0.322",
+          "17.68",
+          "22.50",
+          "20.33",
+          "0.789",
+          "20.31"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "HistoFusionNet (NTIRE 2026, ensemble)",
+        "values": [
+          "15.24",
+          "0.332",
+          "18.03",
+          "22.33",
+          "20.25",
+          "0.806",
+          "19.05"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "RestoreVAR",
+        "values": [
+          "15.18",
+          "0.369",
+          "17.88",
+          "22.37",
+          "20.08",
+          "0.645",
+          "21.38"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "Diff-Plugin (dehaze)",
+        "values": [
+          "15.69",
+          "0.383",
+          "18.40",
+          "21.80",
+          "20.02",
+          "0.616",
+          "21.15"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "DehazeSNN-L (RESIDE-ITS)",
+        "values": [
+          "15.81",
+          "0.359",
+          "17.75",
+          "21.84",
+          "19.95",
+          "0.843",
+          "19.75"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "PDDA (BL)",
+        "values": [
+          "14.06",
+          "0.305",
+          "16.81",
+          "21.91",
+          "19.86",
+          "0.803",
+          "19.70"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "Proximal Dehaze-Net (RESIDE)",
+        "values": [
+          "15.40",
+          "0.359",
+          "17.66",
+          "21.42",
+          "19.64",
+          "0.819",
+          "18.74"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "MDST-Dehaze (outdoor)",
+        "values": [
+          "14.37",
+          "0.369",
+          "17.12",
+          "21.91",
+          "19.58",
+          "0.800",
+          "18.78"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "DehazeSNN-L (RS-Haze)",
+        "values": [
+          "17.44",
+          "0.457",
+          "18.95",
+          "20.10",
+          "19.48",
+          "0.786",
+          "20.61"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "RAR",
+        "values": [
+          "16.09",
+          "0.519",
+          "18.01",
+          "20.80",
+          "19.41",
+          "0.573",
+          "18.90"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "HG-Mamba (DesmokeData)",
+        "values": [
+          "15.50",
+          "0.381",
+          "16.23",
+          "20.77",
+          "19.32",
+          "0.841",
+          "18.30"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "D4",
+        "values": [
+          "14.83",
+          "0.353",
+          "17.20",
+          "20.98",
+          "19.21",
+          "0.803",
+          "18.00"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "PHATNet (I-HAZE)",
+        "values": [
+          "16.02",
+          "0.361",
+          "17.28",
+          "20.14",
+          "18.75",
+          "0.810",
+          "18.07"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "Proximal Dehaze-Net (s1)",
+        "values": [
+          "15.34",
+          "0.335",
+          "16.39",
+          "19.98",
+          "18.70",
+          "0.842",
+          "17.71"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "ConvIR-B (NH-HAZE)",
+        "values": [
+          "15.80",
+          "0.359",
+          "16.98",
+          "19.89",
+          "18.69",
+          "0.785",
+          "17.55"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "DiffDehaze",
+        "values": [
+          "16.97",
+          "0.358",
+          "19.23",
+          "19.59",
+          "18.60",
+          "0.513",
+          "18.53"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "JarvisIR",
+        "values": [
+          "13.98",
+          "0.393",
+          "16.53",
+          "19.95",
+          "18.42",
+          "0.739",
+          "17.90"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "HNDiff",
+        "values": [
+          "14.47",
+          "0.288",
+          "16.16",
+          "19.82",
+          "18.38",
+          "0.786",
+          "17.41"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "PromptFix",
+        "values": [
+          "15.63",
+          "0.378",
+          "18.29",
+          "19.02",
+          "17.70",
+          "0.407",
+          "17.20"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "StarIR (NH-HAZE)",
+        "values": [
+          "14.21",
+          "0.267",
+          "16.04",
+          "19.24",
+          "17.62",
+          "0.759",
+          "17.11"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "BiLaLoRA",
+        "values": [
+          "12.02",
+          "0.352",
+          "14.73",
+          "19.33",
+          "17.58",
+          "0.801",
+          "18.02"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "PHATNet (O-HAZE)",
+        "values": [
+          "15.54",
+          "0.363",
+          "16.25",
+          "18.33",
+          "17.31",
+          "0.780",
+          "16.27"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "PHATNet (NH-HAZE23)",
+        "values": [
+          "15.32",
+          "0.363",
+          "16.03",
+          "18.36",
+          "17.29",
+          "0.787",
+          "16.38"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "DeSmokeNet (surgical)",
+        "values": [
+          "14.94",
+          "0.366",
+          "17.15",
+          "18.20",
+          "17.17",
+          "0.714",
+          "17.34"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "MDST-Dehaze (NHR)",
+        "values": [
+          "13.02",
+          "0.363",
+          "15.64",
+          "18.44",
+          "17.10",
+          "0.715",
+          "17.58"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "DHSGAN",
+        "values": [
+          "13.78",
+          "0.215",
+          "16.22",
+          "17.69",
+          "17.05",
+          "0.696",
+          "19.01"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "FocalNet (base)",
+        "values": [
+          "15.07",
+          "0.343",
+          "15.86",
+          "17.85",
+          "16.88",
+          "0.761",
+          "15.82"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "HistoFusionNet (Dense-Haze)",
+        "values": [
+          "13.23",
+          "0.259",
+          "15.98",
+          "17.71",
+          "16.79",
+          "0.671",
+          "17.31"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "PHATNet (Dense-Haze)",
+        "values": [
+          "14.87",
+          "0.340",
+          "15.60",
+          "17.60",
+          "16.62",
+          "0.761",
+          "15.79"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "Embedded-DCP desmoking",
+        "values": [
+          "14.10",
+          "0.361",
+          "15.93",
+          "17.00",
+          "16.24",
+          "0.617",
+          "17.65"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "AirNet (haze)",
+        "values": [
+          "13.75",
+          "0.193",
+          "15.25",
+          "17.63",
+          "16.19",
+          "0.513",
+          "15.07"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "PHATNet (NH-HAZE21)",
+        "values": [
+          "14.78",
+          "0.354",
+          "15.05",
+          "16.96",
+          "16.15",
+          "0.751",
+          "15.05"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "BILD (FFA)",
+        "values": [
+          "14.54",
+          "0.326",
+          "15.36",
+          "16.77",
+          "15.99",
+          "0.756",
+          "16.57"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "NightHaze",
+        "values": [
+          "13.80",
+          "0.341",
+          "16.16",
+          "16.46",
+          "15.51",
+          "0.664",
+          "15.89"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "MB-TaylorFormer-B (Dense-Haze)",
+        "values": [
+          "14.03",
+          "0.310",
+          "15.13",
+          "15.76",
+          "15.33",
+          "0.620",
+          "15.37"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "D4+",
+        "values": [
+          "13.50",
+          "0.289",
+          "15.01",
+          "15.99",
+          "15.31",
+          "0.662",
+          "14.09"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "CoDehaze",
+        "values": [
+          "15.48",
+          "0.393",
+          "16.25",
+          "16.12",
+          "15.26",
+          "0.382",
+          "14.14"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "LAformer (Dense-Haze)",
+        "values": [
+          "11.48",
+          "0.174",
+          "13.60",
+          "15.70",
+          "15.00",
+          "0.618",
+          "13.47"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "TGL-Net",
+        "values": [
+          "13.14",
+          "0.304",
+          "14.44",
+          "13.44",
+          "13.26",
+          "0.508",
+          "13.59"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "PSD (MSBDN)",
+        "values": [
+          "10.27",
+          "0.326",
+          "12.08",
+          "13.94",
+          "13.25",
+          "0.621",
+          "14.96"
+        ],
+        "group": "Baseline models (116), by overall PSNR"
+      },
+      {
+        "method": "Uformer-B*",
+        "values": [
+          "16.78",
+          "0.457",
+          "18.50",
+          "21.79",
+          "20.34",
+          "0.856",
+          "24.19"
+        ],
+        "group": "Trained by us on the SmokeBench training split (zero-shot here)"
+      },
+      {
+        "method": "MB-TaylorFormer-B*",
+        "values": [
+          "16.67",
+          "0.449",
+          "18.20",
+          "22.33",
+          "20.85",
+          "0.843",
+          "21.54"
+        ],
+        "group": "Trained by us on the SmokeBench training split (zero-shot here)"
+      },
+      {
+        "method": "PGDR*",
+        "values": [
+          "16.66",
+          "0.422",
+          "17.39",
+          "20.43",
+          "19.34",
+          "0.810",
+          "17.88"
+        ],
+        "group": "Trained by us on the SmokeBench training split (zero-shot here)"
+      },
+      {
+        "method": "DVANet*",
+        "values": [
+          "18.36",
+          "0.520",
+          "19.95",
+          "25.86",
+          "23.47",
+          "0.866",
+          "23.19"
+        ],
+        "group": "Trained by us on the SmokeBench training split (zero-shot here)"
+      },
+      {
+        "method": "FireDesmoke*",
+        "values": [
+          "18.37",
+          "0.508",
+          "19.91",
+          "24.88",
+          "22.86",
+          "0.863",
+          "23.25"
+        ],
+        "group": "Trained by us on the SmokeBench training split (zero-shot here)"
+      },
+      {
+        "method": "PGL-Net-S◇ (overlap removed)",
+        "values": [
+          "15.21",
+          "0.360",
+          "17.78",
+          "25.66",
+          "22.20",
+          "0.844",
+          "21.60"
+        ],
+        "group": "Trained by us on public data (zero-shot here)"
+      },
+      {
+        "method": "PGL-Net-T◇ (overlap removed)",
+        "values": [
+          "14.44",
+          "0.374",
+          "17.03",
+          "24.52",
+          "21.25",
+          "0.829",
+          "20.16"
+        ],
+        "group": "Trained by us on public data (zero-shot here)"
+      },
+      {
+        "method": "PHATNet◇ (released transfer)",
+        "values": [
+          "15.17",
+          "0.387",
+          "18.07",
+          "30.41",
+          "24.99",
+          "0.880",
+          "26.54"
+        ],
+        "group": "Adapted by us with haze transferred from the training recordings"
+      },
+      {
+        "method": "PHATNet◇ (refit transfer)",
+        "values": [
+          "13.97",
+          "0.341",
+          "14.88",
+          "18.52",
+          "17.06",
+          "0.723",
+          "17.08"
+        ],
+        "group": "Adapted by us with haze transferred from the training recordings"
+      },
+      {
+        "method": "FoundIR-v2, no caption",
+        "values": [
+          "15.15",
+          "0.393",
+          "18.08",
+          "25.79",
+          "22.57",
+          "0.800",
+          "23.84"
+        ],
+        "group": "Not among the baseline models"
+      }
+    ],
+    "smokebench": [
+      {
+        "method": "Input",
+        "values": [
+          "20.34",
+          "0.808",
+          "0.254"
+        ],
+        "group": "Reference input"
+      },
+      {
+        "method": "FireDesmoke*",
+        "values": [
+          "30.47",
+          "0.890",
+          "0.137"
+        ],
+        "group": "Trained on the SmokeBench training split: * trained by us, † authors' released outputs"
+      },
+      {
+        "method": "PGDR* (SmokeBench)",
+        "values": [
+          "29.97",
+          "0.907",
+          "0.103"
+        ],
+        "group": "Trained on the SmokeBench training split: * trained by us, † authors' released outputs"
+      },
+      {
+        "method": "DVANet* (SmokeBench)",
+        "values": [
+          "29.61",
+          "0.888",
+          "0.144"
+        ],
+        "group": "Trained on the SmokeBench training split: * trained by us, † authors' released outputs"
+      },
+      {
+        "method": "Uformer-B* (SmokeBench)",
+        "values": [
+          "26.66",
+          "0.852",
+          "0.192"
+        ],
+        "group": "Trained on the SmokeBench training split: * trained by us, † authors' released outputs"
+      },
+      {
+        "method": "MB-TaylorFormer†",
+        "values": [
+          "26.63",
+          "0.857",
+          "0.188"
+        ],
+        "group": "Trained on the SmokeBench training split: * trained by us, † authors' released outputs"
+      },
+      {
+        "method": "MB-TaylorFormer-B* (SmokeBench)",
+        "values": [
+          "26.56",
+          "0.861",
+          "0.186"
+        ],
+        "group": "Trained on the SmokeBench training split: * trained by us, † authors' released outputs"
+      },
+      {
+        "method": "Uformer†",
+        "values": [
+          "26.13",
+          "0.852",
+          "0.195"
+        ],
+        "group": "Trained on the SmokeBench training split: * trained by us, † authors' released outputs"
+      },
+      {
+        "method": "FFA-Net†",
+        "values": [
+          "26.06",
+          "0.852",
+          "0.200"
+        ],
+        "group": "Trained on the SmokeBench training split: * trained by us, † authors' released outputs"
+      },
+      {
+        "method": "MambaIR†",
+        "values": [
+          "25.11",
+          "0.851",
+          "0.194"
+        ],
+        "group": "Trained on the SmokeBench training split: * trained by us, † authors' released outputs"
+      },
+      {
+        "method": "Restormer†",
+        "values": [
+          "25.01",
+          "0.843",
+          "0.204"
+        ],
+        "group": "Trained on the SmokeBench training split: * trained by us, † authors' released outputs"
+      },
+      {
+        "method": "DehazeFormer†",
+        "values": [
+          "23.62",
+          "0.838",
+          "0.221"
+        ],
+        "group": "Trained on the SmokeBench training split: * trained by us, † authors' released outputs"
+      },
+      {
+        "method": "X-Restormer†",
+        "values": [
+          "23.12",
+          "0.831",
+          "0.219"
+        ],
+        "group": "Trained on the SmokeBench training split: * trained by us, † authors' released outputs"
+      },
+      {
+        "method": "MPRNet†",
+        "values": [
+          "22.78",
+          "0.826",
+          "0.235"
+        ],
+        "group": "Trained on the SmokeBench training split: * trained by us, † authors' released outputs"
+      },
+      {
+        "method": "RealRestorer",
+        "values": [
+          "22.16",
+          "0.820",
+          "0.212"
+        ],
+        "group": "Zero-shot, baseline models (leading rows of 116), by PSNR"
+      },
+      {
+        "method": "DehazeDCT",
+        "values": [
+          "21.97",
+          "0.802",
+          "0.330"
+        ],
+        "group": "Zero-shot, baseline models (leading rows of 116), by PSNR"
+      },
+      {
+        "method": "Two-stage KL",
+        "values": [
+          "21.08",
+          "0.816",
+          "0.248"
+        ],
+        "group": "Zero-shot, baseline models (leading rows of 116), by PSNR"
+      },
+      {
+        "method": "VLU-Net (haze)",
+        "values": [
+          "20.93",
+          "0.814",
+          "0.250"
+        ],
+        "group": "Zero-shot, baseline models (leading rows of 116), by PSNR"
+      },
+      {
+        "method": "AirNet (all)",
+        "values": [
+          "20.93",
+          "0.811",
+          "0.255"
+        ],
+        "group": "Zero-shot, baseline models (leading rows of 116), by PSNR"
+      },
+      {
+        "method": "DehazeSB",
+        "values": [
+          "20.92",
+          "0.787",
+          "0.276"
+        ],
+        "group": "Zero-shot, baseline models (leading rows of 116), by PSNR"
+      },
+      {
+        "method": "MixDehazeNet-L (Haze4K)",
+        "values": [
+          "20.88",
+          "0.815",
+          "0.248"
+        ],
+        "group": "Zero-shot, baseline models (leading rows of 116), by PSNR"
+      },
+      {
+        "method": "MB-TaylorFormer-B (OTS)",
+        "values": [
+          "20.84",
+          "0.812",
+          "0.252"
+        ],
+        "group": "Zero-shot, baseline models (leading rows of 116), by PSNR"
+      },
+      {
+        "method": "MDST-Dehaze (example)",
+        "values": [
+          "20.81",
+          "0.773",
+          "0.269"
+        ],
+        "group": "Zero-shot, baseline models (leading rows of 116), by PSNR"
+      },
+      {
+        "method": "Diff-Dehazer",
+        "values": [
+          "20.80",
+          "0.789",
+          "0.277"
+        ],
+        "group": "Zero-shot, baseline models (leading rows of 116), by PSNR"
+      },
+      {
+        "method": "HistoFusionNet (NH-HAZE)",
+        "values": [
+          "19.84",
+          "0.797",
+          "0.223"
+        ],
+        "group": "Zero-shot, baseline models (leading rows of 116), by PSNR"
+      },
+      {
+        "method": "DiffDehaze",
+        "values": [
+          "19.52",
+          "0.710",
+          "0.331"
+        ],
+        "group": "Zero-shot, baseline models (leading rows of 116), by PSNR"
+      },
+      {
+        "method": "DehazeSNN-L (RS-Haze)",
+        "values": [
+          "16.50",
+          "0.729",
+          "0.354"
+        ],
+        "group": "Zero-shot, baseline models (leading rows of 116), by PSNR"
+      },
+      {
+        "method": "PGL-Net-S◇ (overlap removed)",
+        "values": [
+          "17.70",
+          "0.808",
+          "0.249"
+        ],
+        "group": "Zero-shot, ◇ trained or adapted by us on other data"
+      },
+      {
+        "method": "PGL-Net-T◇ (overlap removed)",
+        "values": [
+          "19.21",
+          "0.808",
+          "0.248"
+        ],
+        "group": "Zero-shot, ◇ trained or adapted by us on other data"
+      },
+      {
+        "method": "PHATNet◇ (released transfer)",
+        "values": [
+          "20.37",
+          "0.808",
+          "0.255"
+        ],
+        "group": "Zero-shot, ◇ trained or adapted by us on other data"
+      },
+      {
+        "method": "PHATNet◇ (refit transfer)",
+        "values": [
+          "15.89",
+          "0.714",
+          "0.287"
+        ],
+        "group": "Zero-shot, ◇ trained or adapted by us on other data"
+      }
+    ],
+    "realx3d": [
+      {
+        "method": "FireDesmoke",
+        "values": [
+          "18.19",
+          "0.712",
+          "18.18"
+        ],
+        "group": "FireDesmoke"
+      },
+      {
+        "method": "Input",
+        "values": [
+          "11.61",
+          "0.594",
+          "11.61"
+        ],
+        "group": "Reference input"
+      },
+      {
+        "method": "GenDeg (NAFNet)",
+        "values": [
+          "17.94",
+          "0.715",
+          "17.94"
+        ],
+        "group": "Baseline models (leading rows of 116), by PSNR"
+      },
+      {
+        "method": "RealRestorer",
+        "values": [
+          "17.92",
+          "0.717",
+          "17.90"
+        ],
+        "group": "Baseline models (leading rows of 116), by PSNR"
+      },
+      {
+        "method": "WGWS-Net (Setting 3)",
+        "values": [
+          "16.41",
+          "0.683",
+          "16.38"
+        ],
+        "group": "Baseline models (leading rows of 116), by PSNR"
+      },
+      {
+        "method": "HistoFusionNet (Dense-Haze)",
+        "values": [
+          "15.95",
+          "0.673",
+          "15.90"
+        ],
+        "group": "Baseline models (leading rows of 116), by PSNR"
+      },
+      {
+        "method": "Diff-Plugin (dehaze)",
+        "values": [
+          "15.95",
+          "0.644",
+          "15.92"
+        ],
+        "group": "Baseline models (leading rows of 116), by PSNR"
+      },
+      {
+        "method": "DiffDehaze",
+        "values": [
+          "15.68",
+          "0.629",
+          "15.65"
+        ],
+        "group": "Baseline models (leading rows of 116), by PSNR"
+      },
+      {
+        "method": "HistoFusionNet (NTIRE 2026, ensemble)",
+        "values": [
+          "15.63",
+          "0.717",
+          "15.63"
+        ],
+        "group": "Baseline models (leading rows of 116), by PSNR"
+      },
+      {
+        "method": "DehazeDCT",
+        "values": [
+          "15.50",
+          "0.713",
+          "15.44"
+        ],
+        "group": "Baseline models (leading rows of 116), by PSNR"
+      },
+      {
+        "method": "FoundIR-v2",
+        "values": [
+          "15.40",
+          "0.678",
+          "15.36"
+        ],
+        "group": "Baseline models (leading rows of 116), by PSNR"
+      },
+      {
+        "method": "PGL-Net-T (RUDB)",
+        "values": [
+          "15.40",
+          "0.701",
+          "15.31"
+        ],
+        "group": "Baseline models (leading rows of 116), by PSNR"
+      },
+      {
+        "method": "HistoFusionNet (NH-HAZE)",
+        "values": [
+          "14.61",
+          "0.667",
+          "14.57"
+        ],
+        "group": "Baseline models (leading rows of 116), by PSNR"
+      },
+      {
+        "method": "DehazeSNN-L (RS-Haze)",
+        "values": [
+          "11.98",
+          "0.593",
+          "12.03"
+        ],
+        "group": "Baseline models (leading rows of 116), by PSNR"
+      },
+      {
+        "method": "PGL-Net-T◇ (overlap removed)",
+        "values": [
+          "15.39",
+          "0.704",
+          "15.29"
+        ],
+        "group": "Trained by us"
+      },
+      {
+        "method": "PGL-Net-S◇ (overlap removed)",
+        "values": [
+          "15.12",
+          "0.707",
+          "15.04"
+        ],
+        "group": "Trained by us"
+      },
+      {
+        "method": "DVANet* (SmokeBench)",
+        "values": [
+          "14.41",
+          "0.653",
+          "--"
+        ],
+        "group": "Trained by us"
+      },
+      {
+        "method": "Uformer-B* (SmokeBench)",
+        "values": [
+          "13.53",
+          "0.654",
+          "13.51"
+        ],
+        "group": "Trained by us"
+      },
+      {
+        "method": "PGDR* (SmokeBench)",
+        "values": [
+          "12.85",
+          "0.535",
+          "--"
+        ],
+        "group": "Trained by us"
+      },
+      {
+        "method": "MB-TaylorFormer-B* (SmokeBench)",
+        "values": [
+          "12.81",
+          "0.626",
+          "--"
+        ],
+        "group": "Trained by us"
+      },
+      {
+        "method": "PHATNet◇ (released transfer)",
+        "values": [
+          "11.65",
+          "0.594",
+          "11.65"
+        ],
+        "group": "Trained by us"
+      },
+      {
+        "method": "PHATNet◇ (refit transfer)",
+        "values": [
+          "11.34",
+          "0.590",
+          "11.27"
+        ],
+        "group": "Trained by us"
+      }
+    ],
+    "haze": [
+      {
+        "method": "FireDesmoke",
+        "values": [
+          "25.65",
+          "22.35",
+          "19.49",
+          "15.96",
+          "30.92",
+          "22.87"
+        ],
+        "group": "Training includes public haze pairs"
+      },
+      {
+        "method": "ConvIR-B (O-HAZE)",
+        "values": [
+          "24.37#",
+          "18.46",
+          "16.41",
+          "12.83",
+          "17.11",
+          "17.84"
+        ],
+        "group": "Authors' checkpoints trained on one dataset: shaded, that dataset; other cells, transfer"
+      },
+      {
+        "method": "ConvIR-S (O-HAZE)",
+        "values": [
+          "24.22#",
+          "18.72",
+          "15.27",
+          "12.40",
+          "17.14",
+          "17.55"
+        ],
+        "group": "Authors' checkpoints trained on one dataset: shaded, that dataset; other cells, transfer"
+      },
+      {
+        "method": "MB-TaylorFormer-B (O-HAZE)",
+        "values": [
+          "23.76#",
+          "19.03",
+          "15.03",
+          "13.73",
+          "16.29",
+          "17.57"
+        ],
+        "group": "Authors' checkpoints trained on one dataset: shaded, that dataset; other cells, transfer"
+      },
+      {
+        "method": "ConvIR-B (I-HAZE)",
+        "values": [
+          "19.58",
+          "21.84#",
+          "11.66",
+          "12.33",
+          "17.02",
+          "16.49"
+        ],
+        "group": "Authors' checkpoints trained on one dataset: shaded, that dataset; other cells, transfer"
+      },
+      {
+        "method": "ConvIR-S (I-HAZE)",
+        "values": [
+          "22.51",
+          "21.73#",
+          "12.27",
+          "11.27",
+          "17.15",
+          "16.98"
+        ],
+        "group": "Authors' checkpoints trained on one dataset: shaded, that dataset; other cells, transfer"
+      },
+      {
+        "method": "HistoFusionNet (NH-HAZE)",
+        "values": [
+          "18.38",
+          "15.94",
+          "22.65#",
+          "16.33",
+          "14.02",
+          "17.46"
+        ],
+        "group": "Authors' checkpoints trained on one dataset: shaded, that dataset; other cells, transfer"
+      },
+      {
+        "method": "FogRemoval (NH-HAZE)",
+        "values": [
+          "17.69",
+          "15.14",
+          "21.70#",
+          "12.72",
+          "13.63",
+          "16.17"
+        ],
+        "group": "Authors' checkpoints trained on one dataset: shaded, that dataset; other cells, transfer"
+      },
+      {
+        "method": "HNDiff",
+        "values": [
+          "20.79",
+          "15.99",
+          "21.46#",
+          "15.36",
+          "13.26",
+          "17.37"
+        ],
+        "group": "Authors' checkpoints trained on one dataset: shaded, that dataset; other cells, transfer"
+      },
+      {
+        "method": "StarIR (NH-HAZE)",
+        "values": [
+          "19.94",
+          "15.94",
+          "21.32#",
+          "15.60",
+          "12.49",
+          "17.06"
+        ],
+        "group": "Authors' checkpoints trained on one dataset: shaded, that dataset; other cells, transfer"
+      },
+      {
+        "method": "ConvIR-B (NH-HAZE)",
+        "values": [
+          "19.03",
+          "16.77",
+          "21.22#",
+          "15.79",
+          "14.53",
+          "17.47"
+        ],
+        "group": "Authors' checkpoints trained on one dataset: shaded, that dataset; other cells, transfer"
+      },
+      {
+        "method": "ConvIR-S (NH-HAZE)",
+        "values": [
+          "19.67",
+          "16.95",
+          "21.06#",
+          "16.08",
+          "13.73",
+          "17.50"
+        ],
+        "group": "Authors' checkpoints trained on one dataset: shaded, that dataset; other cells, transfer"
+      },
+      {
+        "method": "Dehamer (NH-HAZE)",
+        "values": [
+          "20.08",
+          "16.05",
+          "21.04#",
+          "14.61",
+          "14.85",
+          "17.33"
+        ],
+        "group": "Authors' checkpoints trained on one dataset: shaded, that dataset; other cells, transfer"
+      },
+      {
+        "method": "FocalNet (base)",
+        "values": [
+          "18.75",
+          "16.09",
+          "20.87#",
+          "14.48",
+          "13.81",
+          "16.80"
+        ],
+        "group": "Authors' checkpoints trained on one dataset: shaded, that dataset; other cells, transfer"
+      },
+      {
+        "method": "ConvIR-S (Dense-Haze)",
+        "values": [
+          "18.70",
+          "17.68",
+          "15.71",
+          "17.73#",
+          "13.59",
+          "16.68"
+        ],
+        "group": "Authors' checkpoints trained on one dataset: shaded, that dataset; other cells, transfer"
+      },
+      {
+        "method": "HistoFusionNet (Dense-Haze)",
+        "values": [
+          "19.66",
+          "18.49",
+          "16.34",
+          "17.64#",
+          "13.43",
+          "17.11"
+        ],
+        "group": "Authors' checkpoints trained on one dataset: shaded, that dataset; other cells, transfer"
+      },
+      {
+        "method": "ConvIR-B (Dense-Haze)",
+        "values": [
+          "20.29",
+          "20.22",
+          "16.85",
+          "17.52#",
+          "15.04",
+          "17.98"
+        ],
+        "group": "Authors' checkpoints trained on one dataset: shaded, that dataset; other cells, transfer"
+      },
+      {
+        "method": "LAformer (Dense-Haze)",
+        "values": [
+          "19.00",
+          "17.05",
+          "16.41",
+          "17.01#",
+          "12.59",
+          "16.41"
+        ],
+        "group": "Authors' checkpoints trained on one dataset: shaded, that dataset; other cells, transfer"
+      },
+      {
+        "method": "MB-TaylorFormer-B (Dense-Haze)",
+        "values": [
+          "19.93",
+          "16.80",
+          "15.54",
+          "17.00#",
+          "13.04",
+          "16.46"
+        ],
+        "group": "Authors' checkpoints trained on one dataset: shaded, that dataset; other cells, transfer"
+      },
+      {
+        "method": "Dehamer (Dense-Haze)",
+        "values": [
+          "17.29",
+          "16.61",
+          "15.52",
+          "16.76#",
+          "13.76",
+          "15.99"
+        ],
+        "group": "Authors' checkpoints trained on one dataset: shaded, that dataset; other cells, transfer"
+      },
+      {
+        "method": "MB-TaylorFormer-L (Dense-Haze)",
+        "values": [
+          "19.48",
+          "15.86",
+          "15.84",
+          "16.63#",
+          "13.70",
+          "16.30"
+        ],
+        "group": "Authors' checkpoints trained on one dataset: shaded, that dataset; other cells, transfer"
+      },
+      {
+        "method": "DehazeFormer-B (RESIDE-6K)",
+        "values": [
+          "19.16",
+          "16.34",
+          "12.57",
+          "8.88",
+          "31.43#",
+          "17.67"
+        ],
+        "group": "Authors' checkpoints trained on one dataset: shaded, that dataset; other cells, transfer"
+      },
+      {
+        "method": "DehazeSNN-L (RESIDE-6K)",
+        "values": [
+          "19.58",
+          "16.75",
+          "11.53",
+          "11.09",
+          "30.77#",
+          "17.94"
+        ],
+        "group": "Authors' checkpoints trained on one dataset: shaded, that dataset; other cells, transfer"
+      },
+      {
+        "method": "FoundIR-v2",
+        "values": [
+          "23.76",
+          "17.35",
+          "18.37",
+          "13.43",
+          "15.75",
+          "17.73"
+        ],
+        "group": "Other training sources: rows selected from 100 baseline models (caption), sorted by O-HAZE PSNR"
+      },
+      {
+        "method": "MDST-Dehaze (example)",
+        "values": [
+          "23.72",
+          "20.67",
+          "16.82",
+          "14.31",
+          "16.06",
+          "18.32"
+        ],
+        "group": "Other training sources: rows selected from 100 baseline models (caption), sorted by O-HAZE PSNR"
+      },
+      {
+        "method": "GenDeg (NAFNet)",
+        "values": [
+          "22.62",
+          "23.80",
+          "19.51",
+          "19.11",
+          "27.09",
+          "22.43"
+        ],
+        "group": "Other training sources: rows selected from 100 baseline models (caption), sorted by O-HAZE PSNR"
+      },
+      {
+        "method": "HistoFusionNet (NTIRE 2026, ensemble)",
+        "values": [
+          "21.99",
+          "20.01",
+          "15.21",
+          "13.88",
+          "18.06",
+          "17.83"
+        ],
+        "group": "Other training sources: rows selected from 100 baseline models (caption), sorted by O-HAZE PSNR"
+      },
+      {
+        "method": "PTTD (AECRNet)",
+        "values": [
+          "21.37",
+          "18.28",
+          "15.71",
+          "14.16",
+          "21.19",
+          "18.14"
+        ],
+        "group": "Other training sources: rows selected from 100 baseline models (caption), sorted by O-HAZE PSNR"
+      },
+      {
+        "method": "DehazeDCT",
+        "values": [
+          "20.73",
+          "17.24",
+          "21.31",
+          "15.38",
+          "14.24",
+          "17.78"
+        ],
+        "group": "Other training sources: rows selected from 100 baseline models (caption), sorted by O-HAZE PSNR"
+      },
+      {
+        "method": "Two-stage KL",
+        "values": [
+          "20.69",
+          "16.02",
+          "18.03",
+          "13.67",
+          "33.33",
+          "20.35"
+        ],
+        "group": "Other training sources: rows selected from 100 baseline models (caption), sorted by O-HAZE PSNR"
+      },
+      {
+        "method": "CPLIR",
+        "values": [
+          "20.43",
+          "14.14",
+          "13.21",
+          "16.62",
+          "14.43",
+          "15.76"
+        ],
+        "group": "Other training sources: rows selected from 100 baseline models (caption), sorted by O-HAZE PSNR"
+      },
+      {
+        "method": "PixRestore-XL",
+        "values": [
+          "20.32",
+          "16.53",
+          "14.03",
+          "12.71",
+          "25.25",
+          "17.77"
+        ],
+        "group": "Other training sources: rows selected from 100 baseline models (caption), sorted by O-HAZE PSNR"
+      },
+      {
+        "method": "DA-Dehazing",
+        "values": [
+          "20.31",
+          "18.98",
+          "14.16",
+          "13.79",
+          "22.87",
+          "18.02"
+        ],
+        "group": "Other training sources: rows selected from 100 baseline models (caption), sorted by O-HAZE PSNR"
+      },
+      {
+        "method": "GridFormer (Haze4K)",
+        "values": [
+          "18.78",
+          "15.39",
+          "12.78",
+          "9.17",
+          "31.57",
+          "17.54"
+        ],
+        "group": "Other training sources: rows selected from 100 baseline models (caption), sorted by O-HAZE PSNR"
+      },
+      {
+        "method": "RealRestorer",
+        "values": [
+          "18.15",
+          "21.33",
+          "17.38",
+          "11.76",
+          "18.55",
+          "17.44"
+        ],
+        "group": "Other training sources: rows selected from 100 baseline models (caption), sorted by O-HAZE PSNR"
+      },
+      {
+        "method": "DiffDehaze",
+        "values": [
+          "17.86",
+          "16.57",
+          "15.93",
+          "13.53",
+          "17.62",
+          "16.30"
+        ],
+        "group": "Other training sources: rows selected from 100 baseline models (caption), sorted by O-HAZE PSNR"
+      },
+      {
+        "method": "DehazeSNN-L (RS-Haze)",
+        "values": [
+          "17.36",
+          "13.50",
+          "14.62",
+          "14.33",
+          "13.50",
+          "14.66"
+        ],
+        "group": "Other training sources: rows selected from 100 baseline models (caption), sorted by O-HAZE PSNR"
+      },
+      {
+        "method": "MixDehazeNet-L (Haze4K)",
+        "values": [
+          "16.76",
+          "13.63",
+          "11.95",
+          "9.03",
+          "32.30",
+          "16.73"
+        ],
+        "group": "Other training sources: rows selected from 100 baseline models (caption), sorted by O-HAZE PSNR"
+      },
+      {
+        "method": "PGL-Net-S◇ (overlap removed)",
+        "values": [
+          "19.20",
+          "17.90",
+          "22.19",
+          "15.35",
+          "14.78",
+          "17.88"
+        ],
+        "group": "Trained by us: PGL-Net without the test images, PHATNet on our training recordings"
+      },
+      {
+        "method": "PGL-Net-T◇ (overlap removed)",
+        "values": [
+          "18.93",
+          "16.62",
+          "21.50",
+          "14.72",
+          "14.60",
+          "17.27"
+        ],
+        "group": "Trained by us: PGL-Net without the test images, PHATNet on our training recordings"
+      },
+      {
+        "method": "PHATNet◇ (refit transfer)",
+        "values": [
+          "17.81",
+          "14.43",
+          "16.55",
+          "14.09",
+          "11.29",
+          "14.83"
+        ],
+        "group": "Trained by us: PGL-Net without the test images, PHATNet on our training recordings"
+      },
+      {
+        "method": "PHATNet◇ (released transfer)",
+        "values": [
+          "15.01",
+          "12.72",
+          "11.52",
+          "8.62",
+          "13.99",
+          "12.37"
+        ],
+        "group": "Trained by us: PGL-Net without the test images, PHATNet on our training recordings"
+      },
+      {
+        "method": "PGL-Net-S (RUDB)",
+        "values": [
+          "19.61",
+          "17.25",
+          "22.67",
+          "18.83",
+          "15.01",
+          "18.67"
+        ],
+        "group": "Trained or adapted on these test images; not ranked"
+      },
+      {
+        "method": "PGL-Net-T (RUDB)",
+        "values": [
+          "19.78",
+          "16.98",
+          "22.32",
+          "18.57",
+          "14.99",
+          "18.53"
+        ],
+        "group": "Trained or adapted on these test images; not ranked"
+      },
+      {
+        "method": "PHATNet (Dense-Haze)",
+        "values": [
+          "18.40",
+          "16.19",
+          "20.49",
+          "15.96",
+          "13.83",
+          "16.97"
+        ],
+        "group": "Trained or adapted on these test images; not ranked"
+      },
+      {
+        "method": "PHATNet (I-HAZE)",
+        "values": [
+          "19.32",
+          "16.71",
+          "20.44",
+          "15.55",
+          "14.28",
+          "17.26"
+        ],
+        "group": "Trained or adapted on these test images; not ranked"
+      },
+      {
+        "method": "PHATNet (O-HAZE)",
+        "values": [
+          "19.89",
+          "16.61",
+          "20.28",
+          "14.88",
+          "14.05",
+          "17.14"
+        ],
+        "group": "Trained or adapted on these test images; not ranked"
+      }
+    ]
+  }
+}

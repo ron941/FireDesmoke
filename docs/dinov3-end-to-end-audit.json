@@ -1,0 +1,58 @@
+[
+  {
+    "model": "firedesmoke",
+    "input": "fireground-drifting.png",
+    "shape": [
+      480,
+      640,
+      3
+    ],
+    "max_float": 0.00011342763900756836,
+    "mean_float": 3.3236319723073393e-06,
+    "max_uint8": 1,
+    "changed_values": 740,
+    "total_values": 921600
+  },
+  {
+    "model": "firedesmoke",
+    "input": "smokebench-88.png",
+    "shape": [
+      281,
+      379,
+      3
+    ],
+    "max_float": 0.00013169646263122559,
+    "mean_float": 8.802542652119882e-06,
+    "max_uint8": 1,
+    "changed_values": 687,
+    "total_values": 319497
+  },
+  {
+    "model": "firedesmoke-smokebench",
+    "input": "fireground-drifting.png",
+    "shape": [
+      480,
+      640,
+      3
+    ],
+    "max_float": 0.00019228458404541016,
+    "mean_float": 4.66806659460417e-06,
+    "max_uint8": 1,
+    "changed_values": 1089,
+    "total_values": 921600
+  },
+  {
+    "model": "firedesmoke-smokebench",
+    "input": "smokebench-88.png",
+    "shape": [
+      281,
+      379,
+      3
+    ],
+    "max_float": 0.00033211708068847656,
+    "mean_float": 8.33704416436376e-06,
+    "max_uint8": 1,
+    "changed_values": 646,
+    "total_values": 319497
+  }
+]

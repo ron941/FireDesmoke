@@ -1,0 +1,15 @@
+.local/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+weights/
+outputs/
+*.pt
+*.pth
+*.ckpt
+.env
+.env.*

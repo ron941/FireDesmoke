@@ -1,0 +1,80 @@
+/* A paired scientific view; animation belongs to controls, never the results. */
+#comparisons .section-head{text-align:center;margin-bottom:30px}
+#comparisons .section-head p{color:var(--muted);font-size:16px;margin:12px 0 0}
+#comparisons .motion-toolbar{margin-bottom:16px;gap:12px}
+#comparisons button{touch-action:manipulation}
+#comparisons button svg{width:18px;height:18px;flex:none}
+#comparisons .detail-toggle{display:flex;align-items:center;gap:9px;background:white;color:#617477;border:1px solid #dce6e4;border-radius:24px;padding:10px 16px;font-size:12px;min-height:42px;transition:background .2s,color .2s,box-shadow .2s}
+#comparisons .detail-toggle[aria-pressed=true]{color:#146b73;border-color:#a7cdca;background:#f2f9f7}
+#comparisons .detail-toggle:hover{box-shadow:0 3px 12px #143e3c10}
+#comparisons .motion-segments{background:#f0f4f3;border:0;padding:4px;gap:2px}
+#comparisons .motion-segments button{display:flex;align-items:center;gap:7px;padding:9px 14px;min-height:36px;transition:background .22s,color .22s,box-shadow .22s}
+#comparisons .motion-segments button[aria-pressed=true]{background:#263638;color:white;box-shadow:0 2px 5px #173e3b24}
+#comparisons .motion-stage{gap:16px}
+#comparisons .motion-pane{border-radius:10px;box-shadow:0 5px 16px #1d333512;touch-action:pan-y}
+#comparisons .motion-tag{border-radius:5px;top:14px;left:14px;text-transform:uppercase;letter-spacing:1.3px;font-size:10px;padding:7px 10px}
+#comparisons .motion-tag-output{background:#146b73ed}
+#comparisons .crop-region{position:absolute;border:1.5px solid white;box-shadow:0 0 0 1px #143f46a0;pointer-events:none;z-index:2}
+#comparisons .crop-region:before,#comparisons .crop-region:after{content:'';position:absolute;width:6px;height:6px;border:1.5px solid #fff;background:#146b73;box-shadow:0 1px 3px #0004}
+#comparisons .crop-region:before{left:-4px;top:-4px}
+#comparisons .crop-region:after{right:-4px;bottom:-4px}
+#comparisons .crop-inset{position:absolute;bottom:14px;right:14px;width:140px;border:2px solid white;border-radius:7px;overflow:hidden;background:#162c30;box-shadow:0 4px 18px #071b244d;pointer-events:none;z-index:4}
+#comparisons .crop-inset canvas{width:100%;height:auto;display:block}
+#comparisons .crop-inset span{display:block;color:#fff;background:#162c30;font-size:9px;letter-spacing:.6px;line-height:1;padding:5px 7px;text-align:center}
+#comparisons .motion-stage[data-mode=split]{max-width:850px;border-radius:10px;overflow:hidden}
+#comparisons .motion-stage[data-mode=split] .motion-pane{border-radius:0;box-shadow:none}
+#comparisons .motion-stage[data-mode=split] .motion-tag-output{left:auto;right:14px}
+#comparisons .motion-divider{width:2px;background:#fff;filter:drop-shadow(0 0 3px #0006)}
+#comparisons .motion-divider span{display:flex;align-items:center;justify-content:center;flex:none;width:36px;height:36px;border-radius:50%;background:#fff;color:#244a4d;font-size:20px;text-shadow:none}
+:is(#comparisons,#transfer) .sample-controls{display:flex;align-items:center;gap:18px;margin:12px 0 0}
+:is(#comparisons,#transfer) .motion-play{display:flex;align-items:center;justify-content:center;width:44px;height:44px;min-width:44px;padding:0;border:0;border-radius:50%;background:#213c3f;color:white;box-shadow:0 3px 10px #173e3b15;transition:background .2s,transform .2s}
+:is(#comparisons,#transfer) .motion-play svg{width:24px;height:24px}
+:is(#comparisons,#transfer) .motion-play:hover{background:#146b73;transform:translateY(-1px)}
+:is(#comparisons,#transfer) .motion-play:active{transform:scale(.96)}
+:is(#comparisons,#transfer) .sample-track{flex:1;min-width:0}
+:is(#comparisons,#transfer) .sample-frames{display:flex;gap:8px;padding:12px 6px 10px;overflow-x:auto;scroll-snap-type:x proximity;scrollbar-width:thin;scrollbar-color:#bbcfcc transparent;align-items:center}
+:is(#comparisons,#transfer) .sample-frames button{position:relative;flex:1 0 52px;max-width:140px;aspect-ratio:4/3;border:2px solid transparent;padding:0;background:#e7eeec;border-radius:5px;overflow:hidden;scroll-snap-align:center;opacity:.65;transition:transform .28s cubic-bezier(.2,.8,.2,1),opacity .2s,border-color .2s,box-shadow .2s}
+:is(#comparisons,#transfer) .sample-frames img{display:block;width:100%;height:100%;object-fit:cover}
+:is(#comparisons,#transfer) .sample-frames span{position:absolute;right:4px;bottom:3px;font-size:9px;color:white;text-shadow:0 1px 4px #000;line-height:1.2}
+:is(#comparisons,#transfer) .sample-frames button:hover{opacity:1;transform:translateY(-2px)}
+:is(#comparisons,#transfer) .sample-frames button[aria-pressed=true]{opacity:1;transform:scale(1.08);border-color:#146b73;box-shadow:0 0 0 2px #cce4e0,0 4px 10px #174f4a22;z-index:1}
+:is(#comparisons,#transfer) .sample-range{display:block;appearance:none;-webkit-appearance:none;width:100%;max-width:none;height:14px;margin:0;background:transparent;cursor:pointer}
+:is(#comparisons,#transfer) .sample-range::-webkit-slider-runnable-track{height:2px;background:#dae5e2;border-radius:2px}
+:is(#comparisons,#transfer) .sample-range::-webkit-slider-thumb{appearance:none;-webkit-appearance:none;width:10px;height:10px;border-radius:50%;background:#146b73;margin-top:-4px}
+:is(#comparisons,#transfer) .sample-range::-moz-range-track{height:2px;background:#dae5e2}
+:is(#comparisons,#transfer) .sample-range::-moz-range-thumb{width:10px;height:10px;border:0;border-radius:50%;background:#146b73}
+:is(#comparisons,#transfer) .motion-counter{width:48px;font-size:11px;letter-spacing:.5px;color:#6a7c7e}
+#comparisons .motion-hint{font-size:12px;color:#738487;margin:13px 0 4px}
+#comparisons .sequence-rail{display:flex;justify-content:center;align-items:center;gap:18px;padding:24px 12px 20px;overflow-x:auto;scroll-snap-type:x proximity;scrollbar-width:thin;scrollbar-color:#b6ceca transparent}
+#comparisons .sequence-rail button{position:relative;flex:0 0 180px;border:3px solid transparent;background:#f0f4f3;border-radius:8px;padding:0;scroll-snap-align:center;transition:transform .3s cubic-bezier(.2,.8,.2,1),border-color .25s,box-shadow .25s;overflow:hidden}
+#comparisons .sequence-rail img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover}
+#comparisons .sequence-rail span{display:block;padding:8px 10px;color:#667c7d;font-size:11px;text-align:left;background:#f5f8f7;transition:color .2s,background .2s}
+#comparisons .sequence-rail button:hover{transform:translateY(-3px)}
+#comparisons .sequence-rail button[aria-pressed=true]{border-color:#439497;transform:translateY(-3px) scale(1.06);box-shadow:0 0 0 3px #d9eeea,0 8px 18px #1943401b;z-index:1}
+#comparisons .sequence-rail button[aria-pressed=true] span{background:#146b73;color:white}
+#comparisons .motion-case-note{font-size:13px;margin:0 0 8px;min-height:22px;color:#5e7477}
+#comparisons .motion-footnote{font-size:10px;color:#879395;margin:8px 0 0}
+#comparisons button:focus-visible,:is(#comparisons,#transfer) .sample-range:focus-visible{outline:3px solid #4aa4aa;outline-offset:4px}
+@media(max-width:700px){
+ #comparisons .motion-toolbar{flex-wrap:nowrap;gap:6px}
+ #comparisons .detail-toggle{padding:9px 10px;font-size:10px;gap:6px}
+ #comparisons .motion-segments button{font-size:10px;padding:8px 9px;gap:5px}
+ #comparisons .motion-segments svg{width:14px;height:14px}
+ :is(#comparisons,#transfer) .sample-controls{gap:10px}
+ :is(#comparisons,#transfer) .motion-play{width:38px;height:38px;min-width:38px}
+ :is(#comparisons,#transfer) .sample-frames{gap:6px}
+ :is(#comparisons,#transfer) .sample-frames button{flex:0 0 58px}
+ :is(#comparisons,#transfer) .motion-counter{width:42px;font-size:10px}
+ #comparisons .sequence-rail{gap:10px;padding:22px 6px 18px}
+ #comparisons .sequence-rail button{flex:0 0 98px;border-width:2px;border-radius:6px}
+ #comparisons .sequence-rail span{font-size:9px;padding:6px}
+ #comparisons .motion-hint{font-size:11px}
+ #comparisons .motion-case-note{font-size:12px}
+ #comparisons .crop-inset{width:112px;bottom:10px;right:10px}
+}
+@media(max-width:560px){
+ #comparisons .motion-stage[data-mode=pair]{grid-template-columns:1fr;gap:12px}
+ #comparisons .motion-tag{font-size:9px;top:10px;left:10px;padding:6px 9px}
+ #comparisons .section-head p{font-size:14px}
+}
+@media(prefers-reduced-motion:reduce){#comparisons button,#comparisons span{transition:none!important}:is(#comparisons,#transfer) .sample-frames,#comparisons .sequence-rail{scroll-behavior:auto}}

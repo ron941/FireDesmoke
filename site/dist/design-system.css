@@ -1,0 +1,172 @@
+/* Shared presentation layer. Scientific assets and pixel comparisons remain unchanged. */
+@font-face{font-family:Google Sans;src:url('fonts/google-sans.woff2') format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:Noto Sans;src:url('fonts/noto-sans.woff2') format('woff2');font-display:swap}
+:root{--ink:#253234;--muted:#657476;--teal:#146b73;--blue:#146b73;--link:#146b73;--line:#dce5e4;--surface:#f4f8f7;--radius:10px;--accent-ring:0 0 0 3px #d8ece9;--page-width:1120px}
+body{background:#fff;color:var(--ink);font-family:'Noto Sans',Arial,sans-serif;-webkit-font-smoothing:antialiased}
+h1,h2,h3{color:var(--ink);font-family:'Google Sans','Noto Sans',Arial,sans-serif;letter-spacing:-.035em}
+button,input,select{font:inherit}button,select,summary,a{touch-action:manipulation}
+a{color:var(--teal)}a:hover{color:#0d5056}
+button,select{accent-color:var(--teal)}input[type=range]{accent-color:var(--teal)}
+:focus-visible{outline:3px solid #42949a;outline-offset:4px}
+.visually-hidden{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+.wrap{max-width:var(--page-width);margin-inline:auto}
+.section{padding-block:76px}
+.section h2,.section-head h2{font-size:34px;line-height:1.2;font-weight:600;margin:0;text-align:center}
+.section-head{width:100%;max-width:none;margin:0 auto 32px;text-align:center}
+.section-head>*,#comparisons .section-head p{margin-inline:auto}
+.paper-abstract h2,.paper-method h2{margin-bottom:28px}
+.paper-abstract .abstract-text{max-width:940px;margin-inline:auto;font-size:16px;line-height:1.85}
+.paper-method .method-intro{max-width:760px;margin:0 auto 30px;text-align:center;font-size:16px;line-height:1.75}
+.method-figure{margin:0}.method-figure img{border-radius:var(--radius)}
+.topbar{background:#ffffffed;backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.topbar a{font-size:14px}.topbar .wordmark{font-size:16px}
+.links{gap:10px}.links a,.links button{border-radius:99px;font-size:14px;box-shadow:none}
+.hero{padding-bottom:56px}.hero .authors{font-size:16px;color:var(--muted)}
+.hero-film,.film-screen{border-radius:var(--radius)}
+.film-toolbar{padding-block:14px;gap:12px}.film-toolbar button{font-size:13px;border-radius:99px;min-height:38px}.film-links a{font-size:13px}
+/* One shared alignment axis for section title, toolbar, images and sequence rail. */
+#comparisons .section-head{max-width:none;width:100%;margin:0 auto 32px}
+#comparisons .motion-player{width:100%;max-width:none;margin-inline:auto}
+#comparisons .motion-toolbar{margin-bottom:16px}
+#comparisons .detail-toggle{font-size:13px;min-height:40px;border-color:var(--line);background:white;color:var(--ink)}
+#comparisons .detail-toggle[aria-pressed=true]{color:var(--teal);background:#f4f9f8;border-color:#b7d5d4}
+.motion-segments{padding:4px;border-radius:99px;background:#f0f5f4;border:0}
+.motion-segments button,#comparisons .motion-segments button{font-size:13px;padding:9px 15px;border-radius:99px;min-height:36px}
+.motion-segments button[aria-pressed=true]{background:var(--ink);color:white;box-shadow:0 2px 5px #24323415}
+#comparisons .motion-pane{border-radius:var(--radius);box-shadow:0 4px 16px #183c3410}
+#comparisons .crop-inset>span{display:none}
+#comparisons .sample-controls{margin-top:20px}
+#comparisons .sample-frames button span{display:none}
+#comparisons .sequence-rail{justify-content:center;margin:14px auto 0;padding:18px 8px 22px;gap:18px}
+#comparisons .sequence-rail button{flex:0 0 180px;border-radius:var(--radius)}
+#comparisons .sequence-rail span{display:none}
+#comparisons .sequence-rail button[aria-pressed=true]{box-shadow:var(--accent-ring),0 6px 18px #19434018;border-color:var(--teal)}
+/* Thumbnail navigation shares one focus / selection treatment. */
+.thumbnail-rail{gap:14px;padding:20px 8px;justify-content:center}
+.case-thumbnail{border-radius:var(--radius);overflow:hidden;transition:transform .2s,box-shadow .2s,border-color .2s}
+.case-thumbnail span{display:none}
+.case-thumbnail[aria-pressed=true],.lab-backgrounds button[aria-pressed=true],.lab-fields button[aria-pressed=true]{border-color:var(--teal);box-shadow:var(--accent-ring);transform:translateY(-2px)}
+.switches{gap:8px;margin-bottom:22px}
+.switches button{border:1px solid var(--line);border-radius:99px;padding:10px 18px;font-size:14px;min-height:42px;background:white;color:var(--ink)}
+.switches button[aria-pressed=true]{background:var(--teal);border-color:var(--teal);color:white}
+.smoke-filters{margin-top:-8px;margin-bottom:24px}.smoke-filters button{font-size:13px;padding:7px 14px;min-height:36px}
+.gallery-wipe,.lab-wipe{border-radius:var(--radius);overflow:hidden}
+.slider-label{display:flex;justify-content:center;margin:18px auto;gap:0}.slider-label input{width:260px;max-width:80%;height:20px}
+.gallery-caption{font-size:14px;line-height:1.6;margin:4px auto 20px;color:var(--muted);max-width:760px}
+.gallery-links{display:flex;justify-content:center;flex-wrap:wrap;gap:12px 24px;margin-top:28px}.gallery-links a{font-size:14px}
+.tint{background:#f5f8f7}
+.lab-heading{margin-bottom:24px;gap:18px}
+.lab-backgrounds button{border-radius:var(--radius);font-size:14px;border-color:var(--line)}
+.lab-backgrounds img{border-radius:6px}
+.lab-source-heading{font-size:14px}.lab-source-heading button{font-size:13px;border-radius:99px;padding:6px 12px}
+.lab-fields{margin-top:16px}.lab-fields button{border-radius:8px}.lab-fields button span{display:none}
+.lab-controls{margin-top:22px}.lab-controls .motion-play{border-radius:99px;font-size:14px;min-height:42px}
+/* Supporting facts stay accessible, without competing with the imagery. */
+.display-notes,.reference-panel,.closing details{max-width:850px;margin:20px auto 0;border:0;border-top:1px solid var(--line);padding:0;background:transparent;text-align:left;border-radius:0}
+.display-notes summary,.reference-panel summary,.closing details summary{cursor:pointer;font-size:14px;font-weight:500;color:var(--muted);padding:16px 0;list-style-position:inside}
+.display-notes[open] summary,.reference-panel[open] summary,.closing details[open] summary{color:var(--teal)}
+.display-notes p,.display-notes .lab-caption,.display-notes .motion-footnote,.display-notes .gallery-context,.closing details p{font-size:15px;line-height:1.75;color:var(--muted);margin:0 0 18px;text-align:left}
+.method-figure figcaption{max-width:850px;margin:20px auto 0;padding:0}.method-figure figcaption .display-notes{margin:0}
+.closing>p{font-size:16px;line-height:1.75;max-width:720px;margin:24px auto;text-align:center}
+footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-block:28px}footer p{font-size:13px}
+/* Research subpages use the same palette and type hierarchy. */
+body[data-page=explore] .showcase{max-width:1120px;padding-top:38px}
+body[data-page=explore] h1,body[data-page=more] .more-header h1,body[data-page=demo] h1{font-size:42px;line-height:1.18;font-weight:600}
+body[data-page=explore] h2,body[data-page=demo] h2{font-size:30px;font-weight:600}
+body[data-page=explore] .case-strip button{border-radius:var(--radius)}
+body[data-page=explore] .case-strip button[aria-pressed=true]{border-color:var(--teal);box-shadow:var(--accent-ring)}
+body[data-page=explore] .dataset-buttons button,body[data-page=explore] .controls button{border-radius:99px}
+body[data-page=explore] .compare{border-radius:var(--radius)}
+body[data-page=data] .reading-page{max-width:880px;padding-top:42px}
+body[data-page=data] h1{font-size:40px;line-height:1.2}
+body[data-page=data] h2,body[data-page=results] h2{font-size:28px;line-height:1.3}
+body[data-page=data] .access-status{background:var(--surface);border-color:var(--line);border-radius:var(--radius)}
+body[data-page=results] .result-tabs button,body[data-page=results] .button{border-radius:99px}
+body[data-page=demo]{background:#fff}
+body[data-page=demo] .demo-nav{border-color:var(--line);background:#fff}
+body[data-page=demo] button.active,body[data-page=demo] .mode-tab[aria-selected=true]{background:var(--teal);border-color:var(--teal)}
+@media(max-width:700px){
+ .section{padding-block:48px}.section h2,.section-head h2{font-size:28px}.section-head,#comparisons .section-head{margin-bottom:26px}
+ .topbar a{font-size:12px}.topbar .wordmark{font-size:14px}
+ .hero .authors{font-size:14px}.hero{padding-bottom:36px}
+ #comparisons .detail-toggle{font-size:12px;padding:8px 10px}
+ #comparisons .motion-segments button{font-size:12px;padding:8px 10px}
+ #comparisons .sequence-rail{gap:12px;padding-inline:5px}
+ #comparisons .sequence-rail button{flex:0 0 calc((100% - 36px)/3);max-width:160px}
+ .switches{gap:7px}.switches button{font-size:13px;padding:9px 13px}.smoke-filters button{font-size:12px;padding:7px 10px}
+ .thumbnail-rail{justify-content:flex-start}
+ .gallery-links{flex-direction:column;align-items:center;text-align:center}
+ .lab-heading{flex-wrap:wrap;justify-content:center}.lab-backgrounds button{font-size:13px}
+ body[data-page=explore] h1,body[data-page=more] .more-header h1,body[data-page=demo] h1,body[data-page=data] h1{font-size:30px}
+ .display-notes p,.closing details p{font-size:14px}
+}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}}
+/* Overflowing galleries start at the first item, while short rails stay centered. */
+.thumbnail-rail{justify-content:safe center}
+@media(max-width:700px){.thumbnail-rail{justify-content:flex-start}}
+body[data-page=demo] .viewer-heading h2{font-size:18px}
+body[data-page=demo] .mode-tabs{border-radius:99px;background:var(--surface)}
+body[data-page=demo] .mode-tabs button{border-radius:99px}
+body[data-page=demo] .example-card[aria-pressed=true]{border-color:var(--teal);background:var(--surface);box-shadow:var(--accent-ring)}
+body[data-page=demo] .launch-button:hover{background:#0d5056;color:white}
+
+/* Final editorial pass: one readable, centered thought per demonstration. */
+#scenes .section-head .section-subtitle,#transfer .section-head .section-subtitle,#comparisons .section-head .section-subtitle{
+ max-width:760px;width:100%;margin:16px auto 0;padding:0;
+ color:var(--muted);font-size:18px;line-height:1.6;font-weight:400;
+ letter-spacing:0;text-align:center;text-wrap:balance;
+}
+.section-head h2{text-wrap:balance}
+#comparisons .section-head,#scenes .section-head,#transfer .section-head{margin-bottom:34px}
+#method{padding-top:40px}
+@media(max-width:700px){
+ #scenes .section-head .section-subtitle,#transfer .section-head .section-subtitle,#comparisons .section-head .section-subtitle{font-size:16px;margin-top:12px;max-width:30ch}
+ #comparisons .section-head,#scenes .section-head,#transfer .section-head{margin-bottom:28px}
+ #method{padding-top:24px}
+}
+
+/* Shared image annotations and divider handle — the homepage's first comparison
+   is the visual reference for every gallery, transfer view and peer comparison. */
+:is(body,#comparisons) .visual-label{
+ position:absolute;z-index:5;top:14px;left:14px;right:auto;bottom:auto;
+ display:inline-flex;align-items:center;width:auto;max-width:calc(100% - 28px);
+ margin:0;padding:7px 10px;border:0;border-radius:5px;
+ background:#213c3fed;color:#fff;font:600 10px/1.5 'Noto Sans',Arial,sans-serif;
+ letter-spacing:1.3px;text-transform:uppercase;text-align:left;
+ text-shadow:none;box-shadow:none;pointer-events:none;
+}
+:is(body,#comparisons) .visual-label[data-visual-role=output],
+:is(body,#comparisons) .visual-label[data-visual-role=render]{background:#146b73ed;color:#fff}
+:is(body,#comparisons) .visual-label.right,
+#comparisons .motion-stage[data-mode=split] .visual-label[data-visual-role=output]{left:auto;right:14px}
+.labeled-visual{position:relative;overflow:hidden;border-radius:10px}
+:is(body,#comparisons) .comparison-divider{
+ position:absolute;top:0;bottom:0;width:2px;margin:0;padding:0;
+ background:#fff;border:0;z-index:3;pointer-events:none;
+ color:#244a4d;text-shadow:none;filter:drop-shadow(0 0 3px #0006);
+}
+body #divider.comparison-divider{border:0;background:#fff}
+:is(body,#comparisons) .comparison-divider>span{
+ position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+ display:flex;align-items:center;justify-content:center;flex:none;
+ width:36px;height:36px;padding:0;margin:0;border:0;border-radius:50%;
+ background:#fff;color:#244a4d;font:400 20px/1 Arial,sans-serif;
+ letter-spacing:0;text-shadow:none;box-shadow:none;
+}
+body .comparison,body .compare{border-radius:10px;overflow:hidden}
+/* Badge sizes change together, including insets, secondary pages and split views. */
+@media(max-width:700px){
+ :is(body,#comparisons) .visual-label{top:10px;left:10px;padding:6px 9px;font-size:9px;letter-spacing:1px;max-width:calc(100% - 20px)}
+ :is(body,#comparisons) .visual-label.right,
+ #comparisons .motion-stage[data-mode=split] .visual-label[data-visual-role=output]{left:auto;right:10px}
+}
+:is(body,#comparisons) .visual-label.inline-label{position:static;max-width:100%}
+/* Adjacent result sections share one visual gap instead of double padding. */
+#comparisons{padding-bottom:12px}
+#comparisons + #scenes{padding-top:32px}
+@media(max-width:700px){
+ #comparisons{padding-bottom:4px}
+ #comparisons + #scenes{padding-top:24px}
+}
+
+@media(max-width:650px){body[data-page=more] .scene-grid{grid-template-columns:1fr;gap:16px;}}

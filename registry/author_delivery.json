@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-16",
+  "files": {
+    "README.md": "f5c0699fc0e07b5588fbc54da7d8dc2944c646a8fbf5b1df2bb079b12b4ad5f6",
+    "firedesmoke/model.py": "8cbc0d5f72116cd5b7cafb429973a97a15275370dc6c0f038855cb6130962e1d",
+    "firedesmoke/infer.py": "aefbdf31d38529a8e685246dbdfd22c950f7e5c5222d5d6a568a918f8047865f",
+    "results/realx3d_rgb.csv": "f4b34f4a2a64d5c0341bcd5218b25a5a5dbf3d8373f6146b3e37559aea9ed38c",
+    "results/smokebench_official_eval.csv": "e9c37f95d31c826be42fda7480bf061759bda5e6b2b115a39ed42b86050434f5",
+    "results/public_dehazing_rgb_psnr.csv": "7694ee2f53bc279c6972b525a9fdc95936a926bbecc923b9ae72760759a29d62",
+    "results/fire_test_1500_frames_all_methods.csv": "159a5e7d798b8cd825e53169557519a7b31c8665e00d655e467f98614cecd34d",
+    "weights/firedesmoke_full.pt": "ecc571131eeb16b0641d5c6a5e3d55b2fe8c9c2a4aab0e5c886a55c4bc296ea4",
+    "weights/firedesmoke_smokebench.pt": "10491bafd1087d60c4ac17e5ddeeacd11a93caf8c7dc5161d9d321dd8343177c",
+    "weights/SHA256SUMS.txt": "a52283fb199d0f36911b8c9a27d2762ea0f604094d71cf8cb9c5b26c7477b207"
+  },
+  "adaptations": [
+    "infer.py supports package-relative imports; model.py is unchanged"
+  ],
+  "dinov3_compatibility": {
+    "documentation": "docs/dinov3_weights.md",
+    "audit": "docs/dinov3_equivalence.json",
+    "status": "Verified official HF serialization converted to Meta state_dict; author original PTH not obtained or compared bytewise."
+  }
+}

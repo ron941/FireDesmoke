@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FireDesmoke · Image restoration demo</title><link rel="icon" href="mark.svg"><link rel="stylesheet" href="research.css"><link rel="stylesheet" href="design-system.css"></head>
+<body data-page="demo"><main class="wrap reading-page" style="max-width:800px;padding:32px 24px 64px"><a href="index.html">← Project page</a><header class="section-head" style="margin:48px 0 32px"><h1>Try FireDesmoke</h1><p>Compare restored examples in your browser, or restore your own image locally.</p></header>
+<div class="links"><a href="explore.html">Compare restored examples →</a><a href="index.html#transfer">Explore smoke transfer →</a></div>
+<h2>Restore your own image</h2><p>Follow the <a href="https://github.com/ron941/FireDesmoke#quick-start">installation and model setup</a> on a computer with a supported GPU, then run:</p>
+<pre><code>firedesmoke demo --model firedesmoke --port 7860</code></pre><p>Open <code>http://127.0.0.1:7860/</code> on that computer. Choose an example or upload a PNG or JPEG to compare and download the restored image.</p>
+<p style="margin-top:32px;color:#62767a">The complete FireDesmoke model uses 384-pixel overlapping windows and horizontal-flip averaging. All demo uploads and examples use this complete model. Demo uploads are resized to a maximum long side of 640 pixels. Dense smoke can hide details the model cannot recover.</p>
+<footer style="margin-top:40px"><a href="explore.html">Compare restoration methods ↗</a></footer></main></body></html>

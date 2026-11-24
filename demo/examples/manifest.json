@@ -1,0 +1,52 @@
+[
+  {
+    "file": "fireground-drifting.png",
+    "label": "Fireground \u00b7 Drifting smoke",
+    "source_file": "CAND_060_30.png",
+    "sha256": "9094f8894c147bfc6f9f0f60b91c8e0ecb5b4a2adb09aa032f844e38f9778bc6",
+    "source": "deidentified release 2026-11-13"
+  },
+  {
+    "file": "fireground-facade.png",
+    "label": "Fireground \u00b7 Facade",
+    "source_file": "CAND_058_50.png",
+    "sha256": "f4fdac8a8f8f6b1dd5aa9e9f891cfe7061bbe2f448b5b35a0e519344fe9d1260",
+    "source": "deidentified release 2026-11-13"
+  },
+  {
+    "file": "smokebench-88.png",
+    "label": "SmokeBench",
+    "source_file": "SmokeBench__88-input.png",
+    "sha256": "1740679cf05032628f378bb5c39072c52b5506f7fe99bae2e7d15d492eab979d"
+  },
+  {
+    "file": "realx3d-koharu.png",
+    "label": "RealX3D \u00b7 Bedroom",
+    "source_file": "RealX3D__Koharu__0013-input.png",
+    "sha256": "bd595c63e29d10432b7dc7a50c96ce6796da75b6c3097728b0f135028937dca2"
+  },
+  {
+    "file": "nh-haze-51.png",
+    "label": "NH-HAZE \u00b7 Logs",
+    "source_file": "51_hazy.png",
+    "sha256": "0488efea8dca59c4622af4e00b02e831f9cfb20b9612671ebbdaa44ac040b991"
+  },
+  {
+    "file": "o-haze-42.jpg",
+    "label": "O-HAZE \u00b7 Woodland",
+    "source_file": "42_outdoor_hazy.jpg",
+    "sha256": "c55421611b132fe01667f49600f69557d75065f48dacee78b87ae09361fff688"
+  },
+  {
+    "file": "reside-city.jpg",
+    "label": "RESIDE \u00b7 City",
+    "source_file": "0001_0.8_0.2.jpg",
+    "sha256": "34e1b70265ddf2258577a8cb7497b2ef4d25b535e93201bd3f2c3f9788a78e1a"
+  },
+  {
+    "file": "i-haze-34.jpg",
+    "label": "I-HAZE \u00b7 Telescope",
+    "source_file": "34_indoor_hazy.jpg",
+    "sha256": "116497babcda774fa314b3d4e58a359673c4ebd13bb075615f187b362e199708"
+  }
+]

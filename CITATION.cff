@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please cite the FireDesmoke preprint when using this software."
+title: FireDesmoke
+authors:
+  - family-names: Hsu
+    given-names: Chih-Chung
+  - family-names: Jian
+    given-names: Rong-Lin
+repository-code: https://github.com/ron941/FireDesmoke
+url: https://ron941.github.io/FireDesmoke/
+preferred-citation:
+  type: article
+  title: "FireDesmoke: Fire Smoke Removal via Real Smoke Transfer and Semantic Rectification"
+  authors:
+    - family-names: Hsu
+      given-names: Chih-Chung
+    - family-names: Jian
+      given-names: Rong-Lin
+  journal: arXiv
+  year: 2026
+  doi: 10.48550/arXiv.2611.30057
+  url: https://arxiv.org/abs/2611.30057
